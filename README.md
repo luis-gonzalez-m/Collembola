@@ -1,11 +1,12 @@
 
-![Build Status](https://github.com/luis-gonzalez-m/Collembola/workflows/CI/badge.svg)
-# Collembola Anatomy Ontology
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4660387.svg)](https://doi.org/10.5281/zenodo.4660387)
 
-This ontology... YOUR DESCRIPTION HERE
+**COLLEMBOLA ANATOMY ONTOLOGY (CLAO)**
+A resource managed by Luis A. González-Montaña
 
-More information can be found at http://obofoundry.org/ontology/clao
+Suggested citation: González-Montaña, Luis. A. 2021. Collembola Anatomy Ontology. GitHub repository. https://doi.org/10.5281/zenodo.4660386.
 
+Collembola Anatomy Ontology (CLAO) includes anatomical terms to refer to sclerites, anatomical systems, cell components, and chaetotaxy. CLAO is directed towards building semantic annotations or the production of morphological data employing a standardized language. CLAO is intended as a complementary tool to morhological descriptions during taxonomic work, before obtaining phylogenetic characters.
 ## Versions
 
 ### Stable release versions
@@ -13,17 +14,7 @@ More information can be found at http://obofoundry.org/ontology/clao
 The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/clao.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
-
-### Editors' version
-
-Editors of this ontology should use the edit version, [src/ontology/clao-edit.owl](src/ontology/clao-edit.owl)
-
 ## Contact
-
 Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonzalez-m/Collembola/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
-
 ## Acknowledgements
-
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+The development of CLAO is supported by MINCIENCIAS (Colombia)
