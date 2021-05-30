@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: clao/releases/2021-05-30/clao-base.owl
+ontology: clao/clao-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Collembola Anatomy Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2021-05-30" xsd:string
+
+[Term]
+id: CLAO:00000000
+name: root node
+

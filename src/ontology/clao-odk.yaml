@@ -1,0 +1,23 @@
+id: clao
+title: "Collembola Anatomy Ontology"
+repo: Collembola
+github_org: luis-gonzalez-m
+#report_fail_on: ERROR
+report_fail_on: None
+use_dosdps: TRUE
+export_formats:
+  - owl
+  - obo
+  - json
+namespaces: 
+  - http://purl.obolibrary.org/obo/CLAO_
+  - http://purl.obolibrary.org/obo/clao_
+release_artefacts: 
+  - base
+  - full
+  - simple
+  - basic
+import_group:
+  products:
+robot_java_args: '-Xmx8G'
+
