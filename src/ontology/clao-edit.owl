@@ -11,13 +11,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://https://github.com/luis-gonzalez-m/Collembola/tree/master/src/ontology/clao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-05-16/CLAO.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-16-05/CLAO.owl"/>
         <AISM:AISM_0002089 xml:lang="en">https://creativecommons.org/licenses/by/4.0/</AISM:AISM_0002089>
         <AISM:AISM_0002090 xml:lang="en">Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932</AISM:AISM_0002090>
         <AISM:AISM_0002091 xml:lang="en">The Collembola Anatomy Ontology contains terms used for describing the anatomy and phenotype of springtails in biodiversity research.</AISM:AISM_0002091>
         <dc:title xml:lang="en">Collembola Anatomy Ontology</dc:title>
         <oboInOwl:default-namespace>collembola_anatomy</oboInOwl:default-namespace>
-        <owl:versionInfo>2020-15-05</owl:versionInfo>
+        <owl:versionInfo>2020-16-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1959,6 +1959,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area located on medial area of abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000154</oboInOwl:id>
         <rdfs:label>area A3</rdfs:label>
     </owl:Class>
@@ -1977,6 +1978,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area external and adjacent to area A2 in the abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000155</oboInOwl:id>
         <rdfs:label>area A4</rdfs:label>
     </owl:Class>
@@ -1995,6 +1997,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area located between the chaeta a5.ab3 and chaeta m2.ab3 in the abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000156</oboInOwl:id>
         <rdfs:label>area A5</rdfs:label>
     </owl:Class>
@@ -4468,6 +4471,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta adjacent to chaeta r.lb and chaeta l1 of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">e</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000343</oboInOwl:id>
         <rdfs:label>chaeta e.lb</rdfs:label>
     </owl:Class>
@@ -4485,6 +4489,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Deharveng 1983</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000344</oboInOwl:id>
         <rdfs:label>chaeta E.lb</rdfs:label>
     </owl:Class>
@@ -4570,6 +4575,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row (a) of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000349</oboInOwl:id>
         <rdfs:label>chaeta a5.lb</rdfs:label>
     </owl:Class>
@@ -4587,6 +4593,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row (a) of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000351</oboInOwl:id>
         <rdfs:label>chaeta a3.lb</rdfs:label>
     </owl:Class>
@@ -4604,6 +4611,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row (a) of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000352</oboInOwl:id>
         <rdfs:label>chaeta a2.lb</rdfs:label>
     </owl:Class>
@@ -4621,6 +4629,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row (a) of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000353</oboInOwl:id>
         <rdfs:label>chaeta a1.lb</rdfs:label>
     </owl:Class>
@@ -4638,6 +4647,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Deharveng 1983</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000354</oboInOwl:id>
         <rdfs:label>chaeta A.lb</rdfs:label>
     </owl:Class>
@@ -4802,6 +4812,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A0</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000365</oboInOwl:id>
         <rdfs:label>chaeta A0.h</rdfs:label>
     </owl:Class>
@@ -4820,6 +4831,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000366</oboInOwl:id>
         <rdfs:label>chaeta A1</rdfs:label>
     </owl:Class>
@@ -4833,11 +4845,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000702"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000367</oboInOwl:id>
         <rdfs:label>chaeta a1.ab1</rdfs:label>
     </owl:Class>
@@ -4848,7 +4861,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000368</oboInOwl:id>
         <rdfs:label>chaeta a1.ab5</rdfs:label>
     </owl:Class>
@@ -4866,6 +4886,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A0.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000369</oboInOwl:id>
         <rdfs:label>chaeta A1.h</rdfs:label>
     </owl:Class>
@@ -4884,6 +4905,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000370</oboInOwl:id>
         <rdfs:label>chaeta a1.t2</rdfs:label>
     </owl:Class>
@@ -4902,6 +4924,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000371</oboInOwl:id>
         <rdfs:label>chaeta a1.t3</rdfs:label>
     </owl:Class>
@@ -4920,6 +4943,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A1 of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000372</oboInOwl:id>
         <rdfs:label>chaeta A2</rdfs:label>
     </owl:Class>
@@ -4933,11 +4957,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000702"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000373</oboInOwl:id>
         <rdfs:label>chaeta a2.ab1</rdfs:label>
     </owl:Class>
@@ -4948,7 +4973,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000374</oboInOwl:id>
         <rdfs:label>chaeta a2.ab3</rdfs:label>
     </owl:Class>
@@ -4966,6 +4998,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000375</oboInOwl:id>
         <rdfs:label>chaeta A2.h</rdfs:label>
     </owl:Class>
@@ -4984,6 +5017,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000376</oboInOwl:id>
         <rdfs:label>chaeta a2.t2</rdfs:label>
     </owl:Class>
@@ -5002,6 +5036,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000377</oboInOwl:id>
         <rdfs:label>chaeta a2.t3</rdfs:label>
     </owl:Class>
@@ -5019,6 +5054,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A2a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000378</oboInOwl:id>
         <rdfs:label>chaeta A2a.h</rdfs:label>
     </owl:Class>
@@ -5029,7 +5065,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second posterior chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2p</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000379</oboInOwl:id>
         <rdfs:label>chaeta a2p.ab2</rdfs:label>
     </owl:Class>
@@ -5047,6 +5090,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A2 of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000380</oboInOwl:id>
         <rdfs:label>chaeta A3</rdfs:label>
     </owl:Class>
@@ -5060,11 +5104,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000702"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000381</oboInOwl:id>
         <rdfs:label>chaeta a3.ab1</rdfs:label>
     </owl:Class>
@@ -5083,6 +5128,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000382</oboInOwl:id>
         <rdfs:label>chaeta a3.ab2</rdfs:label>
     </owl:Class>
@@ -5101,6 +5147,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000383</oboInOwl:id>
         <rdfs:label>chaeta a3.ab3</rdfs:label>
     </owl:Class>
@@ -5111,7 +5158,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000384</oboInOwl:id>
         <rdfs:label>chaeta a3.ab5</rdfs:label>
     </owl:Class>
@@ -5129,6 +5183,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000385</oboInOwl:id>
         <rdfs:label>chaeta A3.h</rdfs:label>
     </owl:Class>
@@ -5147,6 +5202,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000386</oboInOwl:id>
         <rdfs:label>chaeta a3.t2</rdfs:label>
     </owl:Class>
@@ -5165,6 +5221,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000387</oboInOwl:id>
         <rdfs:label>chaeta a3.t3</rdfs:label>
     </owl:Class>
@@ -5182,6 +5239,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of anterior row (a) of labium.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000388</oboInOwl:id>
         <rdfs:label>chaeta a4.lb</rdfs:label>
     </owl:Class>
@@ -5199,6 +5257,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A3 of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000389</oboInOwl:id>
         <rdfs:label>chaeta A4</rdfs:label>
     </owl:Class>
@@ -5217,6 +5276,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000390</oboInOwl:id>
         <rdfs:label>chaeta a4.t2</rdfs:label>
     </owl:Class>
@@ -5235,6 +5295,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000391</oboInOwl:id>
         <rdfs:label>chaeta a4.t3</rdfs:label>
     </owl:Class>
@@ -5245,7 +5306,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta A4a of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A4a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000392</oboInOwl:id>
         <rdfs:label>chaeta A4a</rdfs:label>
     </owl:Class>
@@ -5263,6 +5331,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A4 of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000393</oboInOwl:id>
         <rdfs:label>chaeta A5</rdfs:label>
     </owl:Class>
@@ -5276,11 +5345,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000702"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000394</oboInOwl:id>
         <rdfs:label>chaeta a5.ab1</rdfs:label>
     </owl:Class>
@@ -5299,6 +5369,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000395</oboInOwl:id>
         <rdfs:label>chaeta a5.ab2</rdfs:label>
     </owl:Class>
@@ -5317,6 +5388,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000396</oboInOwl:id>
         <rdfs:label>chaeta a5.ab3</rdfs:label>
     </owl:Class>
@@ -5327,7 +5399,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000397">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000397</oboInOwl:id>
         <rdfs:label>chaeta a5.ab5</rdfs:label>
     </owl:Class>
@@ -5345,6 +5424,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta lateral to chaeta A3.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000398</oboInOwl:id>
         <rdfs:label>chaeta A5.h</rdfs:label>
     </owl:Class>
@@ -5363,6 +5443,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">A6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000399</oboInOwl:id>
         <rdfs:label>chaeta A6</rdfs:label>
     </owl:Class>
@@ -5376,11 +5457,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000702"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000400</oboInOwl:id>
         <rdfs:label>chaeta a6.ab1</rdfs:label>
     </owl:Class>
@@ -5399,6 +5481,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000401</oboInOwl:id>
         <rdfs:label>chaeta a6.ab2</rdfs:label>
     </owl:Class>
@@ -5417,6 +5500,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000402</oboInOwl:id>
         <rdfs:label>chaeta a6.ab3</rdfs:label>
     </owl:Class>
@@ -5427,7 +5511,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000403">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000403</oboInOwl:id>
         <rdfs:label>chaeta a6.ab5</rdfs:label>
     </owl:Class>
@@ -5446,6 +5537,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000404</oboInOwl:id>
         <rdfs:label>chaeta a6.t2</rdfs:label>
     </owl:Class>
@@ -5464,6 +5556,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000405</oboInOwl:id>
         <rdfs:label>chaeta a6.t3</rdfs:label>
     </owl:Class>
@@ -5482,6 +5575,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000406</oboInOwl:id>
         <rdfs:label>chaeta a7.ab2</rdfs:label>
     </owl:Class>
@@ -5500,6 +5594,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000407</oboInOwl:id>
         <rdfs:label>chaeta a7.ab3</rdfs:label>
     </owl:Class>
@@ -5518,6 +5613,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of mesothorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000408</oboInOwl:id>
         <rdfs:label>chaeta a7.t2</rdfs:label>
     </owl:Class>
@@ -5536,6 +5632,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of metathorax.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000409</oboInOwl:id>
         <rdfs:label>chaeta a7.t3</rdfs:label>
     </owl:Class>
@@ -5553,6 +5650,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana et al. 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Aai</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000410</oboInOwl:id>
         <rdfs:label>chaeta Aai</rdfs:label>
     </owl:Class>
@@ -5571,6 +5669,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A chaeta located on preapical side of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000411</oboInOwl:id>
         <rdfs:label>chaeta Ae</rdfs:label>
     </owl:Class>
@@ -5588,6 +5687,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ae1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000412</oboInOwl:id>
         <rdfs:label>chaeta Ae1</rdfs:label>
     </owl:Class>
@@ -5604,7 +5704,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The second chaeta of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The second chaeta of row Ae on the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ae2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000413</oboInOwl:id>
         <rdfs:label>chaeta Ae2</rdfs:label>
     </owl:Class>
@@ -5743,6 +5844,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The most anterior chaeta of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000422</oboInOwl:id>
         <rdfs:label>chaeta An1</rdfs:label>
     </owl:Class>
@@ -5760,6 +5862,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta posterior to chaeta An1 of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An1a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000423</oboInOwl:id>
         <rdfs:label>chaeta An1a</rdfs:label>
     </owl:Class>
@@ -5777,6 +5880,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta posterior to chaeta An1a of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000424</oboInOwl:id>
         <rdfs:label>chaeta An2</rdfs:label>
     </owl:Class>
@@ -5794,6 +5898,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta posterior to chaeta An2 of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An2a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000425</oboInOwl:id>
         <rdfs:label>chaeta An2a</rdfs:label>
     </owl:Class>
@@ -5811,6 +5916,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The most posterior chaeta of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000426</oboInOwl:id>
         <rdfs:label>chaeta An3</rdfs:label>
     </owl:Class>
@@ -5828,6 +5934,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta An3 of antennal row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">An3a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000427</oboInOwl:id>
         <rdfs:label>chaeta An3a</rdfs:label>
     </owl:Class>
@@ -5916,6 +6023,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000432</oboInOwl:id>
         <rdfs:label>chaeta B1</rdfs:label>
     </owl:Class>
@@ -5951,6 +6059,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B1 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000434</oboInOwl:id>
         <rdfs:label>chaeta B2</rdfs:label>
     </owl:Class>
@@ -5968,6 +6077,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B2 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000435</oboInOwl:id>
         <rdfs:label>chaeta B3</rdfs:label>
     </owl:Class>
@@ -6003,6 +6113,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B3 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000437</oboInOwl:id>
         <rdfs:label>chaeta B4</rdfs:label>
     </owl:Class>
@@ -6020,6 +6131,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B4 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000438</oboInOwl:id>
         <rdfs:label>chaeta B5</rdfs:label>
     </owl:Class>
@@ -6054,6 +6166,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">B6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000440</oboInOwl:id>
         <rdfs:label>chaeta B6</rdfs:label>
     </owl:Class>
@@ -6200,6 +6313,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">C1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000450</oboInOwl:id>
         <rdfs:label>chaeta C1</rdfs:label>
     </owl:Class>
@@ -6229,6 +6343,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta C1 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">C1p</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000452</oboInOwl:id>
         <rdfs:label>chaeta C1p</rdfs:label>
     </owl:Class>
@@ -6247,6 +6362,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta C3 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">C2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000453</oboInOwl:id>
         <rdfs:label>chaeta C2</rdfs:label>
     </owl:Class>
@@ -6283,6 +6399,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta C2 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">C3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000455</oboInOwl:id>
         <rdfs:label>chaeta C3</rdfs:label>
     </owl:Class>
@@ -6319,6 +6436,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">C4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000457</oboInOwl:id>
         <rdfs:label>chaeta C4</rdfs:label>
     </owl:Class>
@@ -6381,6 +6499,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">D1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000462</oboInOwl:id>
         <rdfs:label>chaeta D1</rdfs:label>
     </owl:Class>
@@ -6410,6 +6529,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D1 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">D2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000464</oboInOwl:id>
         <rdfs:label>chaeta D2</rdfs:label>
     </owl:Class>
@@ -6439,6 +6559,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D2 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">D3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000466</oboInOwl:id>
         <rdfs:label>chaeta D3</rdfs:label>
     </owl:Class>
@@ -6468,6 +6589,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D3 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">D3p</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000468</oboInOwl:id>
         <rdfs:label>chaeta D3p</rdfs:label>
     </owl:Class>
@@ -6507,6 +6629,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row De on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">De1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000471</oboInOwl:id>
         <rdfs:label>chaeta De1</rdfs:label>
     </owl:Class>
@@ -6517,7 +6640,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta De1 of row De on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">De3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000472</oboInOwl:id>
         <rdfs:label>chaeta De3</rdfs:label>
     </owl:Class>
@@ -6536,6 +6666,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000473</oboInOwl:id>
         <rdfs:label>chaeta E1</rdfs:label>
     </owl:Class>
@@ -6553,6 +6684,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E1 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000474</oboInOwl:id>
         <rdfs:label>chaeta E2</rdfs:label>
     </owl:Class>
@@ -6571,6 +6703,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E2 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000475</oboInOwl:id>
         <rdfs:label>chaeta E3</rdfs:label>
     </owl:Class>
@@ -6589,6 +6722,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E3 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000476</oboInOwl:id>
         <rdfs:label>chaeta E4</rdfs:label>
     </owl:Class>
@@ -6606,6 +6740,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E4 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E4p</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000477</oboInOwl:id>
         <rdfs:label>chaeta E4p</rdfs:label>
     </owl:Class>
@@ -6623,6 +6758,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E4p of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">E4p2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000478</oboInOwl:id>
         <rdfs:label>chaeta E4p2</rdfs:label>
     </owl:Class>
@@ -6658,6 +6794,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee10</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000480</oboInOwl:id>
         <rdfs:label>chaeta Ee10</rdfs:label>
     </owl:Class>
@@ -6675,6 +6812,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee10 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee11</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000481</oboInOwl:id>
         <rdfs:label>chaeta Ee11</rdfs:label>
     </owl:Class>
@@ -6692,6 +6830,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee11 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee12</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000482</oboInOwl:id>
         <rdfs:label>chaeta Ee12</rdfs:label>
     </owl:Class>
@@ -6709,6 +6848,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee1 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000483</oboInOwl:id>
         <rdfs:label>chaeta Ee2</rdfs:label>
     </owl:Class>
@@ -6726,6 +6866,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee2 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000484</oboInOwl:id>
         <rdfs:label>chaeta Ee3</rdfs:label>
     </owl:Class>
@@ -6743,6 +6884,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee3 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000485</oboInOwl:id>
         <rdfs:label>chaeta Ee4</rdfs:label>
     </owl:Class>
@@ -6760,6 +6902,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee4 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000486</oboInOwl:id>
         <rdfs:label>chaeta Ee5</rdfs:label>
     </owl:Class>
@@ -6777,6 +6920,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee5 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000487</oboInOwl:id>
         <rdfs:label>chaeta Ee6</rdfs:label>
     </owl:Class>
@@ -6794,6 +6938,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee6 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000488</oboInOwl:id>
         <rdfs:label>chaeta Ee7</rdfs:label>
     </owl:Class>
@@ -6811,6 +6956,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Ee7 of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee8</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000489</oboInOwl:id>
         <rdfs:label>chaeta Ee8</rdfs:label>
     </owl:Class>
@@ -6828,6 +6974,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row Ee on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Ee9</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000490</oboInOwl:id>
         <rdfs:label>chaeta Ee9</rdfs:label>
     </owl:Class>
@@ -6855,6 +7002,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">em</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000492</oboInOwl:id>
         <rdfs:comment>The external suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</rdfs:comment>
         <rdfs:label xml:lang="en">chaeta em.ab3</rdfs:label>
@@ -6866,7 +7014,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000493">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The suplementary chaeta anterior to chaeta am6.ab3 that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">emp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000493</oboInOwl:id>
         <rdfs:label>chaeta emp.ab3</rdfs:label>
     </owl:Class>
@@ -6884,6 +7039,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000494</oboInOwl:id>
         <rdfs:label>chaeta F1</rdfs:label>
     </owl:Class>
@@ -6901,6 +7057,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta F1 of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000495</oboInOwl:id>
         <rdfs:label>chaeta F2</rdfs:label>
     </owl:Class>
@@ -6918,6 +7075,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta F2 of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000496</oboInOwl:id>
         <rdfs:label>chaeta F3</rdfs:label>
     </owl:Class>
@@ -6935,6 +7093,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta F3 of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000497</oboInOwl:id>
         <rdfs:label>chaeta F4</rdfs:label>
     </owl:Class>
@@ -6952,6 +7111,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta F4 of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000498</oboInOwl:id>
         <rdfs:label>chaeta F5</rdfs:label>
     </owl:Class>
@@ -6969,6 +7129,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">F6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000499</oboInOwl:id>
         <rdfs:label>chaeta F6</rdfs:label>
     </owl:Class>
@@ -6987,6 +7148,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000500</oboInOwl:id>
         <rdfs:label>chaeta Fe1</rdfs:label>
     </owl:Class>
@@ -7004,6 +7166,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Fe1 of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000501</oboInOwl:id>
         <rdfs:label>chaeta Fe2</rdfs:label>
     </owl:Class>
@@ -7021,6 +7184,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Fe2 of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000502</oboInOwl:id>
         <rdfs:label>chaeta Fe3</rdfs:label>
     </owl:Class>
@@ -7038,6 +7202,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Fe3 of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000503</oboInOwl:id>
         <rdfs:label>chaeta Fe4</rdfs:label>
     </owl:Class>
@@ -7055,6 +7220,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Fe4 of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000504</oboInOwl:id>
         <rdfs:label>chaeta Fe5</rdfs:label>
     </owl:Class>
@@ -7072,6 +7238,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Fe5 of row Fe on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Fe6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000505</oboInOwl:id>
         <rdfs:label>chaeta Fe6</rdfs:label>
     </owl:Class>
@@ -7100,6 +7267,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta located on lateral side of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000507</oboInOwl:id>
         <rdfs:label>chaeta g1</rdfs:label>
@@ -7111,6 +7284,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta located on lateral side of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000508</oboInOwl:id>
         <rdfs:label>chaeta g2</rdfs:label>
@@ -7122,6 +7301,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000509">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta located on lateral side of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000509</oboInOwl:id>
         <rdfs:label>chaeta g3</rdfs:label>
@@ -7133,6 +7318,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000510">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta located on lateral side of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000510</oboInOwl:id>
         <rdfs:label>chaeta g4</rdfs:label>
@@ -7144,6 +7335,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta located on lateral side of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000511</oboInOwl:id>
         <rdfs:label>chaeta g5</rdfs:label>
@@ -7162,6 +7359,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internamedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">im</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000512</oboInOwl:id>
         <rdfs:label>chaeta im.ab3</rdfs:label>
     </owl:Class>
@@ -7190,6 +7388,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">li</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000514</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta li.ab2</rdfs:label>
     </owl:Class>
@@ -7207,6 +7406,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">li</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000515</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta li.ab3</rdfs:label>
     </owl:Class>
@@ -7224,6 +7424,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Zhang et al. (2009)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">ll</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000516</oboInOwl:id>
         <rdfs:label>chaeta ll</rdfs:label>
     </owl:Class>
@@ -7241,6 +7442,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateral suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">ll</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000517</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta ll.ab3</rdfs:label>
     </owl:Class>
@@ -7252,6 +7454,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000518">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <dc:source>Zhang et al. (2009)</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">lm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000518</oboInOwl:id>
         <rdfs:label>chaeta lm</rdfs:label>
     </owl:Class>
@@ -7269,6 +7472,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateromedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">lm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000519</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta lm.ab2</rdfs:label>
     </owl:Class>
@@ -7286,6 +7490,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateromedial  suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">lm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000520</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta lm.ab3</rdfs:label>
     </owl:Class>
@@ -12467,7 +12672,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000868">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located between the metathorax and abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Abd I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000868</oboInOwl:id>
@@ -12480,6 +12692,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000869">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located between the abdominal segment 2 and abdominal segment 3.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Abd.2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.II</oboInOwl:hasRelatedSynonym>
@@ -12493,6 +12711,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000870">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located between the abdominal segment 2 and abdominal segment 4.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Abd.3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.III</oboInOwl:hasRelatedSynonym>
@@ -12506,6 +12730,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000871">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located between the abdominal segment 3 and abdominal segment 5.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Abd.4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.IV</oboInOwl:hasRelatedSynonym>
@@ -12519,6 +12749,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000872">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located between the abdominal segment 4 and abdominal segment 6.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Abd.5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.V</oboInOwl:hasRelatedSynonym>
@@ -12532,6 +12768,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000873">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000957"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The abdominal segment that is located apically to abdominal segment 5.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Abd.6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.VI</oboInOwl:hasRelatedSynonym>
@@ -13004,7 +13246,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000909">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">a2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000909</oboInOwl:id>
         <rdfs:label>chaeta a2.ab2</rdfs:label>
     </owl:Class>
