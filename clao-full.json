@@ -466,31 +466,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
-          "sub": "http://purl.obolibrary.org/obo/CLAO_0000367"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
-          "sub": "http://purl.obolibrary.org/obo/CLAO_0000373"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
-          "sub": "http://purl.obolibrary.org/obo/CLAO_0000381"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
-          "sub": "http://purl.obolibrary.org/obo/CLAO_0000394"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
-          "sub": "http://purl.obolibrary.org/obo/CLAO_0000400"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CLAO_0000702",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000529"
         },
         {
@@ -801,6 +776,31 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000367"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000373"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000381"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000394"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000400"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000868",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000766"
         },
         {
@@ -822,6 +822,11 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000869",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000153"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000869",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000379"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000869",
@@ -934,6 +939,11 @@
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000784"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000869",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000909"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000154"
@@ -947,6 +957,11 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000156"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000374"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
@@ -972,6 +987,11 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000492"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000493"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000870",
@@ -1141,6 +1161,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000392"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000393"
         },
         {
@@ -1267,6 +1292,11 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000471"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000472"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
@@ -1502,6 +1532,26 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000871",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000937"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000872",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000368"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000872",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000384"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000872",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000397"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000872",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000403"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000873",
@@ -2896,6 +2946,31 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000507"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000508"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000509"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000510"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000511"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0000979",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0000522"
         },
         {
@@ -3277,6 +3352,36 @@
           "obj": "http://purl.obolibrary.org/obo/CLAO_0001004",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CLAO_0001009"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000868"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000869"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000870"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000871"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000872"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/CLAO_0000873"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CLAO_0001010",
@@ -8301,7 +8406,7 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2020-15-05"
+            "val": "2020-16-05"
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
@@ -10353,7 +10458,14 @@
             "definition": {
               "val": "The area located on medial area of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -10370,7 +10482,14 @@
             "definition": {
               "val": "The area external and adjacent to area A2 in the abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -10387,7 +10506,14 @@
             "definition": {
               "val": "The area located between the chaeta a5.ab3 and chaeta m2.ab3 in the abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12768,7 +12894,14 @@
             "definition": {
               "val": "The chaeta adjacent to chaeta r.lb and chaeta l1 of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "e",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12780,6 +12913,13 @@
               {
                 "pred": "http://purl.org/dc/elements/1.1/source",
                 "val": "Deharveng 1983"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E",
+                "xrefs": []
               }
             ]
           },
@@ -12844,7 +12984,14 @@
             "definition": {
               "val": "The fifth chaeta of anterior row (a) of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12855,7 +13002,14 @@
             "definition": {
               "val": "The third chaeta of anterior row (a) of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12866,7 +13020,14 @@
             "definition": {
               "val": "The second chaeta of anterior row (a) of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12877,7 +13038,14 @@
             "definition": {
               "val": "The first chaeta of anterior row (a) of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -12889,6 +13057,13 @@
               {
                 "pred": "http://purl.org/dc/elements/1.1/source",
                 "val": "Deharveng 1983"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A",
+                "xrefs": []
               }
             ]
           },
@@ -13027,7 +13202,14 @@
             "definition": {
               "val": "The chaeta most anterior of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A0",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13044,7 +13226,14 @@
             "definition": {
               "val": "The chaeta most anterior of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13061,7 +13250,14 @@
             "definition": {
               "val": "The first chaeta of anterior row on medial-external axis of abdominal segment 1.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13072,7 +13268,14 @@
             "definition": {
               "val": "The first chaeta of anterior row on medial-external axis of abdominal segment 5.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13083,7 +13286,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A0.h of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13100,7 +13310,14 @@
             "definition": {
               "val": "The first chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13117,7 +13334,14 @@
             "definition": {
               "val": "The first chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13134,7 +13358,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A1 of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13151,7 +13382,14 @@
             "definition": {
               "val": "The second chaeta of anterior row on medial-external axis of abdominal segment 1.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13162,7 +13400,14 @@
             "definition": {
               "val": "The second chaeta of anterior row on medial-external axis of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13173,7 +13418,14 @@
             "definition": {
               "val": "The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13190,7 +13442,14 @@
             "definition": {
               "val": "The second chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13207,7 +13466,14 @@
             "definition": {
               "val": "The second chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13218,7 +13484,14 @@
             "definition": {
               "val": "The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A2a",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13229,7 +13502,14 @@
             "definition": {
               "val": "The second posterior chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2p",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13240,7 +13520,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A2 of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13257,7 +13544,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of abdominal segment 1.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13274,7 +13568,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13291,7 +13592,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13302,7 +13610,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of abdominal segment 5.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13313,7 +13628,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13330,7 +13652,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13347,7 +13676,14 @@
             "definition": {
               "val": "The third chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13358,7 +13694,14 @@
             "definition": {
               "val": "The fourth chaeta of anterior row (a) of labium.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13369,7 +13712,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A3 of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13386,7 +13736,14 @@
             "definition": {
               "val": "The fourth chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13403,7 +13760,14 @@
             "definition": {
               "val": "The fourth chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13414,7 +13778,14 @@
             "definition": {
               "val": "The chaeta anterior to chaeta A4a of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A4a",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13425,7 +13796,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta A4 of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13442,7 +13820,14 @@
             "definition": {
               "val": "The fifth chaeta of anterior row on medial-external axis of abdominal segment 1.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13459,7 +13844,14 @@
             "definition": {
               "val": "The fifth chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13476,7 +13868,14 @@
             "definition": {
               "val": "The fifth chaeta of anterior row on medial-external axis of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13487,7 +13886,14 @@
             "definition": {
               "val": "The fifth chaeta of anterior row on medial-external axis of abdominal segment 5.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13498,7 +13904,14 @@
             "definition": {
               "val": "The chaeta lateral to chaeta A3.h of anterior row, located on dorsal side of head",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13515,7 +13928,14 @@
             "definition": {
               "val": "The chaeta most posterior of row A on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "A6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13532,7 +13952,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of abdominal segment 1.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13549,7 +13976,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13566,7 +14000,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13577,7 +14018,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of abdominal segment 5.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13594,7 +14042,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13611,7 +14066,14 @@
             "definition": {
               "val": "The sixth chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13628,7 +14090,14 @@
             "definition": {
               "val": "The seventh chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a7",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13645,7 +14114,14 @@
             "definition": {
               "val": "The seventh chaeta of anterior row on medial-external axis of abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a7",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13662,7 +14138,14 @@
             "definition": {
               "val": "The seventh chaeta of anterior row on medial-external axis of mesothorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a7",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13679,7 +14162,14 @@
             "definition": {
               "val": "The seventh chaeta of anterior row on medial-external axis of metathorax.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a7",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13691,6 +14181,13 @@
               {
                 "pred": "http://purl.org/dc/elements/1.1/source",
                 "val": "Jordana et al. 2017"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Aai",
+                "xrefs": []
               }
             ]
           },
@@ -13709,7 +14206,14 @@
             "definition": {
               "val": "A chaeta located on preapical side of antennal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ae",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13720,7 +14224,14 @@
             "definition": {
               "val": "The chaeta most posterior of row Ae on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ae1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13729,9 +14240,16 @@
           "lbl": "chaeta Ae2",
           "meta": {
             "definition": {
-              "val": "The second chaeta of row Ae on fourth abdominal segment chaeta.",
+              "val": "The second chaeta of row Ae on the abdominal segment 4.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ae2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13850,7 +14368,14 @@
             "definition": {
               "val": "The most anterior chaeta of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13861,7 +14386,14 @@
             "definition": {
               "val": "The second chaeta posterior to chaeta An1 of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An1a",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13872,7 +14404,14 @@
             "definition": {
               "val": "The second chaeta posterior to chaeta An1a of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13883,7 +14422,14 @@
             "definition": {
               "val": "The second chaeta posterior to chaeta An2 of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An2a",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13894,7 +14440,14 @@
             "definition": {
               "val": "The most posterior chaeta of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13905,7 +14458,14 @@
             "definition": {
               "val": "The chaeta anterior to chaeta An3 of antennal row on medial-external axis of head capsule.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "An3a",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -13978,7 +14538,14 @@
             "definition": {
               "val": "The chaeta most anterior of row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14006,7 +14573,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta B1 of row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14017,7 +14591,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta B2 of row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14045,7 +14626,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta B3 of row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14056,7 +14644,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta B4 of row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14078,7 +14673,14 @@
             "definition": {
               "val": "The chaeta most posterior row B on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "B6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14224,7 +14826,14 @@
             "definition": {
               "val": "The chaeta most anterior of row C on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "C1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14252,7 +14861,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta C1 of row C on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "C1p",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14269,7 +14885,14 @@
             "definition": {
               "val": "The chaeta anterior to chaeta C3 of row C on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "C2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14303,7 +14926,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta C2 of row C on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "C3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14337,7 +14967,14 @@
             "definition": {
               "val": "The chaeta most posterior of row C on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "C4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14388,7 +15025,14 @@
             "definition": {
               "val": "The chaeta most anterior of row D on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "D1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14416,7 +15060,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta D1 of row D on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "D2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14444,7 +15095,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta D2 of row D on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "D3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14472,7 +15130,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta D3 of row D on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "D3p",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14505,7 +15170,14 @@
             "definition": {
               "val": "The chaeta most anterior of row De on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "De1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14516,7 +15188,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta De1 of row De on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "De3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14533,7 +15212,14 @@
             "definition": {
               "val": "The chaeta most anterior of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14544,7 +15230,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta E1 of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14561,7 +15254,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta E2 of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14578,7 +15278,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta E3 of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14589,7 +15296,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta E4 of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E4p",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14600,7 +15314,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta E4p of row E on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "E4p2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14625,7 +15346,14 @@
             "definition": {
               "val": "The chaeta most anterior of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee10",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14636,7 +15364,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee10 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee11",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14647,7 +15382,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee11 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee12",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14658,7 +15400,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee1 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14669,7 +15418,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee2 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14680,7 +15436,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee3 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14691,7 +15454,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee4 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14702,7 +15472,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee5 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14713,7 +15490,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee6 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee7",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14724,7 +15508,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Ee7 of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee8",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14735,7 +15526,14 @@
             "definition": {
               "val": "The chaeta most posterior of row Ee on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Ee9",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14758,6 +15556,13 @@
           "meta": {
             "comments": [
               "The external suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3."
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "em",
+                "xrefs": []
+              }
             ]
           },
           "type": "CLASS"
@@ -14769,7 +15574,14 @@
             "definition": {
               "val": "The suplementary chaeta anterior to chaeta am6.ab3 that compose the external bothriotrical complex on abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "emp",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14780,7 +15592,14 @@
             "definition": {
               "val": "The chaeta most anterior of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14791,7 +15610,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta F1 of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14802,7 +15628,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta F2 of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14813,7 +15646,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta F3 of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14824,7 +15664,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta F4 of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14835,7 +15682,14 @@
             "definition": {
               "val": "The chaeta most posterior of row F on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "F6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14852,7 +15706,14 @@
             "definition": {
               "val": "The chaeta most anterior of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe1",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14863,7 +15724,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Fe1 of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14874,7 +15742,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Fe2 of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe3",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14885,7 +15760,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Fe3 of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe4",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14896,7 +15778,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Fe4 of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe5",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -14907,7 +15796,14 @@
             "definition": {
               "val": "The chaeta posterior to chaeta Fe5 of row Fe on fourth abdominal segment chaeta.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "Fe6",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15021,7 +15917,14 @@
             "definition": {
               "val": "The internamedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "im",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15045,7 +15948,14 @@
             "definition": {
               "val": "The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "li",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15056,7 +15966,14 @@
             "definition": {
               "val": "The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "li",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15069,6 +15986,13 @@
                 "pred": "http://purl.org/dc/elements/1.1/source",
                 "val": "Zhang et al. (2009)"
               }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "ll",
+                "xrefs": []
+              }
             ]
           },
           "type": "CLASS"
@@ -15080,7 +16004,14 @@
             "definition": {
               "val": "The lateral suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "ll",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15093,6 +16024,13 @@
                 "pred": "http://purl.org/dc/elements/1.1/source",
                 "val": "Zhang et al. (2009)"
               }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "lm",
+                "xrefs": []
+              }
             ]
           },
           "type": "CLASS"
@@ -15104,7 +16042,14 @@
             "definition": {
               "val": "The lateromedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "lm",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -15115,7 +16060,14 @@
             "definition": {
               "val": "The lateromedial  suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "lm",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -19851,6 +20803,11 @@
             "synonyms": [
               {
                 "pred": "hasRelatedSynonym",
+                "val": "Abd I",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
                 "val": "Abd.1",
                 "xrefs": []
               },
@@ -20585,7 +21542,14 @@
             "definition": {
               "val": "The second chaeta of anterior row on medial-external axis of abdominal segment 2.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "a2",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },

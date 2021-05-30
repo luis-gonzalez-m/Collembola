@@ -7,7 +7,7 @@ property_value: AISM:0002090 "Luis A. González Montaña (lagonzalezmo) https://
 property_value: AISM:0002091 "The Collembola Anatomy Ontology contains terms used for describing the anatomy and phenotype of springtails in biodiversity research." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Collembola Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: owl:versionInfo "2020-15-05" xsd:string
+property_value: owl:versionInfo "2020-16-05" xsd:string
 property_value: owl:versionInfo "2021-05-30" xsd:string
 
 [Term]
@@ -982,6 +982,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005"
 id: CLAO:0000154
 name: area A3
 def: "The area located on medial area of abdominal segment 3." []
+synonym: "A3" RELATED []
 is_a: CLAO:0001021 ! area
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005" xsd:string
@@ -990,6 +991,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005"
 id: CLAO:0000155
 name: area A4
 def: "The area external and adjacent to area A2 in the abdominal segment 3." []
+synonym: "A4" RELATED []
 is_a: CLAO:0001021 ! area
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005" xsd:string
@@ -998,6 +1000,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005"
 id: CLAO:0000156
 name: area A5
 def: "The area located between the chaeta a5.ab3 and chaeta m2.ab3 in the abdominal segment 3." []
+synonym: "A5" RELATED []
 is_a: CLAO:0001021 ! area
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Jordana & Baquero, 2005" xsd:string
@@ -2257,12 +2260,14 @@ property_value: http://purl.org/dc/elements/1.1/source "Deharveng 1983" xsd:stri
 id: CLAO:0000343
 name: chaeta e.lb
 def: "The chaeta adjacent to chaeta r.lb and chaeta l1 of labium." []
+synonym: "e" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
 [Term]
 id: CLAO:0000344
 name: chaeta E.lb
+synonym: "E" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 property_value: http://purl.org/dc/elements/1.1/source "Deharveng 1983" xsd:string
@@ -2299,6 +2304,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Deharveng 1983" xsd:stri
 id: CLAO:0000349
 name: chaeta a5.lb
 def: "The fifth chaeta of anterior row (a) of labium." []
+synonym: "a5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
@@ -2306,6 +2312,7 @@ relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 id: CLAO:0000351
 name: chaeta a3.lb
 def: "The third chaeta of anterior row (a) of labium." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
@@ -2313,6 +2320,7 @@ relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 id: CLAO:0000352
 name: chaeta a2.lb
 def: "The second chaeta of anterior row (a) of labium." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
@@ -2320,12 +2328,14 @@ relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 id: CLAO:0000353
 name: chaeta a1.lb
 def: "The first chaeta of anterior row (a) of labium." []
+synonym: "a1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
 [Term]
 id: CLAO:0000354
 name: chaeta A.lb
+synonym: "A" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 property_value: http://purl.org/dc/elements/1.1/source "Deharveng 1983" xsd:string
@@ -2406,6 +2416,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Vargovitsh, 2009, also R
 id: CLAO:0000365
 name: chaeta A0.h
 def: "The chaeta most anterior of anterior row, located on dorsal side of head" []
+synonym: "A0" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2413,6 +2424,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000366
 name: chaeta A1
 def: "The chaeta most anterior of row A on fourth abdominal segment chaeta." []
+synonym: "A1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2421,20 +2433,24 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000367
 name: chaeta a1.ab1
 def: "The first chaeta of anterior row on medial-external axis of abdominal segment 1." []
+synonym: "a1" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
+relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
 
 [Term]
 id: CLAO:0000368
 name: chaeta a1.ab5
 def: "The first chaeta of anterior row on medial-external axis of abdominal segment 5." []
+synonym: "a1" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
 [Term]
 id: CLAO:0000369
 name: chaeta A1.h
 def: "The chaeta posterior to chaeta A0.h of anterior row, located on dorsal side of head" []
+synonym: "A1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2442,6 +2458,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000370
 name: chaeta a1.t2
 def: "The first chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2450,6 +2467,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000371
 name: chaeta a1.t3
 def: "The first chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2458,6 +2476,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000372
 name: chaeta A2
 def: "The chaeta posterior to chaeta A1 of row A on fourth abdominal segment chaeta." []
+synonym: "A2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2466,20 +2485,24 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000373
 name: chaeta a2.ab1
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 1." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
+relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
 
 [Term]
 id: CLAO:0000374
 name: chaeta a2.ab3
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 3." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
 [Term]
 id: CLAO:0000375
 name: chaeta A2.h
 def: "The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head" []
+synonym: "A2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2487,6 +2510,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000376
 name: chaeta a2.t2
 def: "The second chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2495,6 +2519,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000377
 name: chaeta a2.t3
 def: "The second chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2503,6 +2528,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000378
 name: chaeta A2a.h
 def: "The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head" []
+synonym: "A2a" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2510,12 +2536,15 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000379
 name: chaeta a2p.ab2
 def: "The second posterior chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a2p" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
 [Term]
 id: CLAO:0000380
 name: chaeta A3
 def: "The chaeta posterior to chaeta A2 of row A on fourth abdominal segment chaeta." []
+synonym: "A3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2523,14 +2552,16 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000381
 name: chaeta a3.ab1
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 1." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
+relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
 
 [Term]
 id: CLAO:0000382
 name: chaeta a3.ab2
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2539,6 +2570,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000383
 name: chaeta a3.ab3
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 3." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2547,12 +2579,15 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000384
 name: chaeta a3.ab5
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 5." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
 [Term]
 id: CLAO:0000385
 name: chaeta A3.h
 def: "The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head" []
+synonym: "A3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2560,6 +2595,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000386
 name: chaeta a3.t2
 def: "The third chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2568,6 +2604,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000387
 name: chaeta a3.t3
 def: "The third chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2576,6 +2613,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000388
 name: chaeta a4.lb
 def: "The fourth chaeta of anterior row (a) of labium." []
+synonym: "a4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 
@@ -2583,6 +2621,7 @@ relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 id: CLAO:0000389
 name: chaeta A4
 def: "The chaeta posterior to chaeta A3 of row A on fourth abdominal segment chaeta." []
+synonym: "A4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2590,6 +2629,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000390
 name: chaeta a4.t2
 def: "The fourth chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2598,6 +2638,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000391
 name: chaeta a4.t3
 def: "The fourth chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2606,12 +2647,15 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000392
 name: chaeta A4a
 def: "The chaeta anterior to chaeta A4a of row A on fourth abdominal segment chaeta." []
+synonym: "A4a" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000393
 name: chaeta A5
 def: "The chaeta posterior to chaeta A4 of row A on fourth abdominal segment chaeta." []
+synonym: "A5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2619,14 +2663,16 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000394
 name: chaeta a5.ab1
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 1." []
+synonym: "a5" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
+relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
 
 [Term]
 id: CLAO:0000395
 name: chaeta a5.ab2
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2635,6 +2681,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000396
 name: chaeta a5.ab3
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 3." []
+synonym: "a5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2643,12 +2690,15 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000397
 name: chaeta a5.ab5
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 5." []
+synonym: "a5" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
 [Term]
 id: CLAO:0000398
 name: chaeta A5.h
 def: "The chaeta lateral to chaeta A3.h of anterior row, located on dorsal side of head" []
+synonym: "A5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2656,6 +2706,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000399
 name: chaeta A6
 def: "The chaeta most posterior of row A on fourth abdominal segment chaeta." []
+synonym: "A6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2664,14 +2715,16 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000400
 name: chaeta a6.ab1
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 1." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
+relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
 
 [Term]
 id: CLAO:0000401
 name: chaeta a6.ab2
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2680,6 +2733,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000402
 name: chaeta a6.ab3
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 3." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2688,12 +2742,15 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000403
 name: chaeta a6.ab5
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 5." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
 [Term]
 id: CLAO:0000404
 name: chaeta a6.t2
 def: "The sixth chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2702,6 +2759,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000405
 name: chaeta a6.t3
 def: "The sixth chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2710,6 +2768,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000406
 name: chaeta a7.ab2
 def: "The seventh chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2718,6 +2777,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000407
 name: chaeta a7.ab3
 def: "The seventh chaeta of anterior row on medial-external axis of abdominal segment 3." []
+synonym: "a7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2726,6 +2786,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000408
 name: chaeta a7.t2
 def: "The seventh chaeta of anterior row on medial-external axis of mesothorax." []
+synonym: "a7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2734,6 +2795,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000409
 name: chaeta a7.t3
 def: "The seventh chaeta of anterior row on medial-external axis of metathorax." []
+synonym: "a7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2741,6 +2803,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 [Term]
 id: CLAO:0000410
 name: chaeta Aai
+synonym: "Aai" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd:string
@@ -2749,6 +2812,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd
 id: CLAO:0000411
 name: chaeta Ae
 def: "A chaeta located on preapical side of antennal segment 3." []
+synonym: "Ae" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd:string
@@ -2757,13 +2821,15 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd
 id: CLAO:0000412
 name: chaeta Ae1
 def: "The chaeta most posterior of row Ae on fourth abdominal segment chaeta." []
+synonym: "Ae1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000413
 name: chaeta Ae2
-def: "The second chaeta of row Ae on fourth abdominal segment chaeta." []
+def: "The second chaeta of row Ae on the abdominal segment 4." []
+synonym: "Ae2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2827,6 +2893,7 @@ relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 id: CLAO:0000422
 name: chaeta An1
 def: "The most anterior chaeta of antennal row on medial-external axis of head capsule." []
+synonym: "An1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2834,6 +2901,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000423
 name: chaeta An1a
 def: "The second chaeta posterior to chaeta An1 of antennal row on medial-external axis of head capsule." []
+synonym: "An1a" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2841,6 +2909,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000424
 name: chaeta An2
 def: "The second chaeta posterior to chaeta An1a of antennal row on medial-external axis of head capsule." []
+synonym: "An2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2848,6 +2917,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000425
 name: chaeta An2a
 def: "The second chaeta posterior to chaeta An2 of antennal row on medial-external axis of head capsule." []
+synonym: "An2a" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2855,6 +2925,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000426
 name: chaeta An3
 def: "The most posterior chaeta of antennal row on medial-external axis of head capsule." []
+synonym: "An3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2862,6 +2933,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000427
 name: chaeta An3a
 def: "The chaeta anterior to chaeta An3 of antennal row on medial-external axis of head capsule." []
+synonym: "An3a" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2900,6 +2972,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000432
 name: chaeta B1
 def: "The chaeta most anterior of row B on fourth abdominal segment chaeta." []
+synonym: "B1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2915,6 +2988,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000434
 name: chaeta B2
 def: "The chaeta posterior to chaeta B1 of row B on fourth abdominal segment chaeta." []
+synonym: "B2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2922,6 +2996,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000435
 name: chaeta B3
 def: "The chaeta posterior to chaeta B2 of row B on fourth abdominal segment chaeta." []
+synonym: "B3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2937,6 +3012,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000437
 name: chaeta B4
 def: "The chaeta posterior to chaeta B3 of row B on fourth abdominal segment chaeta." []
+synonym: "B4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2944,6 +3020,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000438
 name: chaeta B5
 def: "The chaeta posterior to chaeta B4 of row B on fourth abdominal segment chaeta." []
+synonym: "B5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2958,6 +3035,7 @@ relationship: BFO:0000050 CLAO:0000863 ! part_of antennal segment 2
 id: CLAO:0000440
 name: chaeta B6
 def: "The chaeta most posterior row B on fourth abdominal segment chaeta." []
+synonym: "B6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3028,6 +3106,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Vargovitsh, 2009" xsd:st
 id: CLAO:0000450
 name: chaeta C1
 def: "The chaeta most anterior of row C on fourth abdominal segment chaeta." []
+synonym: "C1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3043,6 +3122,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000452
 name: chaeta C1p
 def: "The chaeta posterior to chaeta C1 of row C on fourth abdominal segment chaeta." []
+synonym: "C1p" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3050,6 +3130,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000453
 name: chaeta C2
 def: "The chaeta anterior to chaeta C3 of row C on fourth abdominal segment chaeta." []
+synonym: "C2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3066,6 +3147,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000455
 name: chaeta C3
 def: "The chaeta posterior to chaeta C2 of row C on fourth abdominal segment chaeta." []
+synonym: "C3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3082,6 +3164,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000457
 name: chaeta C4
 def: "The chaeta most posterior of row C on fourth abdominal segment chaeta." []
+synonym: "C4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3114,6 +3197,7 @@ is_a: CLAO:0001098 ! chaeta
 id: CLAO:0000462
 name: chaeta D1
 def: "The chaeta most anterior of row D on fourth abdominal segment chaeta." []
+synonym: "D1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3128,6 +3212,7 @@ is_a: CLAO:0001098 ! chaeta
 id: CLAO:0000464
 name: chaeta D2
 def: "The chaeta posterior to chaeta D1 of row D on fourth abdominal segment chaeta." []
+synonym: "D2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3142,6 +3227,7 @@ is_a: CLAO:0001098 ! chaeta
 id: CLAO:0000466
 name: chaeta D3
 def: "The chaeta posterior to chaeta D2 of row D on fourth abdominal segment chaeta." []
+synonym: "D3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3156,6 +3242,7 @@ is_a: CLAO:0001098 ! chaeta
 id: CLAO:0000468
 name: chaeta D3p
 def: "The chaeta posterior to chaeta D3 of row D on fourth abdominal segment chaeta." []
+synonym: "D3p" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3176,6 +3263,7 @@ is_a: CLAO:0001098 ! chaeta
 id: CLAO:0000471
 name: chaeta De1
 def: "The chaeta most anterior of row De on fourth abdominal segment chaeta." []
+synonym: "De1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3183,12 +3271,15 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000472
 name: chaeta De3
 def: "The chaeta posterior to chaeta De1 of row De on fourth abdominal segment chaeta." []
+synonym: "De3" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000473
 name: chaeta E1
 def: "The chaeta most anterior of row E on fourth abdominal segment chaeta." []
+synonym: "E1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3197,6 +3288,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000474
 name: chaeta E2
 def: "The chaeta posterior to chaeta E1 of row E on fourth abdominal segment chaeta." []
+synonym: "E2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3204,6 +3296,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000475
 name: chaeta E3
 def: "The chaeta posterior to chaeta E2 of row E on fourth abdominal segment chaeta." []
+synonym: "E3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3212,6 +3305,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000476
 name: chaeta E4
 def: "The chaeta posterior to chaeta E3 of row E on fourth abdominal segment chaeta." []
+synonym: "E4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -3220,6 +3314,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000477
 name: chaeta E4p
 def: "The chaeta posterior to chaeta E4 of row E on fourth abdominal segment chaeta." []
+synonym: "E4p" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3227,6 +3322,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000478
 name: chaeta E4p2
 def: "The chaeta posterior to chaeta E4p of row E on fourth abdominal segment chaeta." []
+synonym: "E4p2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3242,6 +3338,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000480
 name: chaeta Ee10
 def: "The chaeta most anterior of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee10" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3249,6 +3346,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000481
 name: chaeta Ee11
 def: "The chaeta posterior to chaeta Ee10 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee11" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3256,6 +3354,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000482
 name: chaeta Ee12
 def: "The chaeta posterior to chaeta Ee11 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee12" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3263,6 +3362,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000483
 name: chaeta Ee2
 def: "The chaeta posterior to chaeta Ee1 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3270,6 +3370,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000484
 name: chaeta Ee3
 def: "The chaeta posterior to chaeta Ee2 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3277,6 +3378,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000485
 name: chaeta Ee4
 def: "The chaeta posterior to chaeta Ee3 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3284,6 +3386,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000486
 name: chaeta Ee5
 def: "The chaeta posterior to chaeta Ee4 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3291,6 +3394,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000487
 name: chaeta Ee6
 def: "The chaeta posterior to chaeta Ee5 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3298,6 +3402,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000488
 name: chaeta Ee7
 def: "The chaeta posterior to chaeta Ee6 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3305,6 +3410,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000489
 name: chaeta Ee8
 def: "The chaeta posterior to chaeta Ee7 of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee8" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3312,6 +3418,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000490
 name: chaeta Ee9
 def: "The chaeta most posterior of row Ee on fourth abdominal segment chaeta." []
+synonym: "Ee9" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3325,6 +3432,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000492
 name: chaeta em.ab3
 comment: The external suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.
+synonym: "em" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -3332,12 +3440,15 @@ relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 id: CLAO:0000493
 name: chaeta emp.ab3
 def: "The suplementary chaeta anterior to chaeta am6.ab3 that compose the external bothriotrical complex on abdominal segment 3." []
+synonym: "emp" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
 [Term]
 id: CLAO:0000494
 name: chaeta F1
 def: "The chaeta most anterior of row F on fourth abdominal segment chaeta." []
+synonym: "F1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3345,6 +3456,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000495
 name: chaeta F2
 def: "The chaeta posterior to chaeta F1 of row F on fourth abdominal segment chaeta." []
+synonym: "F2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3352,6 +3464,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000496
 name: chaeta F3
 def: "The chaeta posterior to chaeta F2 of row F on fourth abdominal segment chaeta." []
+synonym: "F3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3359,6 +3472,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000497
 name: chaeta F4
 def: "The chaeta posterior to chaeta F3 of row F on fourth abdominal segment chaeta." []
+synonym: "F4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3366,6 +3480,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000498
 name: chaeta F5
 def: "The chaeta posterior to chaeta F4 of row F on fourth abdominal segment chaeta." []
+synonym: "F5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3373,6 +3488,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000499
 name: chaeta F6
 def: "The chaeta most posterior of row F on fourth abdominal segment chaeta." []
+synonym: "F6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3380,6 +3496,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000500
 name: chaeta Fe1
 def: "The chaeta most anterior of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, 1979" xsd:string
@@ -3388,6 +3505,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, 1979" xsd:str
 id: CLAO:0000501
 name: chaeta Fe2
 def: "The chaeta posterior to chaeta Fe1 of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3395,6 +3513,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000502
 name: chaeta Fe3
 def: "The chaeta posterior to chaeta Fe2 of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3402,6 +3521,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000503
 name: chaeta Fe4
 def: "The chaeta posterior to chaeta Fe3 of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3409,6 +3529,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000504
 name: chaeta Fe5
 def: "The chaeta posterior to chaeta Fe4 of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3416,6 +3537,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000505
 name: chaeta Fe6
 def: "The chaeta posterior to chaeta Fe5 of row Fe on fourth abdominal segment chaeta." []
+synonym: "Fe6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3437,35 +3559,41 @@ id: CLAO:0000507
 name: chaeta g1
 def: "The first chaeta located on lateral side of head." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000508
 name: chaeta g2
 def: "The second chaeta located on lateral side of head." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000509
 name: chaeta g3
 def: "The third chaeta located on lateral side of head." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000510
 name: chaeta g4
 def: "The fourth chaeta located on lateral side of head." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000511
 name: chaeta g5
 def: "The fifth chaeta located on lateral side of head." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000512
 name: chaeta im.ab3
 def: "The internamedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3." []
+synonym: "im" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -3479,6 +3607,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000514
 name: chaeta li.ab2
 def: "The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2." []
+synonym: "li" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -3486,12 +3615,14 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000515
 name: chaeta li.ab3
 def: "The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3." []
+synonym: "li" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
 [Term]
 id: CLAO:0000516
 name: chaeta ll
+synonym: "ll" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd:string
@@ -3500,12 +3631,14 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000517
 name: chaeta ll.ab3
 def: "The lateral suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3." []
+synonym: "ll" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
 [Term]
 id: CLAO:0000518
 name: chaeta lm
+synonym: "lm" RELATED []
 is_a: CLAO:0001098 ! chaeta
 property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd:string
 
@@ -3513,6 +3646,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000519
 name: chaeta lm.ab2
 def: "The lateromedial suplementary chaeta that compose the external bothriotrical complex on abdominal segment 2." []
+synonym: "lm" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -3520,6 +3654,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000520
 name: chaeta lm.ab3
 def: "The lateromedial  suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3." []
+synonym: "lm" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -5968,9 +6103,11 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd
 id: CLAO:0000868
 name: abdominal segment 1
 def: "The abdominal segment that is located between the metathorax and abdominal segment 2." []
+synonym: "Abd I" RELATED []
 synonym: "Abd.1" RELATED []
 synonym: "Abd.I" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000869
@@ -5979,6 +6116,7 @@ def: "The abdominal segment that is located between the abdominal segment 2 and 
 synonym: "Abd.2" RELATED []
 synonym: "Abd.II" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000870
@@ -5987,6 +6125,7 @@ def: "The abdominal segment that is located between the abdominal segment 2 and 
 synonym: "Abd.3" RELATED []
 synonym: "Abd.III" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000871
@@ -5995,6 +6134,7 @@ def: "The abdominal segment that is located between the abdominal segment 3 and 
 synonym: "Abd.4" RELATED []
 synonym: "Abd.IV" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000872
@@ -6003,6 +6143,7 @@ def: "The abdominal segment that is located between the abdominal segment 4 and 
 synonym: "Abd.5" RELATED []
 synonym: "Abd.V" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000873
@@ -6013,6 +6154,7 @@ synonym: "Abd.VI" RELATED []
 synonym: "periprocto" RELATED []
 synonym: "telson" RELATED []
 is_a: CLAO:0000957 ! abdominal segment
+relationship: BFO:0000050 CLAO:0001010 ! part_of abdomen
 
 [Term]
 id: CLAO:0000874
@@ -6270,7 +6412,9 @@ is_a: CLAO:0000036 ! cephalic endoskeleton
 id: CLAO:0000909
 name: chaeta a2.ab2
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 2." []
+synonym: "a2" RELATED []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
 [Term]
 id: CLAO:0000910
