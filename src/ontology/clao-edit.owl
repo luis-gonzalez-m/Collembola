@@ -4843,9 +4843,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R0</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000365</oboInOwl:id>
         <rdfs:label>chaeta A0.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000365"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R0</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5078,9 +5086,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000375</oboInOwl:id>
         <rdfs:label>chaeta A2.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000375"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5148,9 +5164,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A2a</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R1s</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000378</oboInOwl:id>
         <rdfs:label>chaeta A2a.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000378"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R1s</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5319,9 +5343,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000385</oboInOwl:id>
         <rdfs:label>chaeta A3.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000385"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7920,9 +7952,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">S</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000528</oboInOwl:id>
         <rdfs:label>chaeta M2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000528"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">S</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7937,9 +7977,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000529</oboInOwl:id>
         <rdfs:label>chaeta m2.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000529"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7954,9 +8002,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000530</oboInOwl:id>
         <rdfs:label>chaeta m2.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000530"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7971,9 +8027,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000531</oboInOwl:id>
         <rdfs:label>chaeta m2.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000531"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7982,9 +8046,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000532">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000532</oboInOwl:id>
         <rdfs:label>chaeta m2.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7999,9 +8071,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of mesothorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000533</oboInOwl:id>
         <rdfs:label>chaeta m2.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000533"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8016,9 +8096,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of metathorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000534</oboInOwl:id>
         <rdfs:label>chaeta m2.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000534"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8044,9 +8132,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000536</oboInOwl:id>
         <rdfs:label>chaeta m3.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000536"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8061,9 +8157,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000537</oboInOwl:id>
         <rdfs:label>chaeta m3.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8078,9 +8182,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000538</oboInOwl:id>
         <rdfs:label>chaeta m3.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000538"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8089,9 +8201,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000539">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000539</oboInOwl:id>
         <rdfs:label>chaeta m3.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000539"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8179,9 +8299,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000545</oboInOwl:id>
         <rdfs:label>chaeta m4.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000545"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8196,9 +8324,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000546</oboInOwl:id>
         <rdfs:label>chaeta m4.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000546"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8213,9 +8349,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of mesothorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000547</oboInOwl:id>
         <rdfs:label>chaeta m4.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8230,9 +8374,17 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of metathorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000548</oboInOwl:id>
         <rdfs:label>chaeta m4.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000548"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -9546,10 +9698,26 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">S</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>S3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">T</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000633</oboInOwl:id>
         <rdfs:label>chaeta S3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000633"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">S</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000633"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">T</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -11300,9 +11468,24 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on medial side and part of median row of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">median-ocellar line</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000748</oboInOwl:id>
         <rdfs:label>median ocellar chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">median-ocellar line</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).
+Agricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>median ocellar chaeta</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bellini, B.C., Cipola, N.G. &amp; Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya
+Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -11409,10 +11592,25 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
         <obo:IAO_0000115>The group of chaetae that compose the postsutural row on dorsal side of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">postsutural line</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>postsutural microchaetae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000756</oboInOwl:id>
         <rdfs:label>postsutural chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">postsutural line</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).
+Agricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>postsutural chaeta</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bellini, B.C., Cipola, N.G. &amp; Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya
+Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -12131,10 +12329,18 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located on anterior margin on dorsal side of cephalic capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">antennal group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>antennal series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000800</oboInOwl:id>
         <rdfs:label>antennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">antennal group</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica
+Cracoviensia, 18, 23–39.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -12331,10 +12537,18 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">sutural group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>sutural series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000813</oboInOwl:id>
         <rdfs:label>sutural row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000813"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">sutural group</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica
+Cracoviensia, 18, 23–39.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
