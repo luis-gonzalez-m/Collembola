@@ -11,14 +11,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clao/releases/2021-05-30/clao.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clao/releases/2021-05-31/clao.owl"/>
         <AISM:AISM_0002089 xml:lang="en">https://creativecommons.org/licenses/by/4.0/</AISM:AISM_0002089>
         <AISM:AISM_0002090 xml:lang="en">Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932</AISM:AISM_0002090>
         <AISM:AISM_0002091 xml:lang="en">The Collembola Anatomy Ontology contains terms used for describing the anatomy and phenotype of springtails in biodiversity research.</AISM:AISM_0002091>
         <dc:title xml:lang="en">Collembola Anatomy Ontology</dc:title>
-        <oboInOwl:default-namespace>collembola_anatomy</oboInOwl:default-namespace>
         <owl:versionInfo>2020-16-05</owl:versionInfo>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-05-30</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-05-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -31,6 +30,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000171 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AISM_0000171">
+        <rdfs:label xml:lang="en">sensu</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -88,6 +96,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
         <rdfs:label xml:lang="en">title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label xml:lang="en">subset_property</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -4148,10 +4164,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta lateral to chaeta a.l.0 on dorsal side of labrum</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta lateral to chaeta a.l.0 on dorsal side of labrum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000324</oboInOwl:id>
         <rdfs:label>chaeta a.l.1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000324"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta lateral to chaeta a.l.0 on dorsal side of labrum.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -4169,6 +4191,12 @@
         <oboInOwl:id>CLAO:0000325</oboInOwl:id>
         <rdfs:label>chaeta a.l.0</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000325"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaeta located on dorsal side of labrum near to external margin</owl:annotatedTarget>
+        <AISM:AISM_0002090 xml:lang="en">lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -4691,6 +4719,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>r</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000357</oboInOwl:id>
         <rdfs:label>chaeta r.h</rdfs:label>
     </owl:Class>
@@ -4707,6 +4736,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>q</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000358</oboInOwl:id>
         <rdfs:label>chaeta q.h</rdfs:label>
     </owl:Class>
@@ -4808,9 +4838,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R0</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000365</oboInOwl:id>
         <rdfs:label>chaeta A0.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000365"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R0</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4824,12 +4862,26 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row A on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta most anterior of row A on the abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000366</oboInOwl:id>
         <rdfs:label>chaeta A1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000366"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta most anterior of row A on the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo
+https://orcid.org/0000-0002-9136-9932</AISM:AISM_0002090>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000366"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4880,7 +4932,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta A0.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located on dorsal side of head and posterior to chaeta A0.h of anterior row.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000369</oboInOwl:id>
         <rdfs:label>chaeta A1.h</rdfs:label>
@@ -4904,6 +4956,13 @@
         <oboInOwl:id>CLAO:0000370</oboInOwl:id>
         <rdfs:label>chaeta a1.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000370"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4923,6 +4982,13 @@
         <oboInOwl:id>CLAO:0000371</oboInOwl:id>
         <rdfs:label>chaeta a1.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000371"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4942,6 +5008,13 @@
         <oboInOwl:id>CLAO:0000372</oboInOwl:id>
         <rdfs:label>chaeta A2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000372"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4961,6 +5034,13 @@
         <oboInOwl:id>CLAO:0000373</oboInOwl:id>
         <rdfs:label>chaeta a2.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000373"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4979,6 +5059,13 @@
         <oboInOwl:id>CLAO:0000374</oboInOwl:id>
         <rdfs:label>chaeta a2.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000374"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -4994,9 +5081,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000375</oboInOwl:id>
         <rdfs:label>chaeta A2.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000375"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5016,6 +5111,13 @@
         <oboInOwl:id>CLAO:0000376</oboInOwl:id>
         <rdfs:label>chaeta a2.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000376"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5035,6 +5137,13 @@
         <oboInOwl:id>CLAO:0000377</oboInOwl:id>
         <rdfs:label>chaeta a2.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000377"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5050,9 +5159,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A2a</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R1s</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000378</oboInOwl:id>
         <rdfs:label>chaeta A2a.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000378"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R1s</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5071,6 +5188,13 @@
         <oboInOwl:id>CLAO:0000379</oboInOwl:id>
         <rdfs:label>chaeta a2p.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000379"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2p</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5089,6 +5213,13 @@
         <oboInOwl:id>CLAO:0000380</oboInOwl:id>
         <rdfs:label>chaeta A3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5108,6 +5239,13 @@
         <oboInOwl:id>CLAO:0000381</oboInOwl:id>
         <rdfs:label>chaeta a3.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000381"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5127,6 +5265,13 @@
         <oboInOwl:id>CLAO:0000382</oboInOwl:id>
         <rdfs:label>chaeta a3.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000382"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5146,6 +5291,13 @@
         <oboInOwl:id>CLAO:0000383</oboInOwl:id>
         <rdfs:label>chaeta a3.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000383"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5164,6 +5316,13 @@
         <oboInOwl:id>CLAO:0000384</oboInOwl:id>
         <rdfs:label>chaeta a3.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000384"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5179,9 +5338,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">A3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">R2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000385</oboInOwl:id>
         <rdfs:label>chaeta A3.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000385"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">R2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5201,6 +5368,13 @@
         <oboInOwl:id>CLAO:0000386</oboInOwl:id>
         <rdfs:label>chaeta a3.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000386"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5220,6 +5394,13 @@
         <oboInOwl:id>CLAO:0000387</oboInOwl:id>
         <rdfs:label>chaeta a3.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000387"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5256,6 +5437,13 @@
         <oboInOwl:id>CLAO:0000389</oboInOwl:id>
         <rdfs:label>chaeta A4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000389"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5275,6 +5463,13 @@
         <oboInOwl:id>CLAO:0000390</oboInOwl:id>
         <rdfs:label>chaeta a4.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000390"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5294,6 +5489,13 @@
         <oboInOwl:id>CLAO:0000391</oboInOwl:id>
         <rdfs:label>chaeta a4.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5330,6 +5532,13 @@
         <oboInOwl:id>CLAO:0000393</oboInOwl:id>
         <rdfs:label>chaeta A5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000393"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5349,6 +5558,13 @@
         <oboInOwl:id>CLAO:0000394</oboInOwl:id>
         <rdfs:label>chaeta a5.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000394"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5368,6 +5584,13 @@
         <oboInOwl:id>CLAO:0000395</oboInOwl:id>
         <rdfs:label>chaeta a5.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5387,6 +5610,13 @@
         <oboInOwl:id>CLAO:0000396</oboInOwl:id>
         <rdfs:label>chaeta a5.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000396"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5405,6 +5635,13 @@
         <oboInOwl:id>CLAO:0000397</oboInOwl:id>
         <rdfs:label>chaeta a5.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5442,6 +5679,13 @@
         <oboInOwl:id>CLAO:0000399</oboInOwl:id>
         <rdfs:label>chaeta A6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000399"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">A6</owl:annotatedTarget>
+        <obo:AISM_0000171>Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5461,6 +5705,13 @@
         <oboInOwl:id>CLAO:0000400</oboInOwl:id>
         <rdfs:label>chaeta a6.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000400"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5480,6 +5731,13 @@
         <oboInOwl:id>CLAO:0000401</oboInOwl:id>
         <rdfs:label>chaeta a6.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5499,6 +5757,13 @@
         <oboInOwl:id>CLAO:0000402</oboInOwl:id>
         <rdfs:label>chaeta a6.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000402"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5517,6 +5782,13 @@
         <oboInOwl:id>CLAO:0000403</oboInOwl:id>
         <rdfs:label>chaeta a6.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000403"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5536,6 +5808,13 @@
         <oboInOwl:id>CLAO:0000404</oboInOwl:id>
         <rdfs:label>chaeta a6.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000404"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5555,6 +5834,13 @@
         <oboInOwl:id>CLAO:0000405</oboInOwl:id>
         <rdfs:label>chaeta a6.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000405"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5574,6 +5860,13 @@
         <oboInOwl:id>CLAO:0000406</oboInOwl:id>
         <rdfs:label>chaeta a7.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000406"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5593,6 +5886,13 @@
         <oboInOwl:id>CLAO:0000407</oboInOwl:id>
         <rdfs:label>chaeta a7.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000407"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5612,6 +5912,13 @@
         <oboInOwl:id>CLAO:0000408</oboInOwl:id>
         <rdfs:label>chaeta a7.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000408"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -5631,6 +5938,13 @@
         <oboInOwl:id>CLAO:0000409</oboInOwl:id>
         <rdfs:label>chaeta a7.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000409"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6022,6 +6336,13 @@
         <oboInOwl:id>CLAO:0000432</oboInOwl:id>
         <rdfs:label>chaeta B1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000432"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6058,6 +6379,13 @@
         <oboInOwl:id>CLAO:0000434</oboInOwl:id>
         <rdfs:label>chaeta B2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000434"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6076,6 +6404,13 @@
         <oboInOwl:id>CLAO:0000435</oboInOwl:id>
         <rdfs:label>chaeta B3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000435"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6112,6 +6447,13 @@
         <oboInOwl:id>CLAO:0000437</oboInOwl:id>
         <rdfs:label>chaeta B4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000437"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6130,6 +6472,13 @@
         <oboInOwl:id>CLAO:0000438</oboInOwl:id>
         <rdfs:label>chaeta B5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000438"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6165,6 +6514,13 @@
         <oboInOwl:id>CLAO:0000440</oboInOwl:id>
         <rdfs:label>chaeta B6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000440"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7591,9 +7947,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">S</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000528</oboInOwl:id>
         <rdfs:label>chaeta M2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000528"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">S</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7608,9 +7972,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000529</oboInOwl:id>
         <rdfs:label>chaeta m2.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000529"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7625,9 +7997,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000530</oboInOwl:id>
         <rdfs:label>chaeta m2.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000530"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7642,9 +8022,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000531</oboInOwl:id>
         <rdfs:label>chaeta m2.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000531"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7653,9 +8041,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000532">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000532</oboInOwl:id>
         <rdfs:label>chaeta m2.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7670,9 +8066,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of mesothorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000533</oboInOwl:id>
         <rdfs:label>chaeta m2.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000533"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7687,9 +8091,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of metathorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000534</oboInOwl:id>
         <rdfs:label>chaeta m2.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000534"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7715,9 +8127,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000536</oboInOwl:id>
         <rdfs:label>chaeta m3.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000536"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7732,9 +8152,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000537</oboInOwl:id>
         <rdfs:label>chaeta m3.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7749,9 +8177,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000538</oboInOwl:id>
         <rdfs:label>chaeta m3.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000538"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7760,9 +8196,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000539">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000539</oboInOwl:id>
         <rdfs:label>chaeta m3.ab5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000539"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7850,9 +8294,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000545</oboInOwl:id>
         <rdfs:label>chaeta m4.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000545"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7867,9 +8319,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000546</oboInOwl:id>
         <rdfs:label>chaeta m4.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000546"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7884,9 +8344,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of mesothorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000547</oboInOwl:id>
         <rdfs:label>chaeta m4.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7901,9 +8369,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of medial row on medial-external axis of metathorax.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">m4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000548</oboInOwl:id>
         <rdfs:label>chaeta m4.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000548"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">m4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -8906,6 +9382,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta on external-medial axis of medial postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pm1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000615</oboInOwl:id>
         <rdfs:label>chaeta Pm1</rdfs:label>
     </owl:Class>
@@ -8923,6 +9400,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta on external-medial axis of medial postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pm3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000616</oboInOwl:id>
         <rdfs:label>chaeta Pm3</rdfs:label>
     </owl:Class>
@@ -8962,6 +9440,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000619</oboInOwl:id>
         <rdfs:label>chaeta Pp1</rdfs:label>
     </owl:Class>
@@ -8979,6 +9458,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000620</oboInOwl:id>
         <rdfs:label>chaeta Pp2</rdfs:label>
     </owl:Class>
@@ -8996,6 +9476,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000621</oboInOwl:id>
         <rdfs:label>chaeta Pp3</rdfs:label>
     </owl:Class>
@@ -9013,6 +9494,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000622</oboInOwl:id>
         <rdfs:label>chaeta Pp4</rdfs:label>
     </owl:Class>
@@ -9030,6 +9512,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000623</oboInOwl:id>
         <rdfs:label>chaeta Pp5</rdfs:label>
     </owl:Class>
@@ -9047,6 +9530,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta on medial-external axis of posterior postoccipital row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Pp6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000624</oboInOwl:id>
         <rdfs:label>chaeta Pp6</rdfs:label>
     </owl:Class>
@@ -9064,6 +9548,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta on medial-external axis of postsutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Ps2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000625</oboInOwl:id>
         <rdfs:label>chaeta Ps2</rdfs:label>
     </owl:Class>
@@ -9081,6 +9566,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta on medial-external axis of postsutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Ps3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000626</oboInOwl:id>
         <rdfs:label>chaeta Ps3</rdfs:label>
     </owl:Class>
@@ -9098,6 +9584,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta on medial-external axis of postsutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Ps5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000627</oboInOwl:id>
         <rdfs:label>chaeta Ps5</rdfs:label>
     </owl:Class>
@@ -9132,6 +9619,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000629</oboInOwl:id>
         <rdfs:label>chaeta S1</rdfs:label>
     </owl:Class>
@@ -9150,6 +9638,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first s-chaeta of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>s1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000630</oboInOwl:id>
         <rdfs:label>chaeta s1</rdfs:label>
     </owl:Class>
@@ -9167,6 +9656,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000631</oboInOwl:id>
         <rdfs:label>chaeta S2</rdfs:label>
     </owl:Class>
@@ -9185,6 +9675,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second s-chaeta of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>s2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000632</oboInOwl:id>
         <rdfs:label>chaeta s2</rdfs:label>
     </owl:Class>
@@ -9202,9 +9693,26 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>S3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">T</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000633</oboInOwl:id>
         <rdfs:label>chaeta S3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000633"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">S</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000633"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">T</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos
+do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -9220,6 +9728,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third s-chaeta of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>s3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000634</oboInOwl:id>
         <rdfs:label>chaeta s3</rdfs:label>
     </owl:Class>
@@ -9237,6 +9746,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000635</oboInOwl:id>
         <rdfs:label>chaeta S4</rdfs:label>
     </owl:Class>
@@ -9255,6 +9765,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth s-chaeta of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>s4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000636</oboInOwl:id>
         <rdfs:label>chaeta s4</rdfs:label>
     </owl:Class>
@@ -9272,6 +9783,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000637</oboInOwl:id>
         <rdfs:label>chaeta S5</rdfs:label>
     </owl:Class>
@@ -9290,6 +9802,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth s-chaeta of antennal segment 3.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>s5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000638</oboInOwl:id>
         <rdfs:label>chaeta s5</rdfs:label>
     </owl:Class>
@@ -9307,6 +9820,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000639</oboInOwl:id>
         <rdfs:label>chaeta S6</rdfs:label>
     </owl:Class>
@@ -9414,6 +9928,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000645</oboInOwl:id>
         <rdfs:label>chaeta sb1</rdfs:label>
     </owl:Class>
@@ -9432,6 +9947,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000646</oboInOwl:id>
         <rdfs:label>chaeta sb3</rdfs:label>
     </owl:Class>
@@ -9450,6 +9966,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000647</oboInOwl:id>
         <rdfs:label>chaeta sb4</rdfs:label>
     </owl:Class>
@@ -9468,6 +9985,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000648</oboInOwl:id>
         <rdfs:label>chaeta sb5</rdfs:label>
     </owl:Class>
@@ -9486,6 +10004,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000649</oboInOwl:id>
         <rdfs:label>chaeta sb6</rdfs:label>
     </owl:Class>
@@ -9504,6 +10023,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh basal s-chaeta of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
+        <oboInOwl:hasRelatedSynonym>sb7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000650</oboInOwl:id>
         <rdfs:label>chaeta sb7</rdfs:label>
     </owl:Class>
@@ -9514,6 +10034,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000651">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta located in the subdorsal area of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000651</oboInOwl:id>
         <rdfs:label>chaeta sd1</rdfs:label>
@@ -9525,6 +10051,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000652">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta located in the subdorsal area of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000652</oboInOwl:id>
         <rdfs:label>chaeta sd2</rdfs:label>
@@ -9536,6 +10068,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000653">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta located in the subdorsal area of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000653</oboInOwl:id>
         <rdfs:label>chaeta sd3</rdfs:label>
@@ -9547,6 +10085,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000654">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta located in the subdorsal area of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000654</oboInOwl:id>
         <rdfs:label>chaeta sd4</rdfs:label>
@@ -9558,6 +10102,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000655">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta located in the subdorsal area of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000655</oboInOwl:id>
         <rdfs:label>chaeta sd5</rdfs:label>
@@ -9572,13 +10122,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta most anterior of row T on  the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000656</oboInOwl:id>
         <rdfs:label>chaeta T1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000656"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta most anterior of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9589,10 +10146,11 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T1 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T1 of row T on  the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000657</oboInOwl:id>
         <rdfs:label>chaeta T2</rdfs:label>
     </owl:Class>
@@ -9606,13 +10164,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T2 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T2 of row T on  the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000658</oboInOwl:id>
         <rdfs:label>chaeta T3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000658"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T2 of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9623,13 +10188,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T3 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000659</oboInOwl:id>
         <rdfs:label>chaeta T4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000659"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9640,13 +10212,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T4 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T4 of row T on  the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000660</oboInOwl:id>
         <rdfs:label>chaeta T5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000660"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T4 of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9657,13 +10236,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T5 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T5 of row T on the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T6</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000661</oboInOwl:id>
         <rdfs:label>chaeta T6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000661"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T5 of row T on the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9674,13 +10260,20 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta posterior to chaeta T6 of row T on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T6 of row T on the abdominal segment 4.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>T7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000662</oboInOwl:id>
         <rdfs:label>chaeta T7</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000662"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T6 of row T on the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -10870,9 +11463,24 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on medial side and part of median row of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">median-ocellar line</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000748</oboInOwl:id>
         <rdfs:label>median ocellar chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">median-ocellar line</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).
+Agricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>median ocellar chaeta</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bellini, B.C., Cipola, N.G. &amp; Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya
+Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10979,10 +11587,25 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
         <obo:IAO_0000115>The group of chaetae that compose the postsutural row on dorsal side of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">postsutural line</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>postsutural microchaetae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000756</oboInOwl:id>
         <rdfs:label>postsutural chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">postsutural line</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).
+Agricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>postsutural chaeta</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bellini, B.C., Cipola, N.G. &amp; Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya
+Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -11701,10 +12324,18 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located on anterior margin on dorsal side of cephalic capsule.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">antennal group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>antennal series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000800</oboInOwl:id>
         <rdfs:label>antennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">antennal group</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica
+Cracoviensia, 18, 23–39.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -11901,10 +12532,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">sutural group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>sutural series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000813</oboInOwl:id>
         <rdfs:label>sutural row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000813"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">sutural group</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica
+Cracoviensia, 18, 23–39.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13252,6 +13891,13 @@
         <oboInOwl:id>CLAO:0000909</oboInOwl:id>
         <rdfs:label>chaeta a2.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000909"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">a2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic
+studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 

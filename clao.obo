@@ -1,13 +1,13 @@
 format-version: 1.2
-data-version: releases/2021-05-30
-default-namespace: collembola_anatomy
+data-version: releases/2021-05-31
+subsetdef: AISM:0000171 ""
 ontology: clao
 property_value: AISM:0002089 https://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: AISM:0002090 "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932" xsd:string
 property_value: AISM:0002091 "The Collembola Anatomy Ontology contains terms used for describing the anatomy and phenotype of springtails in biodiversity research." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Collembola Anatomy Ontology" xsd:string
 property_value: owl:versionInfo "2020-16-05" xsd:string
-property_value: owl:versionInfo "2021-05-30" xsd:string
+property_value: owl:versionInfo "2021-05-31" xsd:string
 
 [Term]
 id: CLAO:0000002
@@ -2130,14 +2130,14 @@ is_a: CLAO:0000319 ! anal valve
 [Term]
 id: CLAO:0000324
 name: chaeta a.l.1
-def: "The chaeta lateral to chaeta a.l.0 on dorsal side of labrum" []
+def: "The chaeta lateral to chaeta a.l.0 on dorsal side of labrum." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001014 ! part_of labrum
 
 [Term]
 id: CLAO:0000325
 name: chaeta a.l.0
-def: "The chaeta located on dorsal side of labrum near to external margin" []
+def: "The chaeta located on dorsal side of labrum near to external margin" [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001014 ! part_of labrum
 
@@ -2353,12 +2353,14 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 [Term]
 id: CLAO:0000357
 name: chaeta r.h
+synonym: "r" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000358
 name: chaeta q.h
+synonym: "q" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2415,14 +2417,15 @@ id: CLAO:0000365
 name: chaeta A0.h
 def: "The chaeta most anterior of anterior row, located on dorsal side of head" []
 synonym: "A0" RELATED []
+synonym: "R0" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000366
 name: chaeta A1
-def: "The chaeta most anterior of row A on fourth abdominal segment chaeta." []
-synonym: "A1" RELATED []
+def: "The chaeta most anterior of row A on the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo\nhttps://orcid.org/0000-0002-9136-9932"}
+synonym: "A1" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2447,7 +2450,7 @@ relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 [Term]
 id: CLAO:0000369
 name: chaeta A1.h
-def: "The chaeta posterior to chaeta A0.h of anterior row, located on dorsal side of head" []
+def: "The chaeta located on dorsal side of head and posterior to chaeta A0.h of anterior row." []
 synonym: "A1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
@@ -2456,7 +2459,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000370
 name: chaeta a1.t2
 def: "The first chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a1" RELATED []
+synonym: "a1" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2465,7 +2468,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000371
 name: chaeta a1.t3
 def: "The first chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a1" RELATED []
+synonym: "a1" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2474,7 +2477,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000372
 name: chaeta A2
 def: "The chaeta posterior to chaeta A1 of row A on fourth abdominal segment chaeta." []
-synonym: "A2" RELATED []
+synonym: "A2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2483,7 +2486,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000373
 name: chaeta a2.ab1
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 1." []
-synonym: "a2" RELATED []
+synonym: "a2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2492,7 +2495,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000374
 name: chaeta a2.ab3
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 3." []
-synonym: "a2" RELATED []
+synonym: "a2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -2501,6 +2504,7 @@ id: CLAO:0000375
 name: chaeta A2.h
 def: "The chaeta located bewteen the chaeta A0.h and chaeta A1.h of anterior row, located on dorsal side of head" []
 synonym: "A2" RELATED []
+synonym: "R1" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2508,7 +2512,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000376
 name: chaeta a2.t2
 def: "The second chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a2" RELATED []
+synonym: "a2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2517,7 +2521,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000377
 name: chaeta a2.t3
 def: "The second chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a2" RELATED []
+synonym: "a2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2527,6 +2531,7 @@ id: CLAO:0000378
 name: chaeta A2a.h
 def: "The chaeta anterior to chaeta A2.h of anterior row, located on dorsal side of head" []
 synonym: "A2a" RELATED []
+synonym: "R1s" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2534,7 +2539,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000379
 name: chaeta a2p.ab2
 def: "The second posterior chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a2p" RELATED []
+synonym: "a2p" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -2542,7 +2547,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000380
 name: chaeta A3
 def: "The chaeta posterior to chaeta A2 of row A on fourth abdominal segment chaeta." []
-synonym: "A3" RELATED []
+synonym: "A3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2550,7 +2555,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000381
 name: chaeta a3.ab1
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 1." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2559,7 +2564,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000382
 name: chaeta a3.ab2
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2568,7 +2573,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000383
 name: chaeta a3.ab3
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 3." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2577,7 +2582,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000384
 name: chaeta a3.ab5
 def: "The third chaeta of anterior row on medial-external axis of abdominal segment 5." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
@@ -2586,6 +2591,7 @@ id: CLAO:0000385
 name: chaeta A3.h
 def: "The chaeta posterior to chaeta A1.h of anterior row, located on dorsal side of head" []
 synonym: "A3" RELATED []
+synonym: "R2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -2593,7 +2599,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000386
 name: chaeta a3.t2
 def: "The third chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2602,7 +2608,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000387
 name: chaeta a3.t3
 def: "The third chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a3" RELATED []
+synonym: "a3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2619,7 +2625,7 @@ relationship: BFO:0000050 CLAO:0001050 ! part_of labium
 id: CLAO:0000389
 name: chaeta A4
 def: "The chaeta posterior to chaeta A3 of row A on fourth abdominal segment chaeta." []
-synonym: "A4" RELATED []
+synonym: "A4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2627,7 +2633,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000390
 name: chaeta a4.t2
 def: "The fourth chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a4" RELATED []
+synonym: "a4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2636,7 +2642,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000391
 name: chaeta a4.t3
 def: "The fourth chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a4" RELATED []
+synonym: "a4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2653,7 +2659,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000393
 name: chaeta A5
 def: "The chaeta posterior to chaeta A4 of row A on fourth abdominal segment chaeta." []
-synonym: "A5" RELATED []
+synonym: "A5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2661,7 +2667,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000394
 name: chaeta a5.ab1
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 1." []
-synonym: "a5" RELATED []
+synonym: "a5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2670,7 +2676,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000395
 name: chaeta a5.ab2
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a5" RELATED []
+synonym: "a5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2679,7 +2685,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000396
 name: chaeta a5.ab3
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 3." []
-synonym: "a5" RELATED []
+synonym: "a5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2688,7 +2694,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000397
 name: chaeta a5.ab5
 def: "The fifth chaeta of anterior row on medial-external axis of abdominal segment 5." []
-synonym: "a5" RELATED []
+synonym: "a5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
@@ -2704,7 +2710,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000399
 name: chaeta A6
 def: "The chaeta most posterior of row A on fourth abdominal segment chaeta." []
-synonym: "A6" RELATED []
+synonym: "A6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2713,7 +2719,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000400
 name: chaeta a6.ab1
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 1." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000868 ! part_of abdominal segment 1
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2722,7 +2728,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000401
 name: chaeta a6.ab2
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2731,7 +2737,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000402
 name: chaeta a6.ab3
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 3." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2740,7 +2746,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000403
 name: chaeta a6.ab5
 def: "The sixth chaeta of anterior row on medial-external axis of abdominal segment 5." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 
@@ -2748,7 +2754,7 @@ relationship: BFO:0000050 CLAO:0000872 ! part_of abdominal segment 5
 id: CLAO:0000404
 name: chaeta a6.t2
 def: "The sixth chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2757,7 +2763,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000405
 name: chaeta a6.t3
 def: "The sixth chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a6" RELATED []
+synonym: "a6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2766,7 +2772,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000406
 name: chaeta a7.ab2
 def: "The seventh chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a7" RELATED []
+synonym: "a7" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2775,7 +2781,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000407
 name: chaeta a7.ab3
 def: "The seventh chaeta of anterior row on medial-external axis of abdominal segment 3." []
-synonym: "a7" RELATED []
+synonym: "a7" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2784,7 +2790,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000408
 name: chaeta a7.t2
 def: "The seventh chaeta of anterior row on medial-external axis of mesothorax." []
-synonym: "a7" RELATED []
+synonym: "a7" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2793,7 +2799,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:s
 id: CLAO:0000409
 name: chaeta a7.t3
 def: "The seventh chaeta of anterior row on medial-external axis of metathorax." []
-synonym: "a7" RELATED []
+synonym: "a7" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 property_value: http://purl.org/dc/elements/1.1/source "Szeptycki, (1979)" xsd:string
@@ -2970,7 +2976,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000432
 name: chaeta B1
 def: "The chaeta most anterior of row B on fourth abdominal segment chaeta." []
-synonym: "B1" RELATED []
+synonym: "B1" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2986,7 +2992,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000434
 name: chaeta B2
 def: "The chaeta posterior to chaeta B1 of row B on fourth abdominal segment chaeta." []
-synonym: "B2" RELATED []
+synonym: "B2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -2994,7 +3000,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000435
 name: chaeta B3
 def: "The chaeta posterior to chaeta B2 of row B on fourth abdominal segment chaeta." []
-synonym: "B3" RELATED []
+synonym: "B3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3010,7 +3016,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schulz, 2016" xsd:string
 id: CLAO:0000437
 name: chaeta B4
 def: "The chaeta posterior to chaeta B3 of row B on fourth abdominal segment chaeta." []
-synonym: "B4" RELATED []
+synonym: "B4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3018,7 +3024,7 @@ relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 id: CLAO:0000438
 name: chaeta B5
 def: "The chaeta posterior to chaeta B4 of row B on fourth abdominal segment chaeta." []
-synonym: "B5" RELATED []
+synonym: "B5" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3033,7 +3039,7 @@ relationship: BFO:0000050 CLAO:0000863 ! part_of antennal segment 2
 id: CLAO:0000440
 name: chaeta B6
 def: "The chaeta most posterior row B on fourth abdominal segment chaeta." []
-synonym: "B6" RELATED []
+synonym: "B6" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
@@ -3698,6 +3704,7 @@ relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 [Term]
 id: CLAO:0000528
 name: chaeta M2
+synonym: "S" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -3705,6 +3712,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000529
 name: chaeta m2.ab1
 def: "The second chaeta of medial row on medial-external axis of abdominal segment 1." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 
@@ -3712,6 +3720,7 @@ relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 id: CLAO:0000530
 name: chaeta m2.ab2
 def: "The second chaeta of medial row on medial-external axis of abdominal segment 2." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -3719,6 +3728,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000531
 name: chaeta m2.ab3
 def: "The second chaeta of medial row on medial-external axis of abdominal segment 3." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -3726,12 +3736,14 @@ relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 id: CLAO:0000532
 name: chaeta m2.ab5
 def: "The second chaeta of medial row on medial-external axis of abdominal segment 5." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 
 [Term]
 id: CLAO:0000533
 name: chaeta m2.t2
 def: "The second chaeta of medial row on medial-external axis of mesothorax." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 
@@ -3739,6 +3751,7 @@ relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 id: CLAO:0000534
 name: chaeta m2.t3
 def: "The second chaeta of medial row on medial-external axis of metathorax." []
+synonym: "m2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 
@@ -3752,6 +3765,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Vargovitsh, 2009" xsd:st
 id: CLAO:0000536
 name: chaeta m3.ab1
 def: "The third chaeta of medial row on medial-external axis of abdominal segment 1." []
+synonym: "m3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 
@@ -3759,6 +3773,7 @@ relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 id: CLAO:0000537
 name: chaeta m3.ab2
 def: "The third chaeta of medial row on medial-external axis of abdominal segment 2." []
+synonym: "m3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -3766,6 +3781,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000538
 name: chaeta m3.ab3
 def: "The third chaeta of medial row on medial-external axis of abdominal segment 3." []
+synonym: "m3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 
@@ -3773,6 +3789,7 @@ relationship: BFO:0000050 CLAO:0000870 ! part_of abdominal segment 3
 id: CLAO:0000539
 name: chaeta m3.ab5
 def: "The third chaeta of medial row on medial-external axis of abdominal segment 5." []
+synonym: "m3" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 
 [Term]
@@ -3812,6 +3829,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Vargovitsh, 2009" xsd:st
 id: CLAO:0000545
 name: chaeta m4.ab1
 def: "The fourth chaeta of medial row on medial-external axis of abdominal segment 1." []
+synonym: "m4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 
@@ -3819,6 +3837,7 @@ relationship: BFO:0000050 CLAO:0000702 ! part_of first abdominal segment chaeta
 id: CLAO:0000546
 name: chaeta m4.ab2
 def: "The fourth chaeta of medial row on medial-external axis of abdominal segment 2." []
+synonym: "m4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
@@ -3826,6 +3845,7 @@ relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 id: CLAO:0000547
 name: chaeta m4.t2
 def: "The fourth chaeta of medial row on medial-external axis of mesothorax." []
+synonym: "m4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 
@@ -3833,6 +3853,7 @@ relationship: BFO:0000050 CLAO:0001062 ! part_of mesothorax
 id: CLAO:0000548
 name: chaeta m4.t3
 def: "The fourth chaeta of medial row on medial-external axis of metathorax." []
+synonym: "m4" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,\n219pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0001063 ! part_of metathorax
 
@@ -4273,6 +4294,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000615
 name: chaeta Pm1
 def: "The first chaeta on external-medial axis of medial postoccipital row." []
+synonym: "Pm1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4280,6 +4302,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000616
 name: chaeta Pm3
 def: "The third chaeta on external-medial axis of medial postoccipital row." []
+synonym: "Pm3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4299,6 +4322,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Zhang et al. (2009)" xsd
 id: CLAO:0000619
 name: chaeta Pp1
 def: "The first chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4306,6 +4330,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000620
 name: chaeta Pp2
 def: "The second chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4313,6 +4338,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000621
 name: chaeta Pp3
 def: "The third chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4320,6 +4346,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000622
 name: chaeta Pp4
 def: "The fourth chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4327,6 +4354,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000623
 name: chaeta Pp5
 def: "The fifth chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4334,6 +4362,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000624
 name: chaeta Pp6
 def: "The sixth chaeta on medial-external axis of posterior postoccipital row." []
+synonym: "Pp6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4341,6 +4370,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000625
 name: chaeta Ps2
 def: "The second chaeta on medial-external axis of postsutural row." []
+synonym: "Ps2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4348,6 +4378,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000626
 name: chaeta Ps3
 def: "The third chaeta on medial-external axis of postsutural row." []
+synonym: "Ps3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4355,6 +4386,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000627
 name: chaeta Ps5
 def: "The fifth chaeta on medial-external axis of postsutural row." []
+synonym: "Ps5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4369,6 +4401,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000629
 name: chaeta S1
 def: "The first chaeta on medial-external axis of sutural row." []
+synonym: "S1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4376,6 +4409,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000630
 name: chaeta s1
 def: "The first s-chaeta of antennal segment 3." []
+synonym: "s1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:string
@@ -4384,6 +4418,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:str
 id: CLAO:0000631
 name: chaeta S2
 def: "The second chaeta on medial-external axis of sutural row." []
+synonym: "S2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4391,6 +4426,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000632
 name: chaeta s2
 def: "The second s-chaeta of antennal segment 3." []
+synonym: "s2" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:string
@@ -4399,6 +4435,9 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:str
 id: CLAO:0000633
 name: chaeta S3
 def: "The third chaeta on medial-external axis of sutural row." []
+synonym: "S" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
+synonym: "S3" RELATED []
+synonym: "T" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Gisin, H. (1967) Espèces nouvelles et lignées évolutives de Pseudosinella endogés (Collembola). Memórias e Estudos\ndo Museum Zoológico da Universidade de Coimbra, 301, 1–25."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4406,6 +4445,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000634
 name: chaeta s3
 def: "The third s-chaeta of antennal segment 3." []
+synonym: "s3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:string
@@ -4414,6 +4454,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:str
 id: CLAO:0000635
 name: chaeta S4
 def: "The fourth chaeta on medial-external axis of sutural row." []
+synonym: "S4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4421,6 +4462,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000636
 name: chaeta s4
 def: "The fourth s-chaeta of antennal segment 3." []
+synonym: "s4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:string
@@ -4429,6 +4471,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider, 2017" xsd:str
 id: CLAO:0000637
 name: chaeta S5
 def: "The fifth chaeta on medial-external axis of sutural row." []
+synonym: "S5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4436,6 +4479,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 id: CLAO:0000638
 name: chaeta s5
 def: "The fifth s-chaeta of antennal segment 3." []
+synonym: "s5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000864 ! part_of antennal segment 3
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4444,6 +4488,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000639
 name: chaeta S6
 def: "The sixth chaeta on medial-external axis of sutural row." []
+synonym: "S6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
@@ -4490,6 +4535,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000645
 name: chaeta sb1
 def: "The first basal s-chaeta of antennal segment 4." []
+synonym: "sb1" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4498,6 +4544,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000646
 name: chaeta sb3
 def: "The third basal s-chaeta of antennal segment 4." []
+synonym: "sb3" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4506,6 +4553,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000647
 name: chaeta sb4
 def: "The fourth basal s-chaeta of antennal segment 4." []
+synonym: "sb4" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4514,6 +4562,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000648
 name: chaeta sb5
 def: "The fifth basal s-chaeta of antennal segment 4." []
+synonym: "sb5" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4522,6 +4571,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000649
 name: chaeta sb6
 def: "The sixth basal s-chaeta of antennal segment 4." []
+synonym: "sb6" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4530,6 +4580,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:stri
 id: CLAO:0000650
 name: chaeta sb7
 def: "The seventh basal s-chaeta of antennal segment 4." []
+synonym: "sb7" RELATED []
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000865 ! part_of antennal segment 4
 property_value: http://purl.org/dc/elements/1.1/source "Schneider 2017" xsd:string
@@ -4539,79 +4590,91 @@ id: CLAO:0000651
 name: chaeta sd1
 def: "The first chaeta located in the subdorsal area of head capsule." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000652
 name: chaeta sd2
 def: "The second chaeta located in the subdorsal area of head capsule." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000653
 name: chaeta sd3
 def: "The third chaeta located in the subdorsal area of head capsule." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000654
 name: chaeta sd4
 def: "The fourth chaeta located in the subdorsal area of head capsule." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000655
 name: chaeta sd5
 def: "The fifth chaeta located in the subdorsal area of head capsule." []
 is_a: CLAO:0001098 ! chaeta
+relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 
 [Term]
 id: CLAO:0000656
 name: chaeta T1
-def: "The chaeta most anterior of row T on fourth abdominal segment chaeta." []
+def: "The chaeta most anterior of row T on  the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T1" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000657
 name: chaeta T2
-def: "The chaeta posterior to chaeta T1 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T1 of row T on  the abdominal segment 4." []
+synonym: "T2" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000658
 name: chaeta T3
-def: "The chaeta posterior to chaeta T2 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T2 of row T on  the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T3" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000659
 name: chaeta T4
-def: "The chaeta posterior to chaeta T3 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T4" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000660
 name: chaeta T5
-def: "The chaeta posterior to chaeta T4 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T4 of row T on  the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T5" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000661
 name: chaeta T6
-def: "The chaeta posterior to chaeta T5 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T5 of row T on the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T6" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000662
 name: chaeta T7
-def: "The chaeta posterior to chaeta T6 of row T on fourth abdominal segment chaeta." []
+def: "The chaeta posterior to chaeta T6 of row T on the abdominal segment 4." [] {http://purl.obolibrary.org/obo/AISM/AISM_0002090="lagonzalezmo"}
+synonym: "T7" RELATED []
 is_a: CLAO:0001098 ! chaeta
-relationship: BFO:0000050 CLAO:0000786 ! part_of row T
+relationship: BFO:0000050 CLAO:0000871 ! part_of abdominal segment 4
 
 [Term]
 id: CLAO:0000663
@@ -5219,8 +5282,9 @@ property_value: http://purl.org/dc/elements/1.1/source "Bellini et al. 2017" xsd
 
 [Term]
 id: CLAO:0000748
-name: median ocellar chaeta
+name: median ocellar chaeta {http://purl.obolibrary.org/obo/AISM_0000171="Bellini, B.C., Cipola, N.G. & Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya\nRondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242."}
 def: "The group of chaetae located on medial side and part of median row of cephalic capsule." []
+synonym: "median-ocellar line" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).\nAgricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79."}
 is_a: CLAO:0000959 ! anatomical group
 relationship: BFO:0000050 CLAO:0000797 ! part_of dorsal cephalic chaetae
 property_value: http://purl.org/dc/elements/1.1/source "Bellini et al. 2015" xsd:string
@@ -5279,8 +5343,9 @@ property_value: http://purl.org/dc/elements/1.1/source "Bellini et al. 2015" xsd
 
 [Term]
 id: CLAO:0000756
-name: postsutural chaeta
+name: postsutural chaeta {http://purl.obolibrary.org/obo/AISM_0000171="Bellini, B.C., Cipola, N.G. & Godeiro, N.N. (2015) New species of Lepidocyrtus Bourlet and Entomobrya\nRondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 227–242."}
 def: "The group of chaetae that compose the postsutural row on dorsal side of cephalic capsule." []
+synonym: "postsutural line" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).\nAgricultural Experiment Station University of Puerto Rico, Bulletin, 259, 1–79."}
 synonym: "postsutural microchaetae" RELATED []
 is_a: CLAO:0000959 ! anatomical group
 property_value: http://purl.org/dc/elements/1.1/source "Bellini et al. 2015" xsd:string
@@ -5608,6 +5673,7 @@ property_value: http://purl.org/dc/elements/1.1/source "Jordana et al. 2017" xsd
 id: CLAO:0000800
 name: antennal row
 def: "The chaetae row located on anterior margin on dorsal side of cephalic capsule." []
+synonym: "antennal group" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica\nCracoviensia, 18, 23–39."}
 synonym: "antennal series" RELATED []
 is_a: CLAO:0001076 ! row
 relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
@@ -5698,6 +5764,7 @@ relationship: BFO:0000050 CLAO:0000979 ! part_of head capsule
 [Term]
 id: CLAO:0000813
 name: sutural row
+synonym: "sutural group" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica\nCracoviensia, 18, 23–39."}
 synonym: "sutural series" RELATED []
 is_a: CLAO:0001076 ! row
 relationship: BFO:0000050 CLAO:0000797 ! part_of dorsal cephalic chaetae
@@ -6410,7 +6477,7 @@ is_a: CLAO:0000036 ! cephalic endoskeleton
 id: CLAO:0000909
 name: chaeta a2.ab2
 def: "The second chaeta of anterior row on medial-external axis of abdominal segment 2." []
-synonym: "a2" RELATED []
+synonym: "a2" RELATED [] {http://purl.obolibrary.org/obo/AISM_0000171="Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morphosystematic\nstudies on Collembola. IV. Polska Akademia Nauk: 216pp."}
 is_a: CLAO:0001098 ! chaeta
 relationship: BFO:0000050 CLAO:0000869 ! part_of abdominal segment 2
 
