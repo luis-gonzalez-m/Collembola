@@ -5612,10 +5612,19 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
+        <oboInOwl:hasExactSynonym>Ta5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">a5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000395</oboInOwl:id>
         <rdfs:label>chaeta a5.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ta5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000395"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -8207,10 +8216,19 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>a6iii</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">li</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000515</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta li.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000515"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>a6iii</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -8243,10 +8261,19 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateral suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>a6i</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">ll</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000517</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta ll.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000517"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>a6i</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -8291,10 +8318,19 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateromedial  suplementary chaeta that compose the external bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>a6ii</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">lm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000520</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta lm.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000520"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>a6ii</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -8447,10 +8483,19 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tm2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">m2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000530</oboInOwl:id>
         <rdfs:label>chaeta m2.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000530"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tm2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000530"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -8602,11 +8647,20 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>B</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>M1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000537</oboInOwl:id>
         <rdfs:label>chaeta m3.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>B</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -9178,9 +9232,18 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal suplementary chaeta that compose the internal bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>a2ii</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000570</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta mi.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000570"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>a2ii</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090 xml:lang="en">lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9195,9 +9258,18 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The lateral suplementary chaeta that compose the internal bothriotrical complex on abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>a2i</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000571</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta ml.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000571"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>a2i</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
     
 
 
@@ -9883,15 +9955,25 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
         <obo:IAO_0000115>The supplementary chaeta posterior to chaeta m6.ab3 of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>m6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>L1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000617</oboInOwl:id>
         <rdfs:label>chaeta pm6.ab3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>m6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Baquero, E., Mandal, G., &amp; Jordana, R. (2015). Entomobryoidea (Collembola) from Himachal Pradesh (India) in the Himalayas. Zootaxa, 4027(1), 1-41.
+http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
+        <AISM:AISM_0002090 xml:lang="en">lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000617"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>L1</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Snider, R.J. (1967) The Chaetotaxy of North American Lepidocyrtus s. str., (Collembola: Entomobryidae). Contributions of the American Entomological Institute, 2(3), 1–28.</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
     </owl:Axiom>
     
 
