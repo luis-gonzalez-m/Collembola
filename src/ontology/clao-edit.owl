@@ -174,6 +174,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001220 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001220">
+        <rdfs:label xml:lang="en">has_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2178,7 +2186,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000167">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000316"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2342,7 +2350,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000971"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2391,7 +2399,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000971"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
         <dc:source>Blanke et al. (2017)</dc:source>
         <oboInOwl:id>CLAO:0000184</oboInOwl:id>
         <rdfs:label>stipital strengthening ridges</rdfs:label>
@@ -15308,7 +15316,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000971 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000971">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area where the cuticle is invaginated.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0002021</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000971</oboInOwl:id>
@@ -15490,7 +15498,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000985">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000971"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001228"/>
         <obo:IAO_0000115>The process that is internal.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000142</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000985</oboInOwl:id>
@@ -15916,7 +15924,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The appendage that is composed of ringlike sclerites and the anatomical structures encircled by these sclerites and that is articulated with the cranium.</obo:IAO_0000115>
@@ -15933,7 +15941,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001228"/>
         <obo:IAO_0000115>The apodeme that is elongate.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000899</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001018</oboInOwl:id>
@@ -15956,7 +15964,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
         <obo:IAO_0000115>The anatomical structure that is encircled by the evagination of the integument and whose integumental components are attached to the body via muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0000026</oboInOwl:hasDbXref>
@@ -16027,7 +16035,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -16049,7 +16057,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area of the cuticle that is weakly sclerotized, with thin exocuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000221</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001026</oboInOwl:id>
@@ -16127,7 +16135,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001115"/>
         <obo:IAO_0000115>The acellular anatomical structure that is the external layer of the integument (covers the entire body surface as well as lines ectodermal invaginations such as the stomodeum, proctodeum and tracheae) and produced by the epidermal cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000240</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>cuticula</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">cuticula</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">exoskeleton</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>skin</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001032</oboInOwl:id>
@@ -16505,7 +16513,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area that is located on the integument and is ventral of the ventral diaphragm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000956</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SPD:0000291</oboInOwl:hasDbXref>
@@ -16519,6 +16527,18 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000857"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The thoracic segment that is located between the prothorax and the metathorax and is delimited by the mesopectus and the mesonotum.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00003021</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000583</oboInOwl:hasDbXref>
@@ -16534,6 +16554,18 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000856"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The thoracic segment that is located between the mesothorax and the first abdominal tergum and is delimited by the metanotum and the metapectus.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00003022</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000630</oboInOwl:hasDbXref>
@@ -16550,6 +16582,18 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000973"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The thoracic segment that is located between the head and the mesothorax is composed of the pronotum, the propectus and the fore leg.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00003020</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000874</oboInOwl:hasDbXref>
@@ -16621,7 +16665,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area that is located dorsally on the thoracic segment and limited laterally by the pleuron.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000650</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGMA:0000426</oboInOwl:hasDbXref>
@@ -16742,7 +16786,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area of the cuticle that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004475</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000909</oboInOwl:hasDbXref>
@@ -16985,12 +17029,19 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001145"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>Any elongate process jutting from the outer surface of the cuticula. There are two basic types of cuticular projections: 1) setae, which are articulated processes arising from a basal alveolus, and 2) spicules, which are non-articulated, continuous processes of the cuticula.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0001409</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">cuticular protrusion</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001094</oboInOwl:id>
         <rdfs:label>cuticular projection</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">cuticular protrusion</owl:annotatedTarget>
+        <obo:IAO_0000115 xml:lang="en">The region of the cuticle that corresponds to a convex surface.</obo:IAO_0000115>
+    </owl:Axiom>
     
 
 
@@ -17022,7 +17073,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>A non-articulated cuticular projection, directly continuous with the cuticula.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0001362</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001097</oboInOwl:id>
@@ -17034,7 +17085,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>A sensillum with a long, unicellular, setiform outgrowth that is strongly chitinized.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00005177</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:6005177</oboInOwl:hasDbXref>
@@ -18603,6 +18654,69 @@ possesses non-connected boundaries.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>material entity aggregate</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001219</oboInOwl:id>
         <rdfs:label>object aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:label xml:lang="en">chitin-based cuticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001221"/>
+        <rdfs:label xml:lang="en">region of cuticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:label xml:lang="en">arthropod foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001223"/>
+        <rdfs:label xml:lang="en">antennal foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001227"/>
+        <rdfs:label xml:lang="en">multicellular cuticular evagination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:label xml:lang="en">cuticular evagination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:label xml:lang="en">cuticular internal depression</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
