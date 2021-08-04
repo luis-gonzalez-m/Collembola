@@ -107,6 +107,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <rdfs:label xml:lang="en">creation_date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace">
@@ -10170,6 +10178,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The medial chaeta on medial-external axis of sutural row.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>S0</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000628</oboInOwl:id>
         <rdfs:label>chaeta S0</rdfs:label>
     </owl:Class>
@@ -10500,6 +10509,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000645</oboInOwl:id>
         <rdfs:label>chaeta sb1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000645"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10519,6 +10535,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000646</oboInOwl:id>
         <rdfs:label>chaeta sb3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000646"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10538,6 +10561,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000647</oboInOwl:id>
         <rdfs:label>chaeta sb4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000647"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10557,6 +10587,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000648</oboInOwl:id>
         <rdfs:label>chaeta sb5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000648"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10576,6 +10613,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000649</oboInOwl:id>
         <rdfs:label>chaeta sb6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000649"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10595,6 +10639,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000650</oboInOwl:id>
         <rdfs:label>chaeta sb7</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000650"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sb7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10704,6 +10755,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedTarget xml:lang="en">The chaeta most anterior of row T on  the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10722,6 +10780,20 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000657</oboInOwl:id>
         <rdfs:label>chaeta T2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000657"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T1 of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000657"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -10745,6 +10817,14 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T2 of row T on  the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000658"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -10769,6 +10849,14 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000659"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -10793,6 +10881,14 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T4 of row T on  the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000660"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -10817,6 +10913,14 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T5 of row T on the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000661"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -10841,6 +10945,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T6 of row T on the abdominal segment 4.</owl:annotatedTarget>
         <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000662"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>T7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -11457,6 +11568,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000710</oboInOwl:id>
         <rdfs:label>leg chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000710"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on legs.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11474,6 +11592,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000711</oboInOwl:id>
         <rdfs:label>manubrial chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000711"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on manubrium.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11491,6 +11616,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000712</oboInOwl:id>
         <rdfs:label>mesothoracic chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000712"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on mesothorax.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11508,6 +11640,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000713</oboInOwl:id>
         <rdfs:label>metathoracic chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000713"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on metathorax.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11524,14 +11663,27 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The group of chaetae extra located on dorsal side of cephalic capsule or abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The group of chaetae extra located on dorsal side of cephalic capsule or trunk</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>polychaetosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000714</oboInOwl:id>
         <rdfs:label>plurichaetosis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000714"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of chaetae extra located on dorsal side of cephalic capsule or trunk</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11992,6 +12144,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000745</oboInOwl:id>
         <rdfs:label>lateral tuft</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000745"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on lateral side of abdominal segment 3.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12004,6 +12163,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000746</oboInOwl:id>
         <rdfs:label>male ventral organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000746"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located in the sternal region of abdominal segment 2, abdominal segment 3, and collophore.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12016,6 +12182,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000747</oboInOwl:id>
         <rdfs:label>medial chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae that compose the medial row on dorsal side of cephalic capsule.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12035,6 +12208,13 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000748</oboInOwl:id>
         <rdfs:label>median ocellar chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on medial side and part of median row of cephalic capsule.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000748"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -12067,6 +12247,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000749</oboInOwl:id>
         <rdfs:label>mucronal chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000749"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on mucro.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12074,11 +12261,18 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000750">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
-        <obo:IAO_0000115>The group of modified chaetae located on abdominal segment 4 or basal side of furcula.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The group of modified chaetae located on abdominal segment 4 or basal side of furcula.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>neosminthuroid seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000750</oboInOwl:id>
         <rdfs:label>neosminthuroid chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000750"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of modified chaetae located on abdominal segment 4 or basal side of furcula.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12086,11 +12280,18 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000751">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
-        <obo:IAO_0000115>The group of chaetae located on ocellar area.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The group of chaetae located on ocellar area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>ocular setae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000751</oboInOwl:id>
         <rdfs:label>ocular chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000751"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of chaetae located on ocellar area.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12116,6 +12317,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000753</oboInOwl:id>
         <rdfs:label>postantennal chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000753"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on postantennal area.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12162,6 +12370,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae that compose the postsutural row on dorsal side of cephalic capsule.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000756"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget xml:lang="en">postsutural line</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Mari Mutt, J.A. (1979) A revision of the genus Dicranocentrus Schött (Insecta: Collembola: Entomobryidae).
@@ -12204,11 +12419,24 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on prelabral area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>prelabral setae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000759</oboInOwl:id>
         <rdfs:label>prelabral chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000759"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on prelabral area.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12291,9 +12519,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <obo:IAO_0000115>The chaetae row located on anteroposterior axis and medial area of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>A series</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series A</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000765</oboInOwl:id>
         <rdfs:label>row A</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000765"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located on anteroposterior axis and medial area of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12362,9 +12598,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series Ae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000769</oboInOwl:id>
         <rdfs:label>row Ae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000769"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The external chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12380,9 +12624,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series Ai</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000770</oboInOwl:id>
         <rdfs:label>row Ai</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000770"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The internal chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12399,9 +12651,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <obo:IAO_0000115>The chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>B series</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series B</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000771</oboInOwl:id>
         <rdfs:label>row B</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000771"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12417,9 +12677,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series Be</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000772</oboInOwl:id>
         <rdfs:label>row Be</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000772"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The external chaetae row lateral to row B of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12436,9 +12704,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <obo:IAO_0000115>The chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>C series</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series C</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000773</oboInOwl:id>
         <rdfs:label>row C</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000773"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row lateral to row B of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12454,9 +12730,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row lateral to row C of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series D</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000774</oboInOwl:id>
         <rdfs:label>row D</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000774"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row lateral to row C of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12472,9 +12756,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row D of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series De</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000775</oboInOwl:id>
         <rdfs:label>row De</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000775"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The external chaetae row lateral to row D of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12490,9 +12782,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located between row T and row F of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series E</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000776</oboInOwl:id>
         <rdfs:label>row E</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000776"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located between row T and row F of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12508,9 +12808,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row E of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series Ee</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000777</oboInOwl:id>
         <rdfs:label>row Ee</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000777"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The external chaetae row lateral to row E of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12526,9 +12834,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located between row E and row Fe of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series F</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000778</oboInOwl:id>
         <rdfs:label>row F</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000778"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located between row E and row Fe of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12544,6 +12860,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located on tergal lateral side of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series Fe</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000779</oboInOwl:id>
         <rdfs:label>row Fe</rdfs:label>
     </owl:Class>
@@ -12564,6 +12881,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000780</oboInOwl:id>
         <rdfs:label>row m.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000780"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 1.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12581,6 +12905,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000781</oboInOwl:id>
         <rdfs:label>row m.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000781"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 2.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12598,6 +12929,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000782</oboInOwl:id>
         <rdfs:label>row m.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000782"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 3.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12615,6 +12953,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000783</oboInOwl:id>
         <rdfs:label>row p.ab1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000783"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 1.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12632,6 +12977,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000784</oboInOwl:id>
         <rdfs:label>row p.ab2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000784"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 2.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12649,6 +13001,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <oboInOwl:id>CLAO:0000785</oboInOwl:id>
         <rdfs:label>row p.ab3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000785"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 3.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12664,9 +13023,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located between row D and row E of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">series T</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000786</oboInOwl:id>
         <rdfs:label>row T</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located between row D and row E of abdominal segment 4.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12701,6 +13068,12 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first transversal row of chaetae on anteroposterior axis located on clypeal area.</obo:IAO_0000115>
@@ -12899,6 +13272,13 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000800"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located on anterior margin on dorsal side of cephalic capsule.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000800"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget xml:lang="en">antennal group</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1973) North Korean Collembola. I. The genus Homidia Börner, 1906 (Entomobryidae). Acta Zoologica
@@ -12911,10 +13291,24 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000801">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasExactSynonym>pa.a.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000801</oboInOwl:id>
         <rdfs:label>anterior postantennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>pa.a.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13051,9 +13445,17 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasExactSynonym>pa.p.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000810</oboInOwl:id>
         <rdfs:label>posterior postantennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000810"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>pa.p.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13167,10 +13569,24 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000817">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasExactSynonym>f.a.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000817</oboInOwl:id>
         <rdfs:label>anterior frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000817"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>f.a.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13178,10 +13594,24 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000818">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasExactSynonym>f.m.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000818</oboInOwl:id>
         <rdfs:label>median frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>f.m.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13190,9 +13620,17 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
         <dc:source>Schneider, 2017</dc:source>
+        <oboInOwl:hasExactSynonym>f.p.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000819</oboInOwl:id>
         <rdfs:label>posterior frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000819"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>f.p.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13284,6 +13722,13 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000825</oboInOwl:id>
         <rdfs:label>row m.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000825"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of mesothorax.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -13301,6 +13746,13 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000826</oboInOwl:id>
         <rdfs:label>row m.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000826"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of metathorax.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -13350,9 +13802,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on anterior side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Ga</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000829</oboInOwl:id>
         <rdfs:label>row Ga</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000829"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on anterior side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000829"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ga</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13368,9 +13834,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on anterointernal side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Gai</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000830</oboInOwl:id>
         <rdfs:label>row Gai</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on anterointernal side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gai</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13386,9 +13866,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on external side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Ge</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000831</oboInOwl:id>
         <rdfs:label>row Ge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000831"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on external side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000831"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ge</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13404,9 +13898,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on internal side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Gi</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000832</oboInOwl:id>
         <rdfs:label>row Gi</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000832"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on internal side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000832"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gi</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13422,9 +13930,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on anteroexternal side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Gae</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000833</oboInOwl:id>
         <rdfs:label>row Gae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000833"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on anteroexternal side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000833"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gae</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13440,9 +13962,23 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on posteroexternal side of tibiotarsus.</obo:IAO_0000115>
         <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Gpe</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000834</oboInOwl:id>
         <rdfs:label>row Gpe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000834"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on posteroexternal side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000834"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gpe</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -13457,10 +13993,24 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The longitudinal row of chaetae located on posterointernal side of tibiotarsus.</obo:IAO_0000115>
-        <dc:source>Yu 2015, Zhang and Deharveng, 2015</dc:source>
+        <dc:source>Zhang and Deharveng, 2015</dc:source>
+        <oboInOwl:hasExactSynonym>Gpi</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000835</oboInOwl:id>
         <rdfs:label>row Gpi</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000835"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The longitudinal row of chaetae located on posterointernal side of tibiotarsus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000835"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gpi</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -14577,11 +15127,24 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000919">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
-        <obo:IAO_0000115>The group of chaetae that compose the posterior row on dorsal side of cephalic head.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The group of chaetae that compose the posterior row on dorsal side of  capsule head.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
         <oboInOwl:id>CLAO:0000919</oboInOwl:id>
         <rdfs:label>posterior chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000919"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of chaetae that compose the posterior row on dorsal side of  capsule head.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14698,6 +15261,12 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000710"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on external side of trochanter.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>temporals anteriores chaeta</oboInOwl:hasRelatedSynonym>
@@ -14706,6 +15275,13 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000928</oboInOwl:id>
         <rdfs:label>trochanteral organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000928"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on external side of trochanter.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14719,10 +15295,23 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000710"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on external side of mesotrochanter.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000929</oboInOwl:id>
         <rdfs:label>mesotrochanteral organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000929"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on external side of mesotrochanter.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14730,10 +15319,23 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000930">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000928"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000917"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on external side of metatrochanter.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000930</oboInOwl:id>
         <rdfs:label>metatrochanteral organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000930"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on external side of metatrochanter.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14741,10 +15343,23 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000931">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000928"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000918"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on external side of protrochanter.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000931</oboInOwl:id>
         <rdfs:label>protrochanteral organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000931"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on external side of protrochanter.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
