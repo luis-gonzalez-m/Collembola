@@ -184,9 +184,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001220 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001220">
-        <rdfs:label xml:lang="en">has_part</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001220"/>
     
 
 
@@ -1083,7 +1081,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <dc:source>Matsuda, 1967</dc:source>
         <oboInOwl:id>CLAO:0000079</oboInOwl:id>
         <rdfs:label>dorsolongitudinal muscle</rdfs:label>
@@ -1114,7 +1112,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>The muscle that originates in head dorsal area and inserts in the transverse mandibular tendon.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000082</oboInOwl:id>
         <rdfs:label>dorsal suspensory muscle</rdfs:label>
@@ -1125,7 +1123,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000083</oboInOwl:id>
         <rdfs:label>dorsal longitudinal muscle</rdfs:label>
@@ -1136,7 +1134,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <dc:source>Hutasse-Jeannenot, 1974</dc:source>
         <dc:source>The muscle that inserts to lacinia.</dc:source>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
@@ -1219,7 +1217,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <oboInOwl:id>CLAO:0000092</oboInOwl:id>
         <rdfs:label>dorsoventral muscle</rdfs:label>
     </owl:Class>
@@ -4109,10 +4107,11 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001143"/>
         <obo:IAO_0000115>A layer of material that encloses space or that encloses a structure.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ebi.ac.uk/ols/ontologies/ncit</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">anatomical wall</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000318</oboInOwl:id>
         <rdfs:label>wall</rdfs:label>
     </owl:Class>
@@ -11207,7 +11206,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>The muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000676</oboInOwl:id>
@@ -14101,7 +14100,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000836">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>The muscle that connects the dorsolateral side of basal ridge of mandible and frons.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000836</oboInOwl:id>
@@ -15309,7 +15308,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000926">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>The muscle that connects the dorsomedial side of occiput and lateral margin of cardo.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000926</oboInOwl:id>
@@ -15871,7 +15870,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000961 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000961">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>The muscle that inserts on the antenna.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001172</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000961</oboInOwl:id>
@@ -16285,7 +16284,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The line that marks the fusion of two ancestral sclerites.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000982</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>cuticular furrow</oboInOwl:hasRelatedSynonym>
@@ -16846,7 +16845,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001036"/>
         <obo:IAO_0000115>Outermost layer of the cuticle consisting of proteins and waxes which functions as an impermeability barrier. It overlies the epicuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004971</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://flybase.org/reports/FBrf0064790.html</oboInOwl:hasDbXref>
@@ -16885,7 +16884,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
         <obo:IAO_0000115>The procuticle that is not tanned (sclerotised, proteins scarcely crosslinked) and located between the Schmidt&apos;s layer and the exocuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004974</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>subcuticle</oboInOwl:hasRelatedSynonym>
@@ -16913,7 +16912,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
         <obo:IAO_0000115>The cuticle that does not contain chitin fibrils and is located externally of the exocuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004972</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0001764</oboInOwl:hasDbXref>
@@ -16926,7 +16925,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
         <obo:IAO_0000115>The procuticle that is tanned (sclerotised, proteins are highly crosslinked) and located between the endocuticle and epicuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000311</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0003201</oboInOwl:hasDbXref>
@@ -17057,7 +17056,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>The anatomical system that forms the covering layer of the animal, ectodermal in origin and composed of epidermal cells producing the cuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000421</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0002199</oboInOwl:hasDbXref>
@@ -17430,7 +17429,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
         <obo:IAO_0000115>The cuticle that containes chitin fibrils and is located between the Schmidt&apos;s layer and the epicuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001313</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>middle cuticle</oboInOwl:hasRelatedSynonym>
@@ -17784,7 +17783,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <obo:IAO_0000115>A sensillum with a long, unicellular, setiform outgrowth that is strongly chitinized.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00005177</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:6005177</oboInOwl:hasDbXref>
@@ -17997,7 +17996,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>A muscle that moves a body part away from the sagittal plane/midline of the body.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0006845</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0005269</oboInOwl:hasDbXref>
@@ -18012,7 +18011,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
         <obo:IAO_0000115>A muscle capable of adduction. Adduction is a movement which brings a part of the anatomy closer to the middle sagittal plane of the body.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0011145</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
@@ -18128,6 +18127,7 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000960"/>
         <obo:IAO_0000115>The anatomical system that is involved in circulation.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0001009</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hemolymph vascular system</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001123</oboInOwl:id>
         <rdfs:label>circulatory system</rdfs:label>
     </owl:Class>
@@ -18591,6 +18591,7 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>An anatomical structure that has more than one cell as a part.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0010000</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">multicellular anatomical structure</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001160</oboInOwl:id>
         <rdfs:label xml:lang="en">multicellular structure</rdfs:label>
     </owl:Class>
@@ -18818,7 +18819,13 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001116"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>OARCS:0000000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://oarcs-api.speciesfilegroup.org/api/ref/97055</oboInOwl:hasDbXref>
@@ -18860,7 +18867,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001253"/>
         <obo:IAO_0000115>Anatomical structure which has as its parts one or more ordered aggregates of nucleotide, amino acid fatty acid or sugar molecules bonded to one another.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FMA:63887</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001181</oboInOwl:id>
@@ -19416,6 +19423,267 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <rdfs:label xml:lang="en">cuticular internal depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:label xml:lang="en">abdominal sternite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:label xml:lang="en">abdominal sternite 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001232"/>
+        <rdfs:label xml:lang="en">abdominal sternite 2-abdominal sternite 3 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001233"/>
+        <rdfs:label xml:lang="en">abdominal sternite 3-abdominal sternite 4 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001234"/>
+        <rdfs:label xml:lang="en">abdominal sternite 4-abdominal sternite 5 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001235"/>
+        <rdfs:label xml:lang="en">abdominal sternite 5-abdominal sternite 6 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:label xml:lang="en">abdominal tergite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:label xml:lang="en">abdominal tergite 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
+        <rdfs:label xml:lang="en">abdominal tergite 1-abdominal tergite 2 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
+        <rdfs:label xml:lang="en">abdominal tergite 2-abdominal tergite 3 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
+        <rdfs:label xml:lang="en">abdominal tergite 3-abdominal tergite 4 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
+        <rdfs:label xml:lang="en">abdominal tergite 4-abdominal tergite 5 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001246"/>
+        <rdfs:label xml:lang="en">abdominal tergite 5-abdominal tergite 6 conjunctiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:label xml:lang="en">molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001181"/>
+        <rdfs:label xml:lang="en">protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001254"/>
+        <rdfs:label xml:lang="en">myosin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001254"/>
+        <rdfs:label xml:lang="en">actin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001137"/>
+        <rdfs:label xml:lang="en">skeletal musculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000318"/>
+        <rdfs:label xml:lang="en">wall of blood vessel</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
