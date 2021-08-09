@@ -239,7 +239,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -15728,7 +15728,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000951">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001223"/>
         <obo:IAO_0000115>The anatomical space that is surrounded by sclerites and allows for the passage of haemolymph, nerves and tracheae.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000345</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000951</oboInOwl:id>
@@ -16299,7 +16299,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000993 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000993">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001260"/>
         <obo:IAO_0000115>The anatomical cluster that includes the labrum, hypopharynx and labium.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000809</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000993</oboInOwl:id>
@@ -18038,7 +18038,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001259"/>
         <obo:IAO_0000115>Any tube, opening or passage that connects two distinct anatomical spaces.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0004111</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
@@ -18650,7 +18650,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001164"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
         <obo:IAO_0000115>Orifice at the opposite end of an animal&apos;s digestive tract from the mouth.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0001245</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>anal opening</oboInOwl:hasRelatedSynonym>
@@ -19385,7 +19385,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
         <rdfs:label xml:lang="en">arthropod foramen</rdfs:label>
     </owl:Class>
     
@@ -19394,7 +19394,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001223"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000951"/>
         <rdfs:label xml:lang="en">antennal foramen</rdfs:label>
     </owl:Class>
     
@@ -19684,6 +19684,24 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000318"/>
         <rdfs:label xml:lang="en">wall of blood vessel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:label xml:lang="en">anatomical conduit space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:label xml:lang="en">anatomical cavity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
