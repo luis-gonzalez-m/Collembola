@@ -4978,7 +4978,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
@@ -5011,7 +5011,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
@@ -5132,7 +5132,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
@@ -5158,7 +5158,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -5287,7 +5287,7 @@ do Museum Zoológico da Universidade de Coimbra, 301, 1–25.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second posterior chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -5337,7 +5337,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
@@ -5363,7 +5363,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -5389,7 +5389,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -5415,7 +5415,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
@@ -5677,7 +5677,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
@@ -5703,7 +5703,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -5738,7 +5738,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -5764,7 +5764,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
@@ -5847,7 +5847,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 1.</obo:IAO_0000115>
@@ -5880,7 +5880,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -5913,7 +5913,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -5939,7 +5939,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sixth chaeta of anterior row on medial-external axis of abdominal segment 5.</obo:IAO_0000115>
@@ -6016,7 +6016,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -6042,7 +6042,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The seventh chaeta of anterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -6171,14 +6171,21 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">Ae1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ae1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000412</oboInOwl:id>
         <rdfs:label>chaeta Ae1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000412"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ae1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6189,14 +6196,21 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The second chaeta of row Ae on the abdominal segment 4.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">Ae2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ae2</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000413</oboInOwl:id>
         <rdfs:label>chaeta Ae2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000413"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ae2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6207,13 +6221,21 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ae3</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000414</oboInOwl:id>
         <rdfs:label>chaeta Ae3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000414"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ae3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6224,13 +6246,21 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth chaeta of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ae4</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000415</oboInOwl:id>
         <rdfs:label>chaeta Ae4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000415"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ae4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6241,13 +6271,21 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth chaeta of row Ae on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ae5</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000416</oboInOwl:id>
         <rdfs:label>chaeta Ae5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000416"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ae5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -6343,10 +6381,11 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The supplementary chaeta thta compose the external bothriotrical complex of abdominal segment 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">supplementary chaeta am6</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000421</oboInOwl:id>
         <rdfs:label>chaeta am6.ab3</rdfs:label>
     </owl:Class>
@@ -6588,10 +6627,11 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A sensillum adjacent to chaeta m3.ab2 on abdominal segment 2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">sens as</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000431</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta as.ab2</rdfs:label>
     </owl:Class>
@@ -6605,7 +6645,7 @@ https://doi.org/10.5252/z2017n1a12</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6655,7 +6695,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B1 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6680,7 +6720,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B2 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6730,7 +6770,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B3 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6762,7 +6802,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta B4 of row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6818,7 +6858,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior row B on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -6914,10 +6954,11 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row Be on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Be1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000444</oboInOwl:id>
         <rdfs:label>chaeta Be1</rdfs:label>
     </owl:Class>
@@ -6931,10 +6972,11 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Be1 of row Be on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Be2</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000445</oboInOwl:id>
         <rdfs:label>chaeta Be2</rdfs:label>
     </owl:Class>
@@ -6948,10 +6990,11 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta Be2 of row Be on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Be3</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000446</oboInOwl:id>
         <rdfs:label>chaeta Be3</rdfs:label>
     </owl:Class>
@@ -7025,18 +7068,18 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">C1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">C1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000450</oboInOwl:id>
         <rdfs:label>chaeta C1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000450"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">C1</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
 219pp.</obo:AISM_0000171>
@@ -7070,14 +7113,21 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta C1 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">C1p</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">C1p</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000452</oboInOwl:id>
         <rdfs:label>chaeta C1p</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000452"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">C1p</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -7088,18 +7138,18 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta anterior to chaeta C3 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">C2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">C2</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000453</oboInOwl:id>
         <rdfs:label>chaeta C2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000453"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">C2</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
 219pp.</obo:AISM_0000171>
@@ -7139,18 +7189,18 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta C2 of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">C3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">C3</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000455</oboInOwl:id>
         <rdfs:label>chaeta C3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000455"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">C3</owl:annotatedTarget>
         <obo:AISM_0000171>Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
 219pp.</obo:AISM_0000171>
@@ -7190,7 +7240,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most posterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7274,7 +7324,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7318,7 +7368,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D1 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7355,7 +7405,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D2 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7392,7 +7442,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta D3 of row D on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7440,7 +7490,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row De on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7465,7 +7515,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta De1 of row De on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7490,7 +7540,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta most anterior of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7516,7 +7566,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E1 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7541,7 +7591,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E2 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7567,7 +7617,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E3 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -7593,7 +7643,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta E4 of row E on fourth abdominal segment chaeta.</obo:IAO_0000115>
@@ -10849,7 +10899,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta most anterior of row T on  the abdominal segment 4.</obo:IAO_0000115>
@@ -10880,7 +10930,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T1 of row T on  the abdominal segment 4.</obo:IAO_0000115>
@@ -10912,7 +10962,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T2 of row T on  the abdominal segment 4.</obo:IAO_0000115>
@@ -10944,7 +10994,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</obo:IAO_0000115>
@@ -10976,7 +11026,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T4 of row T on  the abdominal segment 4.</obo:IAO_0000115>
@@ -11008,7 +11058,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T5 of row T on the abdominal segment 4.</obo:IAO_0000115>
@@ -11040,7 +11090,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta posterior to chaeta T6 of row T on the abdominal segment 4.</obo:IAO_0000115>
@@ -11068,6 +11118,12 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000663">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta posterior to chaeta T7 on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000663</oboInOwl:id>
         <rdfs:label xml:lang="en">chaeta Te3</rdfs:label>
@@ -15109,7 +15165,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of anterior row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
@@ -19573,6 +19629,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite I</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 1</rdfs:label>
     </owl:Class>
     
@@ -19582,6 +19645,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite II</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 2</rdfs:label>
     </owl:Class>
     
@@ -19591,6 +19661,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite III</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 3</rdfs:label>
     </owl:Class>
     
@@ -19600,6 +19677,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite IV</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 4</rdfs:label>
     </owl:Class>
     
@@ -19609,6 +19693,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite V</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 5</rdfs:label>
     </owl:Class>
     
@@ -19618,6 +19709,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal tergite VI</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal tergite 6</rdfs:label>
     </owl:Class>
     
