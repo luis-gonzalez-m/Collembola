@@ -185,6 +185,8 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001220 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001220">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label>has_part</rdfs:label>
     </owl:ObjectProperty>
     
@@ -195,6 +197,15 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001272">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label xml:lang="en">encircled by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002371 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002371">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label xml:lang="en">attached_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -663,10 +674,11 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
         <obo:IAO_0000115>Part of internal apodeme.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>endosternum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000042</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Blanke &amp; Machida (2015) stated that the term &quot;endsternite&quot; is not correct and it is interpreted as a tendon</rdfs:comment>
         <rdfs:label>endosternite</rdfs:label>
     </owl:Class>
     
@@ -816,9 +828,9 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <obo:IAO_0000115 xml:lang="en">The anterior connective area of cuticular fulcro-tentorimum.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
-        <dc:source>The anterior connective area of cuticular fulcro-tentorimum.</dc:source>
         <oboInOwl:id>CLAO:0000052</oboInOwl:id>
         <rdfs:label>anterior pseudotentorium</rdfs:label>
     </owl:Class>
@@ -15374,7 +15386,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000907">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
         <obo:IAO_0000115>The posterior connective area of cuticular fulcro-tentorimum.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
         <oboInOwl:id>CLAO:0000907</oboInOwl:id>
@@ -20187,6 +20199,117 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001273"/>
         <rdfs:label xml:lang="en">appendage segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000950"/>
+        <rdfs:label xml:lang="en">furca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">profurca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mesofurca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">metafurca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:label xml:lang="en">lateral craniotentorial muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <obo:IAO_0000115 xml:lang="en">The skeletal muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">The definition includes the property &quot;attached to&quot; instead of &quot;continuous with&quot; becuase the cuticle and muscle are structurally different.</rdfs:comment>
+        <rdfs:label xml:lang="en">medial craniotentorial muscle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001280"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The skeletal muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina IV, Potapov MB, Polilov AA. 2019. Effects of miniaturization in the anatomy of the minute springtail
+Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http://doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-15</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:label xml:lang="en">posterior craniomandibular muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:label xml:lang="en">tentoriomandibular muscle 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000990"/>
+        <rdfs:comment xml:lang="en">this structure is not homologues with the tentorium of Insecta (see Blanke et al. 2015).</rdfs:comment>
+        <rdfs:label xml:lang="en">pseudotentorium</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
