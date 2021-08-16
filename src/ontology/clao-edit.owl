@@ -666,7 +666,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000042"/>
         <oboInOwl:id>CLAO:0000041</oboInOwl:id>
-        <rdfs:label>lateral endosternite</rdfs:label>
+        <rdfs:label xml:lang="en">lateral endosternite 1</rdfs:label>
     </owl:Class>
     
 
@@ -840,7 +840,7 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
         <oboInOwl:id>CLAO:0000053</oboInOwl:id>
         <rdfs:label>antennary pseudotentorium</rdfs:label>
     </owl:Class>
@@ -20308,8 +20308,30 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">pseudo-tentorial plate</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">this structure is not homologues with the tentorium of Insecta (see Blanke et al. 2015).</rdfs:comment>
         <rdfs:label xml:lang="en">pseudotentorium</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">pseudo-tentorial plate</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Koch, M. (2000). The cuticular cephalic endoskeleton of primarily wingless hexapods: ancestral state and evolutionary changes. Pedobiologia, 44(3-4), 374-385.</obo:AISM_0000171>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000042"/>
+        <rdfs:label xml:lang="en">lateral endosternite 4</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
