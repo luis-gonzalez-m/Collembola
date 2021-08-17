@@ -201,6 +201,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001291 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001291">
+        <rdfs:label xml:lang="en">ventral_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001292 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001292">
+        <rdfs:label xml:lang="en">posterior_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
+        <rdfs:label xml:lang="en">continuous_with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002371 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002371">
@@ -651,6 +675,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The sclerotized structure that connects the lingua and the antero-lateral portion of pseudotentorium.</obo:IAO_0000115>
         <dc:source>Bitsch &amp; Bitsch, 2002</dc:source>
         <oboInOwl:hasRelatedSynonym>anterior apodemes</oboInOwl:hasRelatedSynonym>
@@ -658,6 +688,14 @@
         <oboInOwl:id>CLAO:0000040</oboInOwl:id>
         <rdfs:label>arms of folsom</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The sclerotized structure that connects the lingua and the antero-lateral portion of pseudotentorium.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bitsch, C., &amp; Bitsch, J. (2002). The endoskeletal structures in arthropods: cytology, morphology and evolution. Arthropod Structure &amp; Development, 30(3), 159-177.</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-17</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -717,12 +755,18 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Sclerites located between hypopharynx to medial wall of gnathal pouches.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
+        <oboInOwl:hasExactSynonym xml:lang="en">fulturae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>fulcral arms</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>fulcre</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>fultura</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000045</oboInOwl:id>
         <rdfs:label>fulcrum</rdfs:label>
     </owl:Class>
@@ -774,10 +818,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">posterior tentorial arm</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000048</oboInOwl:id>
         <rdfs:comment>View Manton and Harding, 1964</rdfs:comment>
         <rdfs:label>posterior tentorial apodeme</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">posterior tentorial arm</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Goto, H. E. (1972). On the structure and function of the mouthparts of the soil-inhabiting collembolan Folsomia candida. Biological journal of the Linnean Society, 4(2), 147-168.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -829,6 +880,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001288"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The anterior connective area of cuticular fulcro-tentorimum.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
         <oboInOwl:id>CLAO:0000052</oboInOwl:id>
@@ -841,6 +898,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001288"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id>CLAO:0000053</oboInOwl:id>
         <rdfs:label>antennary pseudotentorium</rdfs:label>
     </owl:Class>
@@ -850,22 +913,52 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The sclerite located medially in the preoral cavivity, posterior to labium, ventral to gnathal pouch, and attached to the posterior tentorial apodeme.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>Maxillule</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>lingua</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maxillula</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>super lingua</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>superlingua</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000054</oboInOwl:id>
         <rdfs:label>hypopharynx</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The sclerite located medially in the preoral cavivity, posterior to labium, ventral to gnathal pouch, and attached to the posterior tentorial apodeme.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-17</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1892,7 +1985,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area external to chaeta m2.ab2 in the abdominal segment 2.</obo:IAO_0000115>
@@ -1910,7 +2003,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
@@ -1927,7 +2020,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
@@ -1944,7 +2037,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
@@ -1961,7 +2054,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
@@ -1978,7 +2071,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
@@ -1995,7 +2088,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area internal to chaeta a5.ab2 in the abdominal segment 2.</obo:IAO_0000115>
@@ -2013,7 +2106,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area located on medial area of abdominal segment 3.</obo:IAO_0000115>
@@ -2032,7 +2125,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area external and adjacent to area A2 in the abdominal segment 3.</obo:IAO_0000115>
@@ -2051,7 +2144,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area located between the chaeta a5.ab3 and chaeta m2.ab3 in the abdominal segment 3.</obo:IAO_0000115>
@@ -2070,7 +2163,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area most anterior located on medial area of abdominal segment 4.</obo:IAO_0000115>
@@ -2088,7 +2181,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area posterior to area A6 on medial area of abdominal segment 4.</obo:IAO_0000115>
@@ -2106,7 +2199,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area posterior to area A7 on medial area of abdominal segment 4.</obo:IAO_0000115>
@@ -2124,7 +2217,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area most posterior located on medial area of abdominal segment 4.</obo:IAO_0000115>
@@ -3302,7 +3395,14 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000251">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001052"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">glossa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tongue</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000251</oboInOwl:id>
         <rdfs:label>lingua</rdfs:label>
@@ -15387,6 +15487,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000907">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001288"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The posterior connective area of cuticular fulcro-tentorimum.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
         <oboInOwl:id>CLAO:0000907</oboInOwl:id>
@@ -17921,10 +18033,11 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001170"/>
         <obo:IAO_0000115>Middle subdivision of a digestive tract.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0001036</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Midgut</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">midgut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">mesenteron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mid intestine</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mid-gut</oboInOwl:hasRelatedSynonym>
@@ -17963,6 +18076,12 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001175"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The part of the stomodeum between the mouth and the oesophagus.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0000132</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">esophage</oboInOwl:hasRelatedSynonym>
@@ -17977,6 +18096,12 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001175"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The anatomical space that is located proximal to the cibarium.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0000102</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001088</oboInOwl:id>
@@ -17988,9 +18113,10 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001170"/>
         <obo:IAO_0000115>Inward fold on the surface of the embryonic ectoderm that develops into an ectodermal terminal part of the digestive tract.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000931</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">hindgut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>hind gut</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001089</oboInOwl:id>
         <rdfs:label>proctodaeum</rdfs:label>
@@ -18001,13 +18127,30 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001175"/>
-        <obo:IAO_0000115>Anterior subdivision of a digestive tract.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001170"/>
+        <obo:IAO_0000115 xml:lang="en">Section of digestive tract between the mouth opening and the oesophagus.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The anterior ectodermal part of the alimentary canal.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000930</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">foregut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>fore gut</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001090</oboInOwl:id>
         <rdfs:label>stomodaeum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Section of digestive tract between the mouth opening and the oesophagus.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anterior ectodermal part of the alimentary canal.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Snodgrass R. E. (1935) Principles of Insect Morphology. McGraw Hill, New York.</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-07-18</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20314,10 +20457,31 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001288"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The connective tissue located in hte ventral side of stomodeum</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">pseudo-tentorial plate</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">this structure is not homologues with the tentorium of Insecta (see Blanke et al. 2015).</rdfs:comment>
         <rdfs:label xml:lang="en">pseudotentorium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The connective tissue located in hte ventral side of stomodeum</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Bitsch, C., &amp; Bitsch, J. (2002). The endoskeletal structures in arthropods: cytology, morphology and evolution. Arthropod Structure &amp; Development, 30(3), 159-177.</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-17</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -20332,6 +20496,30 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000042"/>
         <rdfs:label xml:lang="en">lateral endosternite 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001254"/>
+        <rdfs:label xml:lang="en">collagen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">lateral superlingua</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
