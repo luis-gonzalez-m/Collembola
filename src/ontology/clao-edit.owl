@@ -217,6 +217,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001298 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001298">
+        <rdfs:label xml:lang="en">dorsal_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
@@ -762,14 +770,48 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Sclerites located between hypopharynx to medial wall of gnathal pouches.</obo:IAO_0000115>
         <dc:source>Bitsch and Bitsch, 2000</dc:source>
+        <oboInOwl:hasExactSynonym xml:lang="en">fulcra</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">fulturae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypopharyngeal branches</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypopharyngeal fulturae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">posterior tentorial arm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>fulcral arms</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>fulcre</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000045</oboInOwl:id>
         <rdfs:label>fulcrum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">posterior tentorial arm</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Goto, H. E. (1972). On the structure and function of the mouthparts of the soil-inhabiting collembolan Folsomia candida. Biological journal of the Linnean Society, 4(2), 147-168.</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -3402,6 +3444,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">medial lingua</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">glossa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tongue</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000251</oboInOwl:id>
@@ -4227,7 +4270,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <oboInOwl:hasRelatedSynonym>lenticular organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>oval organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>parapseudocellus</oboInOwl:hasRelatedSynonym>
@@ -11557,7 +11600,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000670">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000667"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <dc:source>Nayrolles, 1993</dc:source>
         <oboInOwl:hasRelatedSynonym>appendicular seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000670</oboInOwl:id>
@@ -11570,7 +11613,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000671">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000667"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on medial line of frontal side of head capsule.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:hasRelatedSynonym>hair shaft</oboInOwl:hasRelatedSynonym>
@@ -11598,8 +11641,8 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located in the centroapical side of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Kiang et al. 2018</dc:source>
         <oboInOwl:id>CLAO:0000673</oboInOwl:id>
@@ -11730,7 +11773,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11801,7 +11844,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000690 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000690">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on abdominal segments.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>soie sensorielle adbdominale</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000690</oboInOwl:id>
@@ -11813,7 +11856,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000691 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000691">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on ventral side of abdominal segment 6.</obo:IAO_0000115>
         <dc:source>André, 1988</dc:source>
         <oboInOwl:id>CLAO:0000691</oboInOwl:id>
@@ -11825,7 +11868,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on body in the adult stage.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000692</oboInOwl:id>
         <rdfs:comment>Vestiture definition for the adult stage. See Chaetotaxy</rdfs:comment>
@@ -11837,7 +11880,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on ventral side of abdominal segment 5.</obo:IAO_0000115>
         <dc:source>André, 1988</dc:source>
         <oboInOwl:hasRelatedSynonym>aggenital setae</oboInOwl:hasRelatedSynonym>
@@ -11850,7 +11893,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on anal area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>anal seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000694</oboInOwl:id>
@@ -11862,7 +11905,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <oboInOwl:id>CLAO:0000695</oboInOwl:id>
         <rdfs:label>anal lobes chaeta</rdfs:label>
     </owl:Class>
@@ -11884,7 +11927,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000697 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000697">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on anal valve.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>anal valve chaetotaxy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>anal valve setae</oboInOwl:hasRelatedSynonym>
@@ -11897,7 +11940,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000698">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <oboInOwl:id>CLAO:0000698</oboInOwl:id>
         <rdfs:label>antegenital chaeta</rdfs:label>
     </owl:Class>
@@ -11907,7 +11950,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11924,7 +11967,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11941,7 +11984,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000701 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000701">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae that compose the anterior row on dorsal side of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
         <oboInOwl:id>CLAO:0000701</oboInOwl:id>
@@ -11954,7 +11997,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11971,7 +12014,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000703 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000703">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11988,7 +12031,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on body in the inmature stage.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000704</oboInOwl:id>
         <rdfs:label>inmature vestiture</rdfs:label>
@@ -12010,7 +12053,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000706 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on interocular area.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000706</oboInOwl:id>
         <rdfs:label>interocular chaeta</rdfs:label>
@@ -12021,7 +12064,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000707 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12039,7 +12082,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12057,7 +12100,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000709 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000709">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on proximal side of labrum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000709</oboInOwl:id>
         <rdfs:label xml:lang="en">labral proximal chaeta</rdfs:label>
@@ -12068,7 +12111,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12092,7 +12135,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000711">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12116,7 +12159,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000712">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12140,7 +12183,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000713">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12270,7 +12313,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000719 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000719">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>A tubercles group located in the anal area.</obo:IAO_0000115>
         <dc:source>Arbea, 2003</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
@@ -12338,7 +12381,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000723">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <dc:source>Danyi &amp; Park, 2016</dc:source>
         <oboInOwl:id>CLAO:0000723</oboInOwl:id>
         <rdfs:comment>This a synonym of antennal segment 3 sense organ?</rdfs:comment>
@@ -12350,7 +12393,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000724 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000724">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12370,6 +12413,12 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000724"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000918"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae that together chaeta T2 is located in the anterior region of abdominal segment 4.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000725</oboInOwl:id>
         <rdfs:label>anterior bothriotrichal complex</rdfs:label>
@@ -12381,6 +12430,12 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000724"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000917"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae that together chaeta T4 is located in the anterior region of abdominal segment 4.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000726</oboInOwl:id>
         <rdfs:label>posterior bothriotrichal complex</rdfs:label>
@@ -12391,7 +12446,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000727">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae around of genital plate.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>circumanal seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000727</oboInOwl:id>
@@ -12422,7 +12477,13 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on collophore.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000729</oboInOwl:id>
         <rdfs:label>collophore chaeta</rdfs:label>
@@ -12444,7 +12505,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12479,7 +12540,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000733 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000733">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located in the centromedial side of antennal segment 4.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000733</oboInOwl:id>
         <rdfs:label xml:lang="en">centromedial chaeta</rdfs:label>
@@ -12490,7 +12551,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000734 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
         <oboInOwl:id>CLAO:0000734</oboInOwl:id>
         <rdfs:label>distal proximal chaeta</rdfs:label>
@@ -12501,7 +12562,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000735">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on dorsal side of antenna.</obo:IAO_0000115>
         <dc:source>Smolis and Kuznetsova, 2018</dc:source>
         <oboInOwl:id>CLAO:0000735</oboInOwl:id>
@@ -12513,7 +12574,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000736 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <oboInOwl:id>CLAO:0000736</oboInOwl:id>
         <rdfs:label>eugenital chaeta</rdfs:label>
     </owl:Class>
@@ -12547,7 +12608,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on anterior region of head.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000738</oboInOwl:id>
         <rdfs:label>facial chaeta</rdfs:label>
@@ -12558,7 +12619,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000739">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on frontoclypeal area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>frontoclypeal setae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000739</oboInOwl:id>
@@ -12570,7 +12631,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000740 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000740">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12589,7 +12650,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000741 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000741">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on genital plate.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>soies circumgenitales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>soies genitales</oboInOwl:hasRelatedSynonym>
@@ -12602,7 +12663,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000742 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae that compose, together cup-like chaetae, the Antennal segment 3 sense organ.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>guard setae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000742</oboInOwl:id>
@@ -12614,7 +12675,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000743 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000743">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on basal side of labrum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000743</oboInOwl:id>
         <rdfs:label>labral basal chaeta</rdfs:label>
@@ -12625,7 +12686,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000744 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12644,11 +12705,11 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000745">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on lateral side of abdominal segment 3.</obo:IAO_0000115>
@@ -12687,7 +12748,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000747">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae that compose the medial row on dorsal side of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000747</oboInOwl:id>
@@ -12706,7 +12767,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000748 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000748">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12746,7 +12807,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000749 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000749">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12771,7 +12832,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000750 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000750">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115 xml:lang="en">The group of modified chaetae located on abdominal segment 4 or basal side of furcula.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>neosminthuroid seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000750</oboInOwl:id>
@@ -12821,7 +12882,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000753 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000753">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on postantennal area.</obo:IAO_0000115>
         <dc:source>Loring and Snider, 1983</dc:source>
         <oboInOwl:hasRelatedSynonym>postantennal seta</oboInOwl:hasRelatedSynonym>
@@ -12853,7 +12914,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000755 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000755">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12871,7 +12932,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000756 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000756">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae that compose the postsutural row on dorsal side of cephalic capsule.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">postsutural line</oboInOwl:hasRelatedSynonym>
@@ -13551,11 +13612,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The group of chaetae located on clypeus.</obo:IAO_0000115>
@@ -13721,7 +13788,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <!-- http://purl.obolibrary.org/obo/CLAO_0000797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000797">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -14031,7 +14098,7 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000814">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <obo:IAO_0000115>The group of chaetae located on frons.</obo:IAO_0000115>
         <dc:source>Loring and Snider, 1983</dc:source>
         <oboInOwl:hasRelatedSynonym>frontal setae</oboInOwl:hasRelatedSynonym>
@@ -14712,6 +14779,12 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000852">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cylindrical midventral appendage on the first abdominal segment with paired eversible vesicles.</obo:IAO_0000115>
         <dc:source>Christiansen &amp; Bellinger (1980)</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
@@ -15674,7 +15747,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000920 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000920">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <dc:source>Danyi &amp; Park, 2016</dc:source>
         <oboInOwl:id>CLAO:0000920</oboInOwl:id>
         <rdfs:label>posteroventral chaeta</rdfs:label>
@@ -19807,6 +19880,12 @@ this is a anatomical sphincter</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000948"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A delicate, cylindrical sheath of chitin continuously secreted from the posterior edge of the foregut of insects and millipedes that ingest solid food, which surrounds the food as it passes through the midgut.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0001038</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ebi.ac.uk/ols/ontologies/BTO/terms?obo_id=BTO:0002316</oboInOwl:hasDbXref>
@@ -19921,6 +20000,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 1</rdfs:label>
     </owl:Class>
     
@@ -19930,6 +20015,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 2</rdfs:label>
     </owl:Class>
     
@@ -19939,6 +20030,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 3</rdfs:label>
     </owl:Class>
     
@@ -19948,6 +20045,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 4</rdfs:label>
     </owl:Class>
     
@@ -19957,6 +20060,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 5</rdfs:label>
     </owl:Class>
     
@@ -19966,6 +20075,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001229"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">abdominal sternite 6</rdfs:label>
     </owl:Class>
     
@@ -20196,7 +20311,14 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001257 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001257">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001137"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001297"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">skeletal muscle tissue</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">skeletal musculature</rdfs:label>
     </owl:Class>
     
@@ -20341,6 +20463,13 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001273"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ring sclerite that is part of an appendage and is attached to muscle.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">appendage segment</rdfs:label>
     </owl:Class>
     
@@ -20350,6 +20479,12 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000950"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">furca</rdfs:label>
     </owl:Class>
     
@@ -20520,6 +20655,144 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">lateral superlingua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001147"/>
+        <rdfs:label xml:lang="en">muscle tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">cardiac muscle tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cardiac musculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">visceral muscle tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">visceral musculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:label xml:lang="en">cellular anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001296"/>
+        <rdfs:label xml:lang="en">myofilament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001129"/>
+        <rdfs:label xml:lang="en">tracheal system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <rdfs:label xml:lang="en">trachea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <rdfs:label xml:lang="en">cephalic bundle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001300"/>
+        <rdfs:label xml:lang="en">leg trachea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001302"/>
+        <rdfs:label xml:lang="en">protoracic leg trachea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <rdfs:label xml:lang="en">thoracic bundle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001302"/>
+        <rdfs:label xml:lang="en">mesothoraci leg trachea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:label xml:lang="en">spiracle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:label xml:lang="en">anatomical collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001307"/>
+        <obo:IAO_0000115 xml:lang="en">The anatomical collection that is composed of setae.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">setose</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
