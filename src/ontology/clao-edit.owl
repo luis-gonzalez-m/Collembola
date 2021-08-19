@@ -3457,12 +3457,20 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001052"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">galea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maxillary palps</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxillary ramus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxilliary lobe</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>palp of maxilla</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">palpifer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>simple maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000252</oboInOwl:id>
         <rdfs:label xml:lang="en">maxillary outer lobe</rdfs:label>
@@ -7509,7 +7517,15 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000463">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The first guard appendage on papilla D of labial palp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">d1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">guard appendage d1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000463</oboInOwl:id>
         <rdfs:label>chaeta d1</rdfs:label>
     </owl:Class>
@@ -7546,7 +7562,15 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000465">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The second guard appendage on papilla D of labial palp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">d2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">guard appendage d2</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000465</oboInOwl:id>
         <rdfs:label>chaeta d2</rdfs:label>
     </owl:Class>
@@ -7583,7 +7607,15 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000467">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The third guard appendage on papilla D of labial palp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">d3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">guard appendage d3</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000467</oboInOwl:id>
         <rdfs:label>chaeta d3</rdfs:label>
     </owl:Class>
@@ -7620,7 +7652,15 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth guard appendage on papilla D of labial palp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">d4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">guard appendage d4</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000469</oboInOwl:id>
         <rdfs:label>chaeta d4</rdfs:label>
     </owl:Class>
@@ -7631,7 +7671,15 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth guard appendage on papilla D of labial palp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">d5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">guard appendage d5</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000470</oboInOwl:id>
         <rdfs:label>chaeta d5</rdfs:label>
     </owl:Class>
@@ -11556,6 +11604,12 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000667">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000892"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located in the subdistal area on external side of tibiotarsus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>subapical hair</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tectal</oboInOwl:hasRelatedSynonym>
@@ -11678,11 +11732,32 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000676">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
-        <obo:IAO_0000115>The muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000862"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The skeletal muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000676</oboInOwl:id>
         <rdfs:label>antennotentorial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000676"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The skeletal muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-19</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14596,11 +14671,32 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000836">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
-        <obo:IAO_0000115>The muscle that connects the dorsolateral side of basal ridge of mandible and frons.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The skeletal muscle that connects the dorsolateral side of basal ridge of mandible and frons.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000836</oboInOwl:id>
         <rdfs:label>anterior craniomandibular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000836"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The skeletal muscle that connects the dorsolateral side of basal ridge of mandible and frons.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-19</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15502,6 +15598,30 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000912"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The appendage that is located inside of cephalic capsule and connecting via stipital stud to mandible and articulates with the cranium via apodeme of head capsule and cardo-posterior tentorial membrane</obo:IAO_0000115>
         <dc:source>Blanke et al. 2015</dc:source>
         <oboInOwl:id>CLAO:0000902</oboInOwl:id>
@@ -15822,11 +15942,32 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000926">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
-        <obo:IAO_0000115>The muscle that connects the dorsomedial side of occiput and lateral margin of cardo.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The skeletal muscle that connects the dorsomedial side of occiput and lateral margin of cardo.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000926</oboInOwl:id>
         <rdfs:label>craniumcardinal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000926"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The skeletal muscle that connects the dorsomedial side of occiput and lateral margin of cardo.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-19</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17251,7 +17392,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area that corresponds to the site of origin of the clypeo-epipharyngeal muscle.</obo:IAO_0000115>
@@ -20539,6 +20680,18 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">lateral craniotentorial muscle</rdfs:label>
     </owl:Class>
     
@@ -20548,6 +20701,18 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The skeletal muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">The definition includes the property &quot;attached to&quot; instead of &quot;continuous with&quot; becuase the cuticle and muscle are structurally different.</rdfs:comment>
         <rdfs:label xml:lang="en">medial craniotentorial muscle</rdfs:label>
@@ -20568,6 +20733,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">posterior craniomandibular muscle</rdfs:label>
     </owl:Class>
     
@@ -20577,6 +20754,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">tentoriomandibular muscle 1</rdfs:label>
     </owl:Class>
     
@@ -20793,6 +20982,168 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001307"/>
         <obo:IAO_0000115 xml:lang="en">The anatomical collection that is composed of setae.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">setose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <rdfs:label xml:lang="en">tracheola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The frons is fused with the clypeous.</rdfs:comment>
+        <rdfs:label xml:lang="en">frons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">craniomandibular muscle 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">craniomandibular muscle 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">craniomandibular muscle 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">craniomandibular muscle 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">craniomandibular muscle 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">medial craniostipital muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000954"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">maxillary capitulum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">maxillary head</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">capitulum</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
