@@ -225,6 +225,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002134 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002134">
+        <rdfs:label xml:lang="en">innervates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150">
@@ -621,6 +629,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id>CLAO:0000032</oboInOwl:id>
         <rdfs:label>pars intercebralis</rdfs:label>
     </owl:Class>
@@ -1574,6 +1588,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the antenna.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf antennaire</oboInOwl:hasRelatedSynonym>
@@ -1587,6 +1607,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the corpora cardiacum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000109</oboInOwl:id>
         <rdfs:label>corpora cardiacum nerve</rdfs:label>
@@ -1598,6 +1624,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the hypopharinx.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerfs hypopharyngiens</oboInOwl:hasRelatedSynonym>
@@ -1624,6 +1656,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the labium.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerfs labiaux</oboInOwl:hasRelatedSynonym>
@@ -1637,6 +1675,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the mandible.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Nerfs mandibulaires</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000113</oboInOwl:id>
@@ -1649,6 +1693,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the maxilla.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerfs maxillaires</oboInOwl:hasRelatedSynonym>
@@ -1662,6 +1712,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A nerve located in the suboesphageal ganglion and that innervates the mandible.</obo:IAO_0000115>
         <dc:source>Denis, 1928; Hopkins, 1997</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerfs d&apos;Hoffmann</oboInOwl:hasRelatedSynonym>
@@ -1687,6 +1743,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the eye patch.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf optique</oboInOwl:hasRelatedSynonym>
@@ -1712,6 +1774,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the postantennal organ.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf fostantennaire</oboInOwl:hasRelatedSynonym>
@@ -17051,6 +17119,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000999">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000998"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>One of a pair of separate or fused bodies in many insects that are sometimes closely associated with the corpora cardiaca and that secrete hormones (as juvenile hormone).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000291</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Corpora_allata</oboInOwl:hasDbXref>
@@ -17064,6 +17138,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000998"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000432</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org</oboInOwl:hasDbXref>
@@ -19241,6 +19321,12 @@ this is a anatomical sphincter</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001382"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The anterior part of the arthropod brain.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0003868</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:The_Free_Encyclopedia</oboInOwl:hasDbXref>
@@ -19467,6 +19553,12 @@ this is a anatomical sphincter</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000989"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001433"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Any one of the fibrous tracts of the peripheral nervous system, whether a single fiber or a group of fibers; a nerve trunk.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0001021</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001172</oboInOwl:id>
@@ -23248,6 +23340,12 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001434">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001382"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">antennal lobe</rdfs:label>
     </owl:Class>
     
@@ -23333,6 +23431,79 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">column Z</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mushroom body-like structures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001379"/>
+        <rdfs:label xml:lang="en">globuli cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001432"/>
+        <rdfs:label xml:lang="en">neuron projection bundle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001443"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">peduncle</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">neural peduncle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">protocerebral bridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">suboesophageal nerve</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
