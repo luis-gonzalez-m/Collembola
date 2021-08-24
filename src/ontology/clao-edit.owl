@@ -1273,6 +1273,15 @@
         <oboInOwl:id>CLAO:0000075</oboInOwl:id>
         <rdfs:label>tentoriocardinal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The muscle that connects the basal side of pseudotentorium and cardo.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1426,11 +1435,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
-        <obo:IAO_0000115>The muscle located from posterior tentorial apodemes to posterior endoskeletal plate.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the posterior tentorial apodeme and pseudotentorium.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000093</oboInOwl:id>
         <rdfs:label>oblique endoskeletal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the posterior tentorial apodeme and pseudotentorium.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20804,7 +20832,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001279">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -20817,8 +20845,20 @@ possesses non-connected boundaries.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the oesophagous and frontal sclerite.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. craniotentorialis lateralis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>1(Pst)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">lateral craniotentorial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001279"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the oesophagous and frontal sclerite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21280,17 +21320,26 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001450"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the gena and chitinous expansion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. craniofurcalis lateralis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">lateral craniofurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001318"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the gena and chitinous expansion.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21307,11 +21356,23 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001450"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the cardo and chitinous expansion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. maxillaris internus 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>4(Mx)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">internal maxillar muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001319"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the cardo and chitinous expansion.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21322,17 +21383,29 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001450"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the stipe and chitinous expansion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. maxillaris internus 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>7(Mx)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">internal maxillar muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001320"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the stipe and chitinous expansion.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21352,8 +21425,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the head capsule and hypopharynx.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. craniohypopharyngealis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">craniohypopharingeal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001321"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the head capsule and hypopharynx.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21373,8 +21457,20 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:AISM_0000171 xml:lang="en">The muscle that connects the oesophagous and antenna.</obo:AISM_0000171>
+        <oboInOwl:hasExactSynonym>M. cranioesophagialis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>1(Oe)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">cranioesophagic muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001322"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000171"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the oesophagous and antenna.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21394,8 +21490,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the occiput and frons.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. occiputo-cranialis medialis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">medial occipitocranial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001323"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the occiput and frons.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">The muscle that connects the oesophagous and frontal sclerite.</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21415,8 +21521,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the occiput and frons.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">M. occiputo-cranialis lateralis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">lateral occipitocranial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001324"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the occiput and frons.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>201-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21454,8 +21571,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma I and occiput.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-occipital muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001327"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma I and occiput.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21485,8 +21612,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma I and occiput.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-occipital muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001329"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma I and occiput.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21506,8 +21643,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the profurca and pseudotentorium.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-pseudotentorial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001330"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the profurca and pseudotentorium.</owl:annotatedTarget>
+        <obo:AISM_0000171>Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21527,8 +21674,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma I and pseudotentorium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. antecosta-pseudotentoralis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">antecosta-pseudotentorial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001331"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma I and pseudotentorium.</owl:annotatedTarget>
+        <obo:IAO_0000115 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:IAO_0000115>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21548,8 +21706,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the occiput and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-occipital muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001332"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the occiput and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21569,8 +21737,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the neck membrane and procoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cervico-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001333"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the neck membrane and procoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21600,8 +21778,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and pronotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral pronoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001335"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and pronotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21621,8 +21809,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and pronotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial pronoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001336"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and pronotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21642,8 +21840,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the fulcrum and occiput.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">occipito-pseudotentorial muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001337"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the fulcrum and occiput.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21663,8 +21871,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the neck membrane and occiput.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">occipito-cervical muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001338"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the neck membrane and occiput.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21684,8 +21902,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-coxal muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001339"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21705,8 +21933,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-coxal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001340"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21726,8 +21964,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-coxal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001341"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21747,8 +21995,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the procoxa and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-coxal muscle 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001342"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the procoxa and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21798,8 +22056,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma II and phragma III.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001346"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma II and phragma III.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21819,8 +22087,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma II and phragma III.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001347"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma II and phragma III.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21840,8 +22118,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesofurca and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">profurca-mesofurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001348"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesofurca and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21861,8 +22149,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial profurca-antecostalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001349"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21882,8 +22180,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral profurca-antecostalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001350"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21903,8 +22211,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesonotum and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior mesonoto-profurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001351"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesonotum and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21924,8 +22242,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesonotum and profurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior mesonoto-profurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001352"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesonotum and profurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21945,8 +22273,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesonotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesonoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001353"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesonotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21975,8 +22313,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesonotum and mesosubcoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior mesonoto-subcoxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001355"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesonotum and mesosubcoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090 xml:lang="en">lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21996,8 +22344,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesonotum and mesosubcoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior mesonoto-subcoxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001356"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesonotum and mesosubcoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22023,8 +22381,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesonotum and the mesocoxa and mesosubcoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">metanoto-subcoxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001358"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesonotum and the mesocoxa and mesosubcoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22044,8 +22412,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and frontal mesonotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior metanoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001359"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and frontal mesonotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22065,8 +22443,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesofurca-coxal muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001360"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22086,8 +22474,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesofurca-coxal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001361"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22107,8 +22505,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesofurca-coxal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001362"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22128,8 +22536,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesofurca-coxal muscle 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001363"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22149,8 +22567,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the profurca and mesocoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral profurca-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001364"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the profurca and mesocoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22170,8 +22598,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial profurca-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001365"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesocoxa and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22191,8 +22629,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesofurca and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mesofurca-metafurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001366"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesofurca and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22212,8 +22660,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and mesofurca.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>M. antecosta-mesofurcalis anterior</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">anterior antecosta-mesofurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001367"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22233,8 +22692,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and mesofurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior antecosta-mesofurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001368"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and mesofurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22254,8 +22723,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the mesofurca and metanotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior metanoto-mesofurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001369"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the mesofurca and metanotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22275,8 +22754,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the meosfurca and metanotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior metanoto-mesofurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001370"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the meosfurca and metanotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22305,8 +22794,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metacoxa and metanotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">metanoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001372"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metacoxa and metanotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22326,8 +22825,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metanotum and metasubcoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior metanoto-subcoxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001374"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metanotum and metasubcoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22347,8 +22856,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metanotum and metasubcoxa.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior metanoto-subcoxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001375"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metanotum and metasubcoxa.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22368,8 +22887,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metacoxa and metanotum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior metanoto-coxal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001376"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metacoxa and metanotum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22443,9 +22972,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and phragma IV.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>M.antecosta-antecostalis medialis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis abdominal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001384"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and phragma IV.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22465,9 +23004,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma III and phragma IV.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>M. antecosta-antecostalis lateralis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis abdominal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001385"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma III and phragma IV.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22487,9 +23036,19 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the endosternite and metafurca.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>M. metafurca-endosternalis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">metafurca-endosternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001386"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the endosternite and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22529,8 +23088,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma IV and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior antecosta-metafurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001389"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma IV and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22550,8 +23119,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001387"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma IV and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior antecosta-metafurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001390"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma IV and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22571,8 +23150,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metafurca and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-metafurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001391"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metafurca and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22592,8 +23181,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metafurca and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-metafurcal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001392"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metafurca and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22607,8 +23206,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001395"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the pleuron.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pleuro-pleuralis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001393"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the pleuron.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22628,8 +23237,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001395"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and pleuron.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tergum-pleuralis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001394"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and pleuron.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22670,8 +23289,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001395"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the metafurca and pleuron.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pleuro-metafurcalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the metafurca and pleuron.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22685,8 +23314,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ventratubular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001398"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22706,8 +23345,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior sterno-coxal muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001399"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22721,8 +23370,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and tendon system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior sterno-coxal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001400"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and tendon system.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22736,8 +23395,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and tendon system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior sterno-coxal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001401"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and tendon system.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22757,8 +23426,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sterno-vesicular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001402"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22778,8 +23457,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-vesicular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001403"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22799,8 +23488,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-vesicular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001404"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22820,8 +23519,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the collophore and metafurca.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">coxal-vesicular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001405"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the collophore and metafurca.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22841,8 +23550,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma IV and phragma V.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis abdominal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001406"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma IV and phragma V.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22862,8 +23581,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma IV and phragma V.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis abdominal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001407"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma IV and phragma V.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22883,8 +23612,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">endosterno-antecostal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001408"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22904,8 +23643,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior antecosta-endosternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001409"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22925,8 +23674,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior antecosta-endosternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001410"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22946,8 +23705,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the endosternite and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-endosternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001411"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the endosternite and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22967,8 +23736,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the endosternite and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-endosternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001412"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the endosternite and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22988,8 +23767,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and sternum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tergum-sternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001413"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and sternum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23009,8 +23798,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and sternum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-sternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001414"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and sternum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23030,8 +23829,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and sternum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-sternal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001415"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and sternum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23045,8 +23854,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the endosternite.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">endosterno-endosternalis muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001416"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the endosternite.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23076,8 +23895,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001417"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and phragma VI.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis abdominal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001418"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and phragma VI.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23097,8 +23926,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001417"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and phragma VI.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis abdominal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001419"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and phragma VI.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23118,8 +23957,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-antecostal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001420"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23139,8 +23988,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma V and notum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-antecostal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001421"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma V and notum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23160,8 +24019,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and sternum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior tergum-sternal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001422"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and sternum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23181,8 +24050,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the notum and sternum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior tergum-sternal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001423"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the notum and sternum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23220,8 +24099,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma VI and phragma VII.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis abdominal muscle 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001426"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma VI and phragma VII.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23241,8 +24130,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma VI and phragma VII.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis abdominal muscle 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001427"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma VI and phragma VII.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23262,8 +24161,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma VII and phragma VIII.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral antecosta-antecostalis abdominal muscle 5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001428"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma VII and phragma VIII.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23283,8 +24192,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the phragma VII and phragma VIII.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial antecosta-antecostalis abdominal muscle 5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001429"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the phragma VII and phragma VIII.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23304,8 +24223,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that connects the adult rectum and tergum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tergum-rectal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001430"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that connects the adult rectum and tergum.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
+http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23504,6 +24433,21 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">suboesophageal nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">chitinous expansion</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
