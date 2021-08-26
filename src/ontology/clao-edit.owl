@@ -225,6 +225,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001453 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001453">
+        <rdfs:label xml:lang="en">encircled_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <oboInOwl:hasExactSynonym xml:lang="en">bearer_of</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">has_characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002134 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002134">
@@ -245,6 +262,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
         <rdfs:label xml:lang="en">adjacent_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
+        <rdfs:label xml:lang="en">has_member</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2696,7 +2721,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001269"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000965"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2846,7 +2871,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -3041,6 +3066,12 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The plate that contains the male genitalia on ventral side of abdominal segment 5.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>male genital papilla</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000209</oboInOwl:id>
@@ -3327,6 +3358,12 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001173"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id>CLAO:0000235</oboInOwl:id>
         <rdfs:label>genital papilla</rdfs:label>
     </owl:Class>
@@ -16690,10 +16727,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000965 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000965">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115>The area that is located on the sclerite and that makes movable direct contact with another sclerite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The region of the cuticle that is composed two articular surfaces that are adjacent to each other.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0001485</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">insect articulation</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000965</oboInOwl:id>
         <rdfs:label>articular surface</rdfs:label>
     </owl:Class>
@@ -17858,7 +17898,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000196"/>
         <obo:IAO_0000115>The area thta contains the labial triangle and labial palp.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000453</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SPD:0000289</oboInOwl:hasDbXref>
@@ -17886,7 +17926,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
         <obo:IAO_0000115>The evagination that is mostly membranous.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001587</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001052</oboInOwl:id>
@@ -17899,8 +17939,10 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001051"/>
+        <obo:IAO_0000115 xml:lang="en">Fiat anatomical region extending a short distance from the boundary of an object inwards.</obo:IAO_0000115>
         <obo:IAO_0000115>The line that delimits the periphery of an area.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000510</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">anatomical margin</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001053</oboInOwl:id>
         <rdfs:label xml:lang="en">margin</rdfs:label>
     </owl:Class>
@@ -19598,7 +19640,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001052"/>
         <obo:IAO_0000115>Surface structure that is a small, fleshy protuberance</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:2001995</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ontobee.org/ontology/UBERON</oboInOwl:hasDbXref>
@@ -20221,7 +20263,15 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001132"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cuticular covering that is composed primarily of chitin. The main structural component of arthropod cuticle is a polysaccharide, chitin, composed of N-acetylglucosamine units, together with proteins and lipids[WP].</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0001001</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">chitin-based cuticle</rdfs:label>
     </owl:Class>
     
@@ -20231,6 +20281,14 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001221"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of the insect integument that is part of the insect cuticle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000174</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">region of cuticle</rdfs:label>
     </owl:Class>
     
@@ -20240,8 +20298,22 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001118"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001453"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Is the anatomical space encircled a sclerite</obo:IAO_0000115>
         <rdfs:label xml:lang="en">arthropod foramen</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001223"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Is the anatomical space encircled a sclerite</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20249,8 +20321,23 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000951"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001453"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The arthropod foramen of the head capsule that contains the antennifer and surrounds the scapus via the antenniferal-scapal conjunctiva.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000198</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">antennal foramen</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001224"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The arthropod foramen of the head capsule that contains the antennifer and surrounds the scapus via the antenniferal-scapal conjunctiva.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20258,8 +20345,31 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001227"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001307"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000947"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of cuticle that corresponds to the evagination of the single layer epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000128</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">multicellular cuticular evagination</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of cuticle that corresponds to the evagination of the single layer epithelium.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20267,8 +20377,17 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <obo:IAO_0000115 xml:lang="en">The region of cuticle that corresponds with an evagination of the cuticle and the single layer epidermis (epidermal fold). The cuticular evagination usually corresponds to a cuticular protrusion (convexity on the surface of the cuticle).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000027</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cuticular evagination</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001227"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of cuticle that corresponds with an evagination of the cuticle and the single layer epidermis (epidermal fold). The cuticular evagination usually corresponds to a cuticular protrusion (convexity on the surface of the cuticle).</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20276,8 +20395,17 @@ possesses non-connected boundaries.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <obo:IAO_0000115 xml:lang="en">The projection of the inner surface of the cuticle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">AISM:0000000</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cuticular internal depression</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001228"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The projection of the inner surface of the cuticle.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20300,6 +20428,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">abdominal sternite I</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">abdominal sternite 1</rdfs:label>
     </owl:Class>
     
@@ -24449,6 +24578,52 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">chitinous expansion</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001452">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000960"/>
+        <obo:IAO_0000115 xml:lang="en">Connected anatomical system that forms a barrier between an animal and its environment. In vertebrates, the integumental system consists of the epidermis, dermis plus associated glands and adnexa such as hair and scales. In invertebrates, the integumental system may include cuticle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0002416</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">integumental system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001053"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical margin that is located on the anterior side of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">BSPO:0000671</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">anterior margin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001456"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical margin that is located on the anterior side of a body or body part.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001053"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical margin that is located on the posterior side of the body or body part.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">posterior margin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001457"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical margin that is located on the posterior side of the body or body part.</owl:annotatedTarget>
+        <AISM:AISM_0002090>lagonzalezmo</AISM:AISM_0002090>
+        <oboInOwl:creation_date>2021-08-25</oboInOwl:creation_date>
+    </owl:Axiom>
 </rdf:RDF>
 
 
