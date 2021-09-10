@@ -4941,7 +4941,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000306">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001080"/>
         <obo:IAO_0000115>One of the subdivisions of the abdomen.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.wikipedia.com</oboInOwl:hasDbXref>
@@ -18559,7 +18559,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
@@ -18613,7 +18619,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
@@ -18632,7 +18644,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
@@ -18799,6 +18817,8 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
         <obo:IAO_0000115>The anatomical system that forms the covering layer of the animal, ectodermal in origin and composed of epidermal cells producing the cuticle.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000421</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0002199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:6007284</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">insect region of integument</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001049</oboInOwl:id>
         <rdfs:label>integument</rdfs:label>
     </owl:Class>
@@ -19184,7 +19204,13 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
@@ -21463,7 +21489,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001546"/>
         <rdfs:label xml:lang="en">abdominal sternite</rdfs:label>
     </owl:Class>
     
@@ -21599,7 +21625,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001080"/>
         <rdfs:label xml:lang="en">abdominal tergite</rdfs:label>
     </owl:Class>
     
@@ -27158,6 +27184,21 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001138"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">epidermis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLAO_0001533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001533">
@@ -27199,6 +27240,15 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-02</oboInOwl:creation_date>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:label xml:lang="en">sternite</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
