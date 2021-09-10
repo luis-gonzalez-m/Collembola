@@ -400,6 +400,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002170 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002170">
+        <rdfs:label xml:lang="en">connected_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
@@ -1789,20 +1797,82 @@ socket</owl:annotatedTarget>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001201"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cell cluster that is adjacent to the cornea and corneagenous cell, and connected to the photoreceptor.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000072</oboInOwl:id>
         <rdfs:label>crystalline cone</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cell cluster that is adjacent to the cornea and corneagenous cell, and connected to the photoreceptor.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000072"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>crystalline cone</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Snodgrass, R. E. (1935). Principles of insect morphology. McGraw-Hill. 678p.
+
+&quot;A transparent subcorneal part of the dioptric apparatus of an eye, formed of cells or of cell products, having an
+oval or conical shape.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The anatomical cluster composed by the cornea, crystallie cone, and corneagenous cell.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000073</oboInOwl:id>
         <rdfs:label>dioptric apparatus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anatomical cluster composed by the cornea, crystallie cone, and corneagenous cell.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>dioptric apparatus</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Snodgrass, R. E. (1932). Principles of insect morphology. Cornell University Press.
+&quot;The outer transparent part of an optic organ, consisting of the cornea and usually of a subcorneal crystalline body.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -1810,11 +1880,20 @@ socket</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001163"/>
+        <obo:IAO_0000115 xml:lang="en">Ommochromes are metabolites of tryptophan, via kynurenine and 3-hydroxykynurenine.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://en.wikipedia.org/wiki/Ommochrome</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>ommochrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ommochromic pigmentation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000074</oboInOwl:id>
         <rdfs:label>ommochromic pigment</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Ommochromes are metabolites of tryptophan, via kynurenine and 3-hydroxykynurenine.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1886,10 +1965,29 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
-        <obo:IAO_0000115>The muscle that originates in head dorsal area and inserts in the transverse mandibular tendon.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000911"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that is attached to the dorsal side of the head capsule head and the transverse mandibular tendon.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000082</oboInOwl:id>
         <rdfs:label>dorsal suspensory muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that is attached to the dorsal side of the head capsule head and the transverse mandibular tendon.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2114,7 +2212,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <oboInOwl:id>CLAO:0000102</oboInOwl:id>
         <rdfs:label>superlingual muscle</rdfs:label>
     </owl:Class>
@@ -12642,7 +12740,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -12655,7 +12753,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The skeletal muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The skeletal muscle that is attached to the lateral side of antennal segment 1 and pseudotentorium.</obo:IAO_0000115>
         <dc:source>Panina et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000676</oboInOwl:id>
         <rdfs:label>antennotentorial muscle</rdfs:label>
@@ -12663,9 +12761,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000676"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The skeletal muscle that connects with the lateral side of antennal segment 1 and pseudotentorium.</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
-http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <owl:annotatedTarget xml:lang="en">The skeletal muscle that is attached to the lateral side of antennal segment 1 and pseudotentorium.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-19</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15582,7 +15678,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000836">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -16885,7 +16981,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000926">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -17469,7 +17565,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000961 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000961">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <obo:IAO_0000115>The muscle that inserts on the antenna.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001172</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000961</oboInOwl:id>
@@ -20520,7 +20616,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001253"/>
         <obo:IAO_0000115 xml:lang="en">An endogenous molecular entity that results in a colour of an organism as the consequence of the selective absorption of light.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CHEBI:26130</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">biological pigment</oboInOwl:hasExactSynonym>
@@ -21090,6 +21186,7 @@ this is a anatomical sphincter</rdfs:comment>
         <oboInOwl:hasDbXref>FBbt:00004192</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001201</oboInOwl:id>
+        <rdfs:comment xml:lang="en">In Collembola these are lateral to the cristalline cone</rdfs:comment>
         <rdfs:label>corneagenous cell</rdfs:label>
     </owl:Class>
     
@@ -21866,9 +21963,17 @@ possesses non-connected boundaries.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Muscle tissue that consists primarily of skeletal muscle fibers.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">skeletal muscle tissue</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">skeletal musculature</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Muscle tissue that consists primarily of skeletal muscle fibers.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22224,7 +22329,7 @@ https://doi.org/10.1515/9783110264043</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22256,7 +22361,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22277,7 +22382,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22594,7 +22699,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22615,7 +22720,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001312">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22636,7 +22741,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001313">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22657,7 +22762,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22678,7 +22783,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001315">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22699,7 +22804,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -22946,18 +23051,35 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <obo:IAO_0000115 xml:lang="en">Any skeletal muscle that is part of the head.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">This term includes muscle attached to the cephalic capsule, mouthparts, and antennae.</rdfs:comment>
         <rdfs:label xml:lang="en">cephalic muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any skeletal muscle that is part of the head.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <obo:IAO_0000115 xml:lang="en">Any skeletal muscle that is part of the thorax.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thoracic muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001326"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any skeletal muscle that is part of the thorax.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23718,9 +23840,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <obo:IAO_0000115 xml:lang="en">Any skeletal muscle that is part of the abdomen.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">abdominal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001354"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any skeletal muscle that is part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
