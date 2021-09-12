@@ -2149,7 +2149,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
         <oboInOwl:id>CLAO:0000089</oboInOwl:id>
         <rdfs:label>internalsagital muscle</rdfs:label>
     </owl:Class>
@@ -2228,9 +2228,29 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the pharynx and the median septum of the head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000094</oboInOwl:id>
         <rdfs:label>pharyngeal dilator muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the pharynx and the median septum of the head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2238,6 +2258,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <obo:IAO_0000115 xml:lang="en">Any muscle attached to the pharynx and the head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000095</oboInOwl:id>
         <rdfs:label>pharyngeal muscle</rdfs:label>
     </owl:Class>
@@ -2332,7 +2353,7 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
         <obo:IAO_0000115 xml:lang="en">A muscle drawing a part forward, as antagonistic to a retractor.</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">https://medical-dictionary.thefreedictionary.com</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000099</oboInOwl:id>
@@ -2398,9 +2419,23 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000251"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any cephalic muscle attached to the lingua.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000102</oboInOwl:id>
         <rdfs:label>superlingual muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000102"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any cephalic muscle attached to the lingua.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2408,10 +2443,41 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the pseudotentorium and the ocellus.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Muscle tentorio-oculaire</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000103</oboInOwl:id>
         <rdfs:label>tentorium-ocular muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000103"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the pseudotentorium and the ocellus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000103"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="fr">Muscle tentorio-oculaire</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="fr">Denis, J. M. R. (1928). Etudes sur l&apos;anatomie de la tête de quelques Collemboles, suivies de considérations sur la morphologie de la tête des Insectes 
+(Doctoral dissertation, Édition des Archives de la Zoologie Expérimentale-Librairie H. De Soudier).
+
+&quot;Il s&apos;insère sur le bras latéral du tentorium antérieur et se porte, longeant le bord médial du
+rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -2480,7 +2546,7 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
         <oboInOwl:id>CLAO:0000106</oboInOwl:id>
         <rdfs:comment xml:lang="en">This a synonym of ventral longitudinal muscle</rdfs:comment>
         <rdfs:label>ventralongitudinal muscle</rdfs:label>
@@ -2491,39 +2557,59 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000108"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000961"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the antennal muscle.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym xml:lang="fr">Nerf moteur antennaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerf moteur antennaire</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000107</oboInOwl:id>
         <rdfs:label>antennal motor nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000107"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the antennal muscle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The nerve that innervates the antenna.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Any nerve that innervates the antenna.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerf antennaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerf antennaire</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000108</oboInOwl:id>
         <rdfs:label>antennal nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000108"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any nerve that innervates the antenna.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2534,13 +2620,20 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000109</oboInOwl:id>
         <rdfs:label>corpora cardiacum nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000109"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the corpora cardiacum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2549,30 +2642,51 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the hypopharinx.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerfs hypopharyngiens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerfs hypopharyngiens</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000110</oboInOwl:id>
         <rdfs:label>hypopharyngeal nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the hypopharinx.</owl:annotatedTarget>
+        <terms:contributor>lagonzalemo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
-        <obo:IAO_0000115>The nerve thta innervates germ bands.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates &quot;intercalary&quot; segements.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>nerf intercalaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">nerf intercalaire</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000111</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Denis (1928) recognized this nerve on the &quot;segmentation&quot; of the nervous system and not in the embryo.</rdfs:comment>
         <rdfs:label>intercalary nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000111"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates &quot;intercalary&quot; segements.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2581,17 +2695,24 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the labium.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerfs labiaux</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerfs labiaux</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000112</oboInOwl:id>
         <rdfs:label>labial nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000112"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the labium.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2599,17 +2720,24 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the mandible.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>Nerfs mandibulaires</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="fr">Nerfs mandibulaires</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000113</oboInOwl:id>
         <rdfs:label>mandibular nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000113"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the mandible.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2618,79 +2746,140 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the maxilla.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerfs maxillaires</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="fr">Nerfs maxillaires</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000114</oboInOwl:id>
         <rdfs:label>maxillar nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000114"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the maxilla.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000999"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000998"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A nerve located in the suboesphageal ganglion and that innervates the mandible.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A nerve that originates in the suboesphageal ganglion and that innervates the neurohemal organ.</obo:IAO_0000115>
         <dc:source>Denis, 1928; Hopkins, 1997</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerfs d&apos;Hoffmann</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerfs d&apos;Hoffmann</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000115</oboInOwl:id>
         <rdfs:label>nerve of hoffmann</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A nerve that originates in the suboesphageal ganglion and that innervates the neurohemal organ.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A nerve located in the prothoracic ganglion and that innervates connective tissue.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000116</oboInOwl:id>
         <rdfs:comment>View Hopkin, 1997</rdfs:comment>
         <rdfs:label>nerve of leydig</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000116"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A nerve located in the prothoracic ganglion and that innervates connective tissue.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The nerve that innervates the eye patch.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the ocellus.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerf optique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerf optique</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000117</oboInOwl:id>
         <rdfs:label>optic nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the ocellus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that connects to the brain and the nerve of Hoffmann.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>nervus parallelus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">nervus parallelus</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000118</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This nerve was named by Denis (1928) as nervus parallelus and apparently correspond to the corpus cardiacum nerves by Cassagnau &amp; Juberthie (1967).</rdfs:comment>
         <rdfs:label>parallel nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that connects to the brain and the nerve of Hoffmann.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
@@ -2703,25 +2892,53 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000119</oboInOwl:id>
         <rdfs:label>postantennal nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the postantennal organ.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates cephalic muscles.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>Nerf postérieur du lobe ventral</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">Nerf postérieur du lobe ventral</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000120</oboInOwl:id>
         <rdfs:label>posterior nerve of ventral lobe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000120"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates cephalic muscles.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Te nerve connected to the anterior side of the protocerebrum.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf protocérébral descendant</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000121</oboInOwl:id>
@@ -2733,21 +2950,44 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the integument of ocellar and frontal region.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf frotocérèbral ascendant</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000122</oboInOwl:id>
         <rdfs:label>protocerebral recurrent nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000122"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the integument of ocellar and frontal region.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000123</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This term refers to the tiny hairlike appareance of the nerves.</rdfs:comment>
         <rdfs:label>tendril</rdfs:label>
     </owl:Class>
     
@@ -2756,26 +2996,46 @@ fibres of the endoskeletal&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <obo:IAO_0000115>The nerve that innervates the tentorium-ocular muscle.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>Nerf du muscle tentorio-oculaire</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000124</oboInOwl:id>
         <rdfs:label>tentorium-ocular muscle nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000124"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the tentorium-ocular muscle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The nerve that innervates the ventral longitudinal muscle.</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>nerf des muscles longitudinaux ventraux</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000125</oboInOwl:id>
         <rdfs:label>ventral longitudinal muscle nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The nerve that innervates the ventral longitudinal muscle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16224,24 +16484,41 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000859 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000859">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <obo:IAO_0000115 xml:lang="en">A nerve that innervates the antennal muscle (mucle z).</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
         <oboInOwl:hasRelatedSynonym>nerf z</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000859</oboInOwl:id>
+        <rdfs:comment xml:lang="en">The muscle x is unidentified by Denis (1928), presumably a tentorial muscle.</rdfs:comment>
         <rdfs:label>nerve z</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000859"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A nerve that innervates the antennal muscle (mucle z).</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000860">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <obo:IAO_0000115 xml:lang="en">A nerve that innervates the antennal muscle (mucle Y).</obo:IAO_0000115>
         <dc:source>Denis, 1928</dc:source>
-        <oboInOwl:hasRelatedSynonym>nerf y</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="fr">nerf y</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000860</oboInOwl:id>
         <rdfs:label>nerve y</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000860"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A nerve that innervates the antennal muscle (mucle Y).</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -18322,6 +18599,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115 xml:lang="en">Any of the organized aggregations of cells that function as secretory or excretory organs of substances into the haemolympha.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0002106</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>arthropod neurohemal organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">neurohaemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">neurohaemeral organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>neurohemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000998</oboInOwl:id>
@@ -20747,6 +21025,7 @@ this is a anatomical sphincter</rdfs:comment>
         <obo:IAO_0000115>The anterior part of the arthropod brain.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0003868</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:The_Free_Encyclopedia</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym xml:lang="fr">nodus postcerebralis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001154</oboInOwl:id>
         <rdfs:label>protocerebrum</rdfs:label>
     </owl:Class>
@@ -26161,15 +26440,23 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001448 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001448">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the corpus allatum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">suboesophageal nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001448"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the corpus allatum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27646,6 +27933,23 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <owl:annotatedTarget xml:lang="en">The region of the cuticle that corresponds to a concave surface.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-02</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001147"/>
+        <obo:IAO_0000115 xml:lang="en">Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">neural tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
     </owl:Axiom>
     
 
