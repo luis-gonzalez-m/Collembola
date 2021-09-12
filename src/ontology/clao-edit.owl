@@ -1019,11 +1019,26 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001142"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Organ at the junction of the midgut and hindgut.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">pyloric valve</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sphincter type orifice</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>pyloric ring</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000034</oboInOwl:id>
         <rdfs:label>pyloric sphincter</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Organ at the junction of the midgut and hindgut.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1933,38 +1948,63 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
-        <dc:source>Matsuda, 1967</dc:source>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the antecosta-occipital muscle of the adult.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Bretfeld, 1963</dc:source>
         <oboInOwl:id>CLAO:0000079</oboInOwl:id>
+        <rdfs:comment xml:lang="en">According to Bretfeld (1963), this muscle is found in the embryo and correspond in the adult to dorsolongitudinal muscle I (I dlm, apparently) and to the I dlm1 sensu Panina et al. (2019)</rdfs:comment>
         <rdfs:label>dorsolongitudinal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the antecosta-occipital muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the lateral antecosta-antecostalis muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000080</oboInOwl:id>
         <rdfs:label>dorsolongitudinal muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000080"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the lateral antecosta-antecostalis muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the medial antecosta-antecostalis muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000081</oboInOwl:id>
         <rdfs:label>dorsolongitudinal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the medial antecosta-antecostalis muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
@@ -1994,7 +2034,20 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle that is attache to the dorsal side of head capsule and pseudotentorium.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000083</oboInOwl:id>
         <rdfs:label>dorsal longitudinal muscle</rdfs:label>
@@ -2005,9 +2058,15 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle that is attached to the cardo.</obo:IAO_0000115>
         <dc:source>Hutasse-Jeannenot, 1974</dc:source>
-        <dc:source>The muscle that inserts to lacinia.</dc:source>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000084</oboInOwl:id>
         <rdfs:label>cardinal flexor muscle of the lacina</rdfs:label>
@@ -2018,40 +2077,72 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the medial profurca-antecostal muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000085</oboInOwl:id>
         <rdfs:label>dorsoventral longitudinal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000085"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the medial profurca-antecostal muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the medial pronoto-coxal muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000086</oboInOwl:id>
         <rdfs:label>dorsoventral longitudinal muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000086"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the medial pronoto-coxal muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the lateral pronoto-coxal muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000087</oboInOwl:id>
         <rdfs:label>dorsoventral longitudinal muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the lateral pronoto-coxal muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
+        <obo:IAO_0000115 xml:lang="en">The muscle of the embryo that develops in the mesonoto-coxal muscle of the adult.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000088</oboInOwl:id>
         <rdfs:label>dorsoventral longitudinal muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle of the embryo that develops in the mesonoto-coxal muscle of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2088,7 +2179,14 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that is attached to the dorsoposterior side head capsule and the ventralposterior side of the head capsule</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000092</oboInOwl:id>
         <rdfs:label>dorsoventral muscle</rdfs:label>
     </owl:Class>
@@ -2149,31 +2247,85 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A pennate or pinnate muscle (also called a penniform muscle) is a type of skeletal muscle with fascicles that attach obliquely.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://en.wikipedia.org/wiki/Pennate_muscle</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">pennate muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000096</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This a muscle recognized by Adams &amp; Salmon (1972), whis is attached to the hypopharynx.</rdfs:comment>
         <rdfs:label>pinnate muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pennate or pinnate muscle (also called a penniform muscle) is a type of skeletal muscle with fascicles that attach obliquely.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the dorsal side of the head capsule, posterior to the pseudotentorium, and the ventral posteroventral side of the head capsule.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000097</oboInOwl:id>
         <rdfs:label>posterior dorso-ventral muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the dorsal side of the head capsule, posterior to the pseudotentorium, and the ventral posteroventral side of the head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000097"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>posterior dorso-ventral muscle</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Manton, S. M. (1964). Mandibular mechanisms and evolution of arthropods. Philosophical Transactions of the Royal Society of London. 
+Series B, Biological Sciences, 247(737), 1-183.
+&quot;Posterior dorso-ventral muscles arise dorsally just behind the suspensory
+fibres of the endoskeletal&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the posterior tentorial apodeme and the ventral groove.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000098</oboInOwl:id>
         <rdfs:label>posterior suspensory muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the posterior tentorial apodeme and the ventral groove.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2181,31 +2333,64 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <obo:IAO_0000115 xml:lang="en">A muscle drawing a part forward, as antagonistic to a retractor.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://medical-dictionary.thefreedictionary.com</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000099</oboInOwl:id>
         <rdfs:comment>View Manton and Harding, 1964</rdfs:comment>
         <rdfs:label>protactor muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A muscle drawing a part forward, as antagonistic to a retractor.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001536"/>
+        <obo:IAO_0000115 xml:lang="en">A muscle that draws a part backward.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://medical-dictionary.thefreedictionary.com</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000100</oboInOwl:id>
+        <rdfs:comment xml:lang="en">A muscle is named in the collophore.</rdfs:comment>
         <rdfs:comment>View Manton and Harding, 1964</rdfs:comment>
         <rdfs:label>retractor muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A muscle that draws a part backward.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001295"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The visceral muscle attached to the pyloric sphincter between the midgut an the rectum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000101</oboInOwl:id>
         <rdfs:label>sphincter muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000101"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The visceral muscle attached to the pyloric sphincter between the midgut an the rectum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2233,23 +2418,62 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001343"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the pseudotentorium and the phragma I</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000104</oboInOwl:id>
         <rdfs:label>ventral longitudinal muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the pseudotentorium and the phragma I</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
-        <obo:IAO_0000115>The muscle that originates in head ventral area and inserts in the transverse mandibular tendon.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001325"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000911"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The muscle that is attached to the ventral side of head capsule and the transverse mandibular tendon.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000105</oboInOwl:id>
         <rdfs:label>ventral suspensory muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000105"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The muscle that is attached to the ventral side of head capsule and the transverse mandibular tendon.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2258,6 +2482,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001067"/>
         <oboInOwl:id>CLAO:0000106</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This a synonym of ventral longitudinal muscle</rdfs:comment>
         <rdfs:label>ventralongitudinal muscle</rdfs:label>
     </owl:Class>
     
@@ -19949,13 +20174,20 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001536"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A muscle that moves a body part away from the sagittal plane/midline of the body.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0006845</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0005269</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ontobee.org/ontology/UBERON</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001113</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This muscle is located in manubrium</rdfs:comment>
         <rdfs:label>abductor muscle</rdfs:label>
     </owl:Class>
     
@@ -19964,12 +20196,25 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001257"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001536"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A muscle capable of adduction. Adduction is a movement which brings a part of the anatomy closer to the middle sagittal plane of the body.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0011145</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Adductor_muscle</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001114</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This muscle is located in manubrium</rdfs:comment>
         <rdfs:label>adductor muscle</rdfs:label>
     </owl:Class>
     
@@ -22535,9 +22780,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <obo:IAO_0000115 xml:lang="en">Any muscle attached to the internal organs.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">visceral muscle tissue</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">This term includes muscles that support internal organs or attached to other organs in the anatomical space, e.g. muscles attached to the pyloric sphincter.</rdfs:comment>
         <rdfs:label xml:lang="en">visceral musculature</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001295"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any muscle attached to the internal organs.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-11</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -22941,14 +23195,14 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The muscle that connects the head capsule and hypopharynx.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The muscle that is attached to the head capsule and hypopharynx.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>M. craniohypopharyngealis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">craniohypopharingeal muscle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001321"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The muscle that connects the head capsule and hypopharynx.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The muscle that is attached to the head capsule and hypopharynx.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
     </owl:Axiom>
@@ -27353,6 +27607,29 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001534"/>
         <rdfs:label xml:lang="en">external side</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any muscle that is internal to the appendages (antenna, collophore, leg, and furcula</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">appendage muscle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001536"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any muscle that is internal to the appendages (antenna, collophore, leg, and furcula</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-10</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
