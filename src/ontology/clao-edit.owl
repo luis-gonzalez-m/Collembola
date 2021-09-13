@@ -4387,10 +4387,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any maxillar lamella that is part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000218</oboInOwl:id>
         <rdfs:label>maxillar lamella</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any maxillar lamella that is part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4398,9 +4412,29 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 2 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000219</oboInOwl:id>
         <rdfs:label>maxillar lamella 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 2 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4408,9 +4442,29 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 6 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000220</oboInOwl:id>
         <rdfs:label>maxillar lamella 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000220"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 6 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4418,9 +4472,29 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, external to the maxillar lamella 2 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000221</oboInOwl:id>
         <rdfs:label>maxillar lamella 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000221"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, external to the maxillar lamella 2 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4428,9 +4502,29 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 5 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000222</oboInOwl:id>
         <rdfs:label>maxillar lamella 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000222"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, adjacent to the maxillar lamella 5 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4438,9 +4532,29 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, internal to the maxillar lamella 6 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000223</oboInOwl:id>
         <rdfs:label>maxillar lamella 5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000223"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, internal to the maxillar lamella 6 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4448,10 +4562,30 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000218"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The protrusion laterally compressed, internal to the maxillar lamella 2 and part of the capitulum.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>median subsidiary appendage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000224</oboInOwl:id>
         <rdfs:label>maxillar lamella 6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The protrusion laterally compressed, internal to the maxillar lamella 2 and part of the capitulum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4469,10 +4603,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
-        <dc:source>Richards, 1968</dc:source>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The paired carina that is external to the internal lamella part of the unguis.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Christiansen &amp; Bellinger, 1998</dc:source>
         <oboInOwl:id>CLAO:0000226</oboInOwl:id>
         <rdfs:label>lateral lamella</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The paired carina that is external to the internal lamella part of the unguis.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4480,9 +4628,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The carina in the internal-posterior side of the unguiculus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000227</oboInOwl:id>
         <rdfs:label>lamella pi</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000227"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The carina in the internal-posterior side of the unguiculus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4490,10 +4652,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The carina in the external-posterior side of the unguiculus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>posterior unguicular lamella</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000228</oboInOwl:id>
         <rdfs:label>lamella pe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000228"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The carina in the external-posterior side of the unguiculus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4501,9 +4677,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The carina in the internal-anterior side of the unguiculus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000229</oboInOwl:id>
         <rdfs:label>lamella ai</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000229"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The carina in the internal-anterior side of the unguiculus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4511,9 +4701,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The carina in the external-anterior side of the unguiculus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000230</oboInOwl:id>
         <rdfs:label>lamella ae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000230"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The carina in the external-anterior side of the unguiculus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4588,9 +4792,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001173"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any papilla that is part of the labial palp.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000237</oboInOwl:id>
         <rdfs:label>labial papilla</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000237"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any papilla that is part of the labial palp.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4604,11 +4822,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The first papilla lateral to main body axes and located in the first row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla C and ventral to the labial papilla B.</obo:IAO_0000115>
         <dc:source>Fjellberg, 1988-1989</dc:source>
         <oboInOwl:id>CLAO:0000238</oboInOwl:id>
         <rdfs:label>labial papilla A</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000238"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla C and ventral to the labial papilla B.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4622,11 +4853,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The second papilla lateral to papilla labial H and located in the second row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla D.</obo:IAO_0000115>
         <dc:source>Fjellberg, 1988-1989</dc:source>
         <oboInOwl:id>CLAO:0000239</oboInOwl:id>
         <rdfs:label>labial papilla B</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000239"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla D.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4640,11 +4884,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The second papilla lateral to papilla labila A located in the first row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla A and ventral to the labial papilla D.</obo:IAO_0000115>
         <dc:source>Fjellberg, 1988-1989</dc:source>
         <oboInOwl:id>CLAO:0000240</oboInOwl:id>
         <rdfs:label>labial papilla C</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000240"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla A and ventral to the labial papilla D.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4658,11 +4915,30 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The third papilla lateral to papilla labial B and located in the second row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000242"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla B and the labial papilla E.</obo:IAO_0000115>
         <dc:source>Fjellberg, 1988-1989</dc:source>
         <oboInOwl:id>CLAO:0000241</oboInOwl:id>
         <rdfs:label>labial papilla D</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla B and the labial papilla E.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4676,12 +4952,25 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The fourth papilla lateral to labial papilla labial D and located in the second row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla D.</obo:IAO_0000115>
         <dc:source>Fjellberg, 1988-1989</dc:source>
         <oboInOwl:hasRelatedSynonym>labial appendage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000242</oboInOwl:id>
         <rdfs:label>labial papilla E</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000242"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla D.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4695,11 +4984,24 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The first papilla lateral to main body axes and located in the second row of papillae of the labial palp</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The papilla adjacent to the labial papilla B.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Hypostomal papilla</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000243</oboInOwl:id>
         <rdfs:label>labial papilla H</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000243"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papilla adjacent to the labial papilla B.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4750,10 +5052,18 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000896"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The lobe located in the anteroapical side of the corpus.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000247</oboInOwl:id>
         <rdfs:label>apical corpus lobe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000247"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The lobe located in the anteroapical side of the corpus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4767,16 +5077,19 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000896"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000903"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The basal region of the corpus.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000248</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Anatomically the anatomical entity does not correspond to a lobe.</rdfs:comment>
         <rdfs:label>basal corpus lobe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000248"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The basal region of the corpus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -4790,10 +5103,18 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000896"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The lobe located in the posteroapical side of the corpus.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000249</oboInOwl:id>
         <rdfs:label>corpus posterior lobe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000249"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The lobe located in the posteroapical side of the corpus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16592,7 +16913,6 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>The subsegment located on apical side of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000866</oboInOwl:id>
-        <rdfs:comment>to revisate true segment?</rdfs:comment>
         <rdfs:label>apical subsegment</rdfs:label>
     </owl:Class>
     
@@ -17030,6 +17350,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>The proximal segment of the retinaculum</obo:IAO_0000115>
         <dc:source>Maynard, 1951</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">tenaculum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>corpus tenaculi</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000896</oboInOwl:id>
         <rdfs:label>corpus</rdfs:label>
@@ -17063,7 +17384,9 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <oboInOwl:hasRelatedSynonym>catch</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tenaculuon</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000898</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This term is a synonym of retinaculum.</rdfs:comment>
         <rdfs:label>tenaculum</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -18962,7 +19285,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
         <obo:IAO_0000115>The process that is elongate and external.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000188</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001023</oboInOwl:id>
@@ -27954,12 +28277,71 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001540">
+        <obo:IAO_0000115 xml:lang="en">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PATO:0000001</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001540"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001540"/>
+        <obo:IAO_0000115 xml:lang="en">A quality inhering in a bearer by virtue of the bearer&apos;s being flattened along transverse axis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PATO:0002054</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laterally compressed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001541"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A quality inhering in a bearer by virtue of the bearer&apos;s being flattened along transverse axis.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLAO_0001546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:label xml:lang="en">sternite</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The paired carina that is internal to the lateral lamella part of the unguis.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Christiansen &amp; Bellinger, 1998</dc:source>
+        <rdfs:label xml:lang="en">internal lamella</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001548"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The paired carina that is internal to the lateral lamella part of the unguis.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
 </rdf:RDF>
 
 
