@@ -45,6 +45,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -225,13 +226,13 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001291 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001291">
-        <obo:IAO_0000115 xml:lang="en">x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">X ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ventral_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">X ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-26</oboInOwl:creation_date>
     </owl:Axiom>
@@ -241,13 +242,13 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001292 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001292">
-        <obo:IAO_0000115 xml:lang="en">x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">X posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterior_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001292"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">X posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-26</oboInOwl:creation_date>
     </owl:Axiom>
@@ -285,22 +286,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001466">
         <rdfs:label xml:lang="en">encircles</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001516 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001516">
-        <rdfs:label xml:lang="en">develops_from</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001517 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001517">
-        <rdfs:label xml:lang="en">existence_starts_during</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -386,6 +371,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002134 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002134">
+        <obo:IAO_0000115 xml:lang="en">Relation between a &apos;neuron projection bundle&apos; and a region in which one or more of its component neuron projections either synapses to targets or receives synaptic input. T innervates some R Expands_to: T has_fasciculating_neuron_projection that synapse_in some R.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">innervates</rdfs:label>
     </owl:ObjectProperty>
     
@@ -404,6 +390,15 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002170">
         <rdfs:label xml:lang="en">connected_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+        <obo:IAO_0000115 xml:lang="en">X develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">develops_from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -445,13 +440,13 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002371">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <obo:IAO_0000115 xml:lang="en">a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a</obo:IAO_0000115>
         <rdfs:label xml:lang="en">attached_to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-26</oboInOwl:creation_date>
     </owl:Axiom>
@@ -472,6 +467,15 @@
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-08-26</oboInOwl:creation_date>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002488 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002488">
+        <obo:IAO_0000115 xml:lang="en">Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">existence_starts_during</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -5382,9 +5386,19 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <obo:IAO_0000115 xml:lang="en">The multicellular evagination of the cuticle that corresponds to an epithelial fold, composed of some sclerite that is encricled by a conjunctiva (moveable).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0000040</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000271</oboInOwl:id>
+        <rdfs:comment xml:lang="en">The presence of this anatomical entity in Collembola is not clear.</rdfs:comment>
         <rdfs:label>spur</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The multicellular evagination of the cuticle that corresponds to an epithelial fold, composed of some sclerite that is encricled by a conjunctiva (moveable).</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -5469,6 +5483,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The claw  in distal_side of tibitarsus dorsal to unguiculus</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ungues</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer spine of tarsus</oboInOwl:hasRelatedSynonym>
@@ -5484,6 +5499,16 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         <owl:annotatedTarget>The claw  in distal_side of tibitarsus dorsal to unguiculus</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000278"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>unguis</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.
+
+https://doi.org/10.1515/9783110264043
+
+&quot;Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.&quot;</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -14359,6 +14384,13 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000728</oboInOwl:id>
         <rdfs:label>collar</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000728"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of chaetae located on anterior margin of mesothorax.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14422,6 +14454,13 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000732</oboInOwl:id>
         <rdfs:label>dental scale</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000732"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The group of modified chaetae like scales located on dens.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14977,6 +15016,12 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000765">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located on anteroposterior axis and medial area of abdominal segment 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>A series</oboInOwl:hasRelatedSynonym>
@@ -15054,7 +15099,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
@@ -15080,7 +15125,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The internal chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
@@ -15106,7 +15151,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
@@ -15133,7 +15178,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
@@ -15159,7 +15204,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
@@ -15186,7 +15231,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row lateral to row C of abdominal segment 4.</obo:IAO_0000115>
@@ -15212,7 +15257,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row D of abdominal segment 4.</obo:IAO_0000115>
@@ -15238,7 +15283,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located between row T and row F of abdominal segment 4.</obo:IAO_0000115>
@@ -15264,7 +15309,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The external chaetae row lateral to row E of abdominal segment 4.</obo:IAO_0000115>
@@ -15290,7 +15335,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located between row E and row Fe of abdominal segment 4.</obo:IAO_0000115>
@@ -15316,7 +15361,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaetae row located on tergal lateral side of abdominal segment 4.</obo:IAO_0000115>
@@ -17374,10 +17419,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The segment apical to femur.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The segment of a leg attached to the distal margin of the femur by the femoro-tibiotarsal conjunctiva and to the proximal margin of the pretarsus by the tibiotarsal-pretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000890</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibiotarsus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000890"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The segment of a leg attached to the distal margin of the femur by the femoro-tibiotarsal conjunctiva and to the proximal margin of the pretarsus by the tibiotarsal-pretarsal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17399,11 +17451,18 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The segment apical to femur located on medial legs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The segment of a leg attached to the distal margin of the femur by the mesofemoro-mesotibiotarsal conjunctiva and to the proximal margin of the mesopretarsus by the mesotibiotarsal-mesopretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>tibiotarsus II</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000891</oboInOwl:id>
         <rdfs:label>mesotibiotarsus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000891"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The segment of a leg attached to the distal margin of the femur by the mesofemoro-mesotibiotarsal conjunctiva and to the proximal margin of the mesopretarsus by the mesotibiotarsal-mesopretarsal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17425,12 +17484,19 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The segment apical to femur located on posterior legs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The segment of a leg attached to the distal margin of the femur by the metafemoro-metatibiotarsal conjunctiva and to the proximal margin of the metapretarsus by the metatibiotarsal-metapretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>meta-tibiotarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tibiotarsus III</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000892</oboInOwl:id>
         <rdfs:label>metatibiotarsus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000892"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The segment of a leg attached to the distal margin of the femur by the metafemoro-metatibiotarsal conjunctiva and to the proximal margin of the metapretarsus by the metatibiotarsal-metapretarsal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17452,12 +17518,19 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The segment apical to femur located on anterior legs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The segment of a leg attached to the distal margin of the femur by the profemoro-protibiotarsal conjunctiva and to the proximal margin of the propretarsus by the protibiotarsal-propretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>praetarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tibiotarsus I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000893</oboInOwl:id>
         <rdfs:label>protibiotarsus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000893"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The segment of a leg attached to the distal margin of the femur by the profemoro-protibiotarsal conjunctiva and to the proximal margin of the propretarsus by the protibiotarsal-propretarsal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -18777,11 +18850,18 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000970">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000992"/>
-        <obo:IAO_0000115>The suture that is located medially on dorsal side of head.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The suture that is located medially on the dorsal side of head.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000224</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000970</oboInOwl:id>
         <rdfs:label>coronal suture</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000970"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The suture that is located medially on the dorsal side of head.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -20286,14 +20366,36 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
-        <obo:IAO_0000115>The terminal segment of the arthropod midleg distal to the tarsus.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000890"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001547"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The appendage of the leg that is attached to the tarsus by the tarso-pretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00004653</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGMA:0000146</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ontobee.org/ontology/TGMA</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>praetarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001057</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This term is apparently a synonym of unguis.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pretarsus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The appendage of the leg that is attached to the tarsus by the tarso-pretarsal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21678,7 +21780,7 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001160"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -24290,8 +24392,17 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of anatomical structures that are alike in terms of their morphology or developmental origin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0034925</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anatomical collection</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001307"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A collection of anatomical structures that are alike in terms of their morphology or developmental origin.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28023,14 +28134,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the mandible of the adult.</obo:IAO_0000115>
@@ -28160,14 +28271,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the clypeolabrum of the adult.</obo:IAO_0000115>
@@ -28195,14 +28306,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the antenna of the adult.</obo:IAO_0000115>
@@ -28230,7 +28341,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -28592,8 +28703,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001512">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001511"/>
+        <obo:IAO_0000115 xml:lang="en">Primary germ layer that is the outer of the embryo&apos;s three germ layers and gives rise to epidermis and neural tissue.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0000924</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">ectoderm</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001512"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Primary germ layer that is the outer of the embryo&apos;s three germ layers and gives rise to epidermis and neural tissue.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28601,8 +28721,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001513">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001511"/>
+        <obo:IAO_0000115 xml:lang="en">The middle germ layer of the embryo, between the endoderm and ectoderm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0000926</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mesoderm</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001513"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The middle germ layer of the embryo, between the endoderm and ectoderm.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28610,8 +28739,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001514">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001511"/>
+        <obo:IAO_0000115 xml:lang="en">Primary germ layer that lies remote from the surface of the embryo and gives rise to internal tissues such as gut.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0000925</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">endoderm</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001514"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Primary germ layer that lies remote from the surface of the embryo and gives rise to internal tissues such as gut.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28621,13 +28759,13 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001516"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001497"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001500"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -28665,14 +28803,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the maxilla of the adult.</obo:IAO_0000115>
@@ -28694,14 +28832,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001050"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the labium of the adult.</obo:IAO_0000115>
@@ -28723,14 +28861,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000973"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000973"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the prothoracic leg of the adult.</obo:IAO_0000115>
@@ -28752,14 +28890,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000898"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000898"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the tenaculum of the adult.</obo:IAO_0000115>
@@ -28781,14 +28919,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001089"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the protodaeum of the adult.</obo:IAO_0000115>
@@ -28810,14 +28948,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000855"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000855"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the furcula of the adult.</obo:IAO_0000115>
@@ -28839,14 +28977,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 1 of the adult.</obo:IAO_0000115>
@@ -28868,14 +29006,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 2 of the adult.</obo:IAO_0000115>
@@ -28897,14 +29035,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 3 of the adult.</obo:IAO_0000115>
@@ -28926,14 +29064,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 4 of the adult.</obo:IAO_0000115>
@@ -28955,14 +29093,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000872"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 5 of the adult.</obo:IAO_0000115>
@@ -28984,14 +29122,14 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001478"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001517"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000873"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000873"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the abdominal segment 6 of the adult.</obo:IAO_0000115>
@@ -29290,6 +29428,76 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 &quot;Any process of a neuron.&quot;</obo:AISM_0000171>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-15</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001540"/>
+        <obo:IAO_0000115 xml:lang="en">A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">PATO:0000117</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001555"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001555"/>
+        <obo:IAO_0000115 xml:lang="en">The size bigger than the mesochaeta.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">macrochaeta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001556"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The size bigger than the mesochaeta.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001555"/>
+        <obo:IAO_0000115 xml:lang="en">The size smaller thant the microchaeta.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microchaeta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The size smaller thant the microchaeta.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001555"/>
+        <obo:IAO_0000115 xml:lang="en">The size intermediates between the macrochaeta and microchaeta.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">This term is considered here as a size quality.</rdfs:comment>
+        <rdfs:label xml:lang="en">mesochaeta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001558"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The size intermediates between the macrochaeta and microchaeta.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
     </owl:Axiom>
 </rdf:RDF>
 
