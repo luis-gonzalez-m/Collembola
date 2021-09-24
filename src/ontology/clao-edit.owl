@@ -14164,10 +14164,17 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The group of chaetae located on abdominal segment 2.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The group of chaetae located on the abdominal segment 2.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000715</oboInOwl:id>
         <rdfs:label>second abdominal segment chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of chaetae located on the abdominal segment 2.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14266,7 +14273,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000864"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The group of modified located on anterior margin of antennal segment 3.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae group of modified located on anterior margin of antennal segment 3.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. III sense organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>antennal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>antennal organ III</oboInOwl:hasRelatedSynonym>
@@ -15022,7 +15029,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row located on anteroposterior axis and medial area of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row located on anteroposterior axis and medial area of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>A series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series A</oboInOwl:hasRelatedSynonym>
@@ -15032,7 +15039,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000765"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row located on anteroposterior axis and medial area of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row located on anteroposterior axis and medial area of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15102,7 +15109,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The external chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The external chaetae row lateral to row A of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series Ae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000769</oboInOwl:id>
@@ -15111,7 +15118,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000769"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The external chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The external chaetae row lateral to row A of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15128,7 +15135,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The internal chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The internal chaetae row lateral to row A of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series Ai</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000770</oboInOwl:id>
@@ -15137,7 +15144,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000770"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The internal chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The internal chaetae row lateral to row A of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15154,7 +15161,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row lateral to row A of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row lateral to row A of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>B series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series B</oboInOwl:hasRelatedSynonym>
@@ -15164,7 +15171,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000771"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row lateral to row A of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row lateral to row A of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15181,7 +15188,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The external chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The external chaetae row lateral to row B of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series Be</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000772</oboInOwl:id>
@@ -15190,7 +15197,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000772"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The external chaetae row lateral to row B of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The external chaetae row lateral to row B of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15207,7 +15214,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row lateral to row B of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row lateral to row B of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym>C series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series C</oboInOwl:hasRelatedSynonym>
@@ -15217,7 +15224,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000773"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row lateral to row B of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row lateral to row B of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15234,7 +15241,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row lateral to row C of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row lateral to row C of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series D</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000774</oboInOwl:id>
@@ -15243,7 +15250,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000774"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row lateral to row C of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row lateral to row C of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15260,7 +15267,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The external chaetae row lateral to row D of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The external chaetae row lateral to row D of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series De</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000775</oboInOwl:id>
@@ -15269,7 +15276,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000775"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The external chaetae row lateral to row D of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The external chaetae row lateral to row D of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15286,7 +15293,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row located between row T and row F of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row located between row T and row F of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series E</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000776</oboInOwl:id>
@@ -15295,7 +15302,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000776"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row located between row T and row F of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row located between row T and row F of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15312,7 +15319,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The external chaetae row lateral to row E of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The external chaetae row lateral to row E of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series Ee</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000777</oboInOwl:id>
@@ -15321,7 +15328,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000777"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The external chaetae row lateral to row E of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The external chaetae row lateral to row E of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15338,7 +15345,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row located between row E and row Fe of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row located between row E and row Fe of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series F</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000778</oboInOwl:id>
@@ -15347,7 +15354,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000778"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row located between row E and row Fe of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row located between row E and row Fe of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15364,12 +15371,19 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row located on tergal lateral side of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chaetae row located on tergal lateral side of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series Fe</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000779</oboInOwl:id>
         <rdfs:label>row Fe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000779"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The chaetae row located on tergal lateral side of abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15380,17 +15394,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The medial chaetae row on lateromedial axis of abdominal segment 1.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 1.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000780</oboInOwl:id>
         <rdfs:label>row m.ab1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000780"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 1.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 1.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15404,17 +15418,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The medial chaetae row on lateromedial axis of abdominal segment 2.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 2.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000781</oboInOwl:id>
         <rdfs:label>row m.ab2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000781"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 2.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 2.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15428,17 +15442,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The medial chaetae row on lateromedial axis of abdominal segment 3.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 3.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000782</oboInOwl:id>
         <rdfs:label>row m.ab3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000782"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The medial chaetae row on lateromedial axis of abdominal segment 3.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The medial chaetae row on lateromedial axis of abdominal tergite 3.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15452,17 +15466,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000868"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The posterior chaetae row on lateromedial axis of abdominal segment 1.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 1.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000783</oboInOwl:id>
         <rdfs:label>row p.ab1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000783"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 1.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 1.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15476,17 +15490,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000869"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The posterior chaetae row on lateromedial axis of abdominal segment 2.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 2.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000784</oboInOwl:id>
         <rdfs:label>row p.ab2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000784"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 2.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 2.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15500,17 +15514,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The posterior chaetae row on lateromedial axis of abdominal segment 3.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 3.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000785</oboInOwl:id>
         <rdfs:label>row p.ab3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000785"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of abdominal segment 3.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The posterior chaetae row on lateromedial axis of abdominal tergite 3.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15524,10 +15538,10 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000871"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaetae row located between row D and row E of abdominal segment 4.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row located between row D and row E of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series T</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000786</oboInOwl:id>
@@ -15536,7 +15550,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000786"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The chaetae row located between row D and row E of abdominal segment 4.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The chaetae row located between row D and row E of abdominal tergite 4.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
@@ -15834,10 +15848,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row that is posterior to the postsutural row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>postoccipital anterior series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000802</oboInOwl:id>
         <rdfs:label>anterior postoccipital row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000802"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row that is posterior to the postsutural row on the dorsal side of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15851,10 +15873,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row that is posterior to the antennal row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>anterior series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000803</oboInOwl:id>
         <rdfs:label>anterior row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000803"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row that is posterior to the antennal row on the dorsal side of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15939,10 +15969,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the anterior postoccipital row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>postoccipital median series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000809</oboInOwl:id>
         <rdfs:label>median postoccipital row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000809"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior postoccipital row on the dorsal side of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15981,10 +16019,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the median postoccipital row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>postoccipital posterior series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000811</oboInOwl:id>
         <rdfs:label>posterior postoccipital row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000811"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the median postoccipital row on the dorsal side of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15998,9 +16044,17 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the sutural row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000812</oboInOwl:id>
         <rdfs:label>postsutural row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000812"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the sutural row on the dorsal side of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16014,11 +16068,25 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row adjacent to the frontal suture.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">sutural group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>sutural series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000813</oboInOwl:id>
         <rdfs:label>sutural row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000813"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row adjacent to the frontal suture.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000813"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -16282,6 +16350,13 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000827</oboInOwl:id>
         <rdfs:label>row p.t2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000827"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of mesothorax.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16299,6 +16374,13 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000828</oboInOwl:id>
         <rdfs:label>row p.t3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000828"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The posterior chaetae row on lateromedial axis of metathorax.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16658,11 +16740,18 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000845">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The fourth row of chaetae posterior_to a.mt1_row and located_in the trunk</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The fourth row of chaetae posterior to row a.mt1 and located on the trunk</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000845</oboInOwl:id>
         <rdfs:label xml:lang="en">row p.mt2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fourth row of chaetae posterior to row a.mt1 and located on the trunk</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16670,11 +16759,18 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000846">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The second row of chaetae posterior_to a.mt1_row and located_in the trunk</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The second row of chaetae posterior to  row a.mt1 and located in the trunk.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000846</oboInOwl:id>
         <rdfs:label>row p.mt1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000846"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The second row of chaetae posterior to  row a.mt1 and located in the trunk.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -18054,11 +18150,18 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000923">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
-        <obo:IAO_0000115>The group of chaetae located on subadanal area.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The group of chaetae located on the subadanal area.</obo:IAO_0000115>
         <dc:source>André, 1988</dc:source>
         <oboInOwl:id>CLAO:0000923</oboInOwl:id>
         <rdfs:label>subadanal chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000923"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The group of chaetae located on the subadanal area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -18850,7 +18953,14 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000970">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000992"/>
-        <obo:IAO_0000115 xml:lang="en">The suture that is located medially on the dorsal side of head.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000977"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The longitudinal suture that is on the vertex and is connected to the frontal suture.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0004030</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000224</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000970</oboInOwl:id>
         <rdfs:label>coronal suture</rdfs:label>
@@ -18858,7 +18968,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000970"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The suture that is located medially on the dorsal side of head.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The longitudinal suture that is on the vertex and is connected to the frontal suture.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
     </owl:Axiom>
@@ -18881,6 +18991,20 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000972">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000992"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000970"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000977"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The suture that is T-shaped and located dorsally on the cranium.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000297</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000972</oboInOwl:id>
@@ -18945,7 +19069,14 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000977">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000992"/>
-        <obo:IAO_0000115>The suture that is located laterally on dorsal side of head.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000970"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The suture that surrounds the frons and is connected to the coronal suture.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0004029</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000360</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>ecdysial line</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>sutural line</oboInOwl:hasRelatedSynonym>
@@ -18953,6 +19084,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <rdfs:comment>This suture is named as postfrontal suture</rdfs:comment>
         <rdfs:label>frontal suture</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The suture that surrounds the frons and is connected to the coronal suture.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -19152,6 +19290,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The line that marks the fusion of two ancestral sclerites.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000982</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>cuticular furrow</oboInOwl:hasRelatedSynonym>
@@ -21212,6 +21356,13 @@ this is a anatomical sphincter</rdfs:comment>
         <oboInOwl:id>CLAO_0001104</oboInOwl:id>
         <rdfs:label>vestiture</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The general surface covering of insects comprised of cuticular projections, i.e., setae, scales and spicules.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
