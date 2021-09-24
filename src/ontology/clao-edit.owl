@@ -15077,11 +15077,20 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to labral chaetae.</obo:IAO_0000115>
         <dc:source>Bellini et al. 2015</dc:source>
         <oboInOwl:hasRelatedSynonym>prelabral setae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000764</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Schneider, 2017 used the acronym &quot;pr.l.&quot; to namae this row for Neelipleona.</rdfs:comment>
         <rdfs:label>prelabral chaetae row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000764"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to labral chaetae.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15680,10 +15689,24 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the prelabral chaetae row.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
         <oboInOwl:id>CLAO:0000789</oboInOwl:id>
         <rdfs:label>anterior clypeal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000789"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the prelabral chaetae row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15781,10 +15804,24 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000795">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the anterior clypeal row.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
         <oboInOwl:id>CLAO:0000795</oboInOwl:id>
         <rdfs:label>medial clypeal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000795"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior clypeal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15792,10 +15829,24 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000796">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the medial clypeal row.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
         <oboInOwl:id>CLAO:0000796</oboInOwl:id>
         <rdfs:label>posterior clypeal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000796"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the medial clypeal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15889,11 +15940,19 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the posterior clypeal row.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:hasExactSynonym>pa.a.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000801</oboInOwl:id>
         <rdfs:label>anterior postantennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000801"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the posterior clypeal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000801"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -15942,6 +16001,7 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
         <obo:IAO_0000115 xml:lang="en">The chaetae row that is posterior to the antennal row on the dorsal side of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>anterior series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000803</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This name is applied to other chaetae row located on the thoracic and abdominal segments across taxa within Collembola.</rdfs:comment>
         <rdfs:label>anterior row</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -16060,11 +16120,19 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the anterior postantennal row.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:hasExactSynonym>pa.p.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000810</oboInOwl:id>
         <rdfs:label>posterior postantennal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000810"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior postantennal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000810"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -16221,11 +16289,19 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the posterior postantennal row.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:hasExactSynonym>f.a.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000817</oboInOwl:id>
         <rdfs:label>anterior frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000817"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the posterior postantennal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000817"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -16246,11 +16322,19 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the anterior frontal row.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:hasExactSynonym>f.m.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000818</oboInOwl:id>
         <rdfs:label>median frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior frontal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -16265,11 +16349,25 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the median frontal row.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:hasExactSynonym>f.p.</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000819</oboInOwl:id>
         <rdfs:label>posterior frontal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000819"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the median frontal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000819"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -16500,16 +16598,16 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Gai</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The longitudinal row of chaetae located on anterointernal side of tibiotarsus.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gai</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -16722,11 +16820,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000838">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The first row of chaeta on anteroposterior axis located on transversal line of trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row most anterior and located in the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider 2017</dc:source>
         <oboInOwl:id>CLAO:0000838</oboInOwl:id>
         <rdfs:label>alfa row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000838"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row most anterior and located in the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16734,11 +16845,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000839">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The second row of chaeta behind to alfa row on anteroposterior axis located on transversal line of trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the alfa row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000839</oboInOwl:id>
         <rdfs:label>beta row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000839"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the alfa row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16746,11 +16870,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000840">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The fourth row of chaeta behind to gamma row on anteroposterior axis located on transversal line of trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the gamma row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000840</oboInOwl:id>
         <rdfs:label>delta row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000840"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the gamma row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16758,11 +16895,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000841">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The tenth row of chaetae posterior to epsilon row and located in the trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the epsilon row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000841</oboInOwl:id>
         <rdfs:label>dzeta row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000841"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the epsilon row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16770,11 +16920,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000842">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The fifth row of chaeta behind to epsilon row on anteroposterior axis located on transversal line of trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the delta row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000842</oboInOwl:id>
         <rdfs:label>epsilon row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000842"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the delta row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16782,11 +16945,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The eleventh row of chaetae posterior to dzeta row and located in the trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the dzeta row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000843</oboInOwl:id>
         <rdfs:label>eta row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000843"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the dzeta row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16794,11 +16970,24 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000844">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
-        <obo:IAO_0000115>The third row of chaeta behind to beta row on anteroposterior axis located on transversal line of trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row posterior to the beta row and located on the posterior part of the abdomen.</obo:IAO_0000115>
         <dc:source>Schneider, 2017</dc:source>
         <oboInOwl:id>CLAO:0000844</oboInOwl:id>
         <rdfs:label>gamma row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000844"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the beta row and located on the posterior part of the abdomen.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -18203,6 +18392,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
         <obo:IAO_0000115>The specialized chaetae group located on any tagma of body.</obo:IAO_0000115>
         <dc:source>Zhang et al. 2015</dc:source>
+        <oboInOwl:hasExactSynonym xml:lang="en">S-chaeta</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>s-microchaeta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>s-seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setulae</oboInOwl:hasRelatedSynonym>
@@ -28352,8 +28542,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001476"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the mandible (in part) of the adult.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Tomizuka, 2015</dc:source>
         <rdfs:label xml:lang="en">maxillary subcoxa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001480"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of the embryo that develops in the mandible (in part) of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28460,8 +28659,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001476"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of the embryo that develops in the postmentum of the adult.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Tomizuka, 2015</dc:source>
         <rdfs:label xml:lang="en">labial subcoxa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001484"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of the embryo that develops in the postmentum of the adult.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28804,16 +29012,34 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001499"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cell produced during cleavage of a fertilized egg.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0001473</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">blastomere</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001497"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cell produced during cleavage of a fertilized egg.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001498">
+        <obo:IAO_0000115 xml:lang="en">An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0000000</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">processual entity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001498"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28821,8 +29047,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the yolk and germ cell are developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001499"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the yolk and germ cell are developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001499"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Cleavage, formation of yolk cells and primordial germ cells&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28830,8 +29072,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001500">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the blastoderm is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001500"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the blastoderm is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001500"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 2</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Formation of blastoderm, differentiation of mesoderm&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28839,8 +29097,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the dorsal organ is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001501"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the dorsal organ is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001501"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Formation of primary dorsal organ&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28848,8 +29122,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001502">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the embryo and serosa is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001502"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the embryo and serosa is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001502"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 4</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Secretion of blastoderm cuticles, commencement of
+differentiation of embryo and serosa&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28857,8 +29148,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001503">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the cephalic segment and appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the cephalic segment and appendage is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001503"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 5</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Differentiation of cephalic segments and appendages&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28866,8 +29173,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001504">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the thoracic segment and cephalic appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 6</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001504"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the thoracic segment and cephalic appendage is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001504"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 6</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Rupture of chorion, differentiation of thoracic segments and
+appendages, elongation of cephalic appendages&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28875,8 +29199,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the abdominal segment and appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 7</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the abdominal segment and appendage is developed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001505"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 7</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Blastokinesis, differentiation of abdominal segments
+and appendages&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28884,8 +29225,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001506">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the dorsal closure is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 8</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the dorsal closure is completed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 8</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Completion of blastokinesis, commencement of definitive
+dorsal closure&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28893,8 +29251,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the six paired ommatidia and appendage articulation is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 9</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001507"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the six paired ommatidia and appendage articulation is completed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001507"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 9</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Completion of six paired ommatidia, completion of appendage
+articulation&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28902,8 +29277,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the antennal segment 3 and antennal segment 4 are elongated.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 10</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001508"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the antennal segment 3 and antennal segment 4 are elongated.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001508"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 10</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Elongation of third and fourth antennal segments, eye regions
+deeply pigmented&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28911,8 +29303,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001509">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <obo:IAO_0000115 xml:lang="en">The embryo stage where the embryo is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 11</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001509"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The embryo stage where the embryo is completed.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001509"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">stage 11</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Tomizuka, S., &amp; Machida, R. (2015). Embryonic development of a collembolan, Tomocerus cuspidatus Börner, 1909: With special reference to the development and developmental potential of serosa (Hexapoda: Collembola, Tomoceridae). Arthropod structure &amp; development, 44(2), 157-172.
+http://dx.doi.org/10.1016/j.asd.2014.12.004
+&quot;Completion of definitive dorsal closure, acquisition of definitive
+form by embryo, secretion of larval cuticle&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28920,8 +29329,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001510">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001498"/>
+        <obo:IAO_0000115 xml:lang="en">Any development stage during the embryo formation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">embryo stage</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any development stage during the embryo formation.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28930,6 +29347,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001147"/>
         <obo:IAO_0000115 xml:lang="en">A portion of tissue that is part of an embryo.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0005291</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">embryonic tissue</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -29901,6 +30319,30 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <owl:annotatedTarget xml:lang="en">The size intermediates between the macrochaeta and microchaeta.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row most anterior and located on the labrum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">labrum p-row</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">posterior labral row</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001559"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row most anterior and located on the labrum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
 </rdf:RDF>
 
