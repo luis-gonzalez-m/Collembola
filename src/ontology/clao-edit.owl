@@ -217,9 +217,17 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001272">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115 xml:lang="en">y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">AISM:0000079</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">encircled by</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001272"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -285,16 +293,33 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001466 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001466">
+        <obo:IAO_0000115 xml:lang="en">x encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0000078</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">encircles</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001466"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">x encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001531 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001531">
+        <obo:IAO_0000115 xml:lang="en">Inverse of develops from</obo:IAO_0000115>
         <rdfs:label xml:lang="en">develops_into</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001531"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Inverse of develops from</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -302,8 +327,16 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001542">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001544"/>
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and anterior side and lateral side of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterolateral_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001542"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and anterior side and lateral side of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -311,16 +344,32 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001543">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001292"/>
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and upper surface and lateral side of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterolateral_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001543"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and upper surface and lateral side of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001544 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001544">
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the front of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001544"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the front of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -328,8 +377,16 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001545">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001544"/>
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and anterior side and medial side of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anteromedial_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001545"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and anterior side and medial side of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>201-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -337,8 +394,16 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PATO_0001916">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001292"/>
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and upper surface of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posterodorsal_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001916"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and upper surface of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -346,6 +411,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PATO_0001918">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001292"/>
+        <obo:IAO_0000115 xml:lang="en">A spatial quality inhering in a bearer by virtue of the bearer&apos;s being located toward the rear and abdomen of an organism relative to another entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">posteroventral_to</rdfs:label>
     </owl:ObjectProperty>
     
@@ -16434,16 +16500,16 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gai</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The longitudinal row of chaetae located on anterointernal side of tibiotarsus.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000830"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Gai</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Zhang, F., &amp; Deharveng, L. (2015). First instar tibiotarsal chaetotaxy supports the Entomobryidae and Symphypleona (Collembola) forming a cluster in a phylogenetic tree. Zootaxa, 3955(4), 487-504.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -27716,8 +27782,26 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The neuropil that is part of the central complex.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">central body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The neuropil that is part of the central complex.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">central body</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;The most prominent set of neuropils of the central complex.&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28845,8 +28929,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001147"/>
+        <obo:IAO_0000115 xml:lang="en">A portion of tissue that is part of an embryo.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">embryonic tissue</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001511"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A portion of tissue that is part of an embryo.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29306,8 +29398,27 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The single-layer surface epithelium emerging from the ectoderm.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">epidermis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001532"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The single-layer surface epithelium emerging from the ectoderm.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001532"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">epidermis</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+&quot; Das aus dem Ektoderm hervorgegangene, einschichtige Oberflächenepithel.&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29315,8 +29426,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001533">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001135"/>
+        <obo:IAO_0000115 xml:lang="en">A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">CARO:0000010</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anatomical boundary</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001533"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29324,8 +29444,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001534">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001533"/>
+        <obo:IAO_0000115 xml:lang="en">A 2D surface of an anatomical continuant.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BSPO:0000005</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anatomical surface</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001534"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A 2D surface of an anatomical continuant.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29333,8 +29462,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001535">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001534"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical surface that is located on the distal side of the body or body part.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">external side</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001535"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical surface that is located on the distal side of the body or body part.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29382,8 +29519,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001538">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001053"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical margin that is located on the proximal region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BSPO:0000677</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">proximal margin</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001538"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical margin that is located on the proximal region of the body or body part.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29443,8 +29589,22 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The sclerite of the abdomen that is ventral and medial.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sternite</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001546"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The sclerite of the abdomen that is ventral and medial.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29452,8 +29612,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001547">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001053"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical margin that is located on the distal side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BSPO:0000678</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">distal margin</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001547"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical margin that is located on the distal side of the body or body part.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29521,8 +29690,27 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001382"/>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil composed by neuronal that possess synapses.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">synapse-rich neuropil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001550"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil composed by neuronal that possess synapses.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001550"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">synapse-rich neuropil</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;Synapse-rich neuropil (often called just neuropil ) is composed of neuronal
+processes that possess synapses.&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29530,9 +29718,23 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001382"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001433"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The bundle of fibers composed by axons and cell body fibers.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">fiber bundle</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fiber-bundle neuropil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001551"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The bundle of fibers composed by axons and cell body fibers.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001551"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -29550,8 +29752,26 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001550"/>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil located on th midle line of the protrocerebrum.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">central complex</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001552"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil located on th midle line of the protrocerebrum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezm</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001552"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">central complex</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;A system of interconnected neuropils lying at, or about, the midline of the protocerebrum.&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29559,8 +29779,32 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001553">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cluster of neurons anterior of the brain.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cerebral ganglion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001553"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cluster of neurons anterior of the brain.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001553"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">cerebral ganglion</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;The anterior portion of the brain.&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29568,8 +29812,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001432"/>
+        <obo:IAO_0000115 xml:lang="en">Any neural projection.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">neurite</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001554"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any neural projection.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001554"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
