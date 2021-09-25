@@ -139,24 +139,48 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115 xml:lang="en">An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.</obo:IAO_0000115>
         <rdfs:label>has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <obo:IAO_0000115 xml:lang="en">A relation between a class and an OBO namespace string. OBO namespaces are to be distinguished from IDspaces; for example, biological_process is a namespace, GO is an idspace.</obo:IAO_0000115>
         <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A relation between a class and an OBO namespace string. OBO namespaces are to be distinguished from IDspaces; for example, biological_process is a namespace, GO is an idspace.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <obo:IAO_0000115 xml:lang="en">An alias in which the alias is related the primary class name, but not necessarily broader or narrower. Example: cytochrome bc1 complex is a related synonym of ubiquinol-cytochrome-c reductase activity; virulence is a related synonym of pathogenesis</obo:IAO_0000115>
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An alias in which the alias is related the primary class name, but not necessarily broader or narrower. Example: cytochrome bc1 complex is a related synonym of ubiquinol-cytochrome-c reductase activity; virulence is a related synonym of pathogenesis</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -217,14 +241,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001272">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:IAO_0000115 xml:lang="en">y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">AISM:0000079</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">encircled by</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001272"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Y is encircled by x if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with y.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
@@ -266,9 +290,16 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001298 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001298">
-        <obo:IAO_0000115 xml:lang="en">x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">X dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dorsal_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">X dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -293,14 +324,14 @@
     <!-- http://purl.obolibrary.org/obo/CLAO_0001466 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001466">
-        <obo:IAO_0000115 xml:lang="en">x encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">X encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>AISM:0000078</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">encircles</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001466"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">x encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">X encircles y if both x and y are regions of the 2D structure z, or 2D cross-sections of a 3D object z, and the boundary of y on z is exclusively continuous with x.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
@@ -455,8 +486,16 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002170 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002170">
+        <obo:IAO_0000115 xml:lang="en">Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">connected_to</rdfs:label>
     </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -678,7 +717,9 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001130"/>
         <oboInOwl:id>CLAO:0000010</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This is a synonym of eye patch</rdfs:comment>
         <rdfs:label>lateral eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -868,7 +909,7 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the antennal rudiment that is part of the embryo.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The antennal rudiment that is part of the embryo.</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000020</oboInOwl:id>
         <rdfs:label>rudimentary second antennae</rdfs:label>
@@ -876,7 +917,7 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">the antennal rudiment that is part of the embryo.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The antennal rudiment that is part of the embryo.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-02</oboInOwl:creation_date>
     </owl:Axiom>
@@ -1337,10 +1378,18 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that connect the mandible with the pseudotentorium.</obo:IAO_0000115>
         <dc:source>Blanke et al. (2017)</dc:source>
         <oboInOwl:id>CLAO:0000046</oboInOwl:id>
         <rdfs:label>head capsule spine-like apodeme</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that connect the mandible with the pseudotentorium.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1438,10 +1487,18 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000039"/>
+        <obo:IAO_0000115 xml:lang="en">Any projection of pseudotentorium</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000050</oboInOwl:id>
         <rdfs:comment xml:lang="en">This term could be synonym of apodeme.</rdfs:comment>
         <rdfs:label>tentorial projection</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any projection of pseudotentorium</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16330,17 +16387,17 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior frontal row.</owl:annotatedTarget>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>f.m.</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
 https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior frontal row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
     
 
