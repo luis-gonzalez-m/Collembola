@@ -1692,9 +1692,17 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000721"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The &quot;rod-like&quot; modified chaetae that composed the sense organ on the antennal segment 3.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000058</oboInOwl:id>
         <rdfs:label>guard sensillum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The &quot;rod-like&quot; modified chaetae that composed the sense organ on the antennal segment 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1702,12 +1710,32 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001078"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any sensillum located on the abdominal tergite 2 and abdominal tergite 3.</obo:IAO_0000115>
         <dc:source>Jordana, 1997</dc:source>
         <oboInOwl:hasRelatedSynonym>lateral sensory rod</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>solenidion</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000059</oboInOwl:id>
         <rdfs:label>lateral sensillum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any sensillum located on the abdominal tergite 2 and abdominal tergite 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1786,6 +1814,19 @@ socket</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001078"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any small sensillum located on the abdominal tergite 2 and abdominal tergite 3.</obo:IAO_0000115>
         <dc:source>Jordana, 1997</dc:source>
         <oboInOwl:hasRelatedSynonym>Recessed solenidion</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>subapical groove</oboInOwl:hasRelatedSynonym>
@@ -1794,6 +1835,13 @@ socket</owl:annotatedTarget>
         <rdfs:comment>suggest subapical sensillum</rdfs:comment>
         <rdfs:label>subapical microsensillum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000064"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any small sensillum located on the abdominal tergite 2 and abdominal tergite 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1929,10 +1977,18 @@ socket</owl:annotatedTarget>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001145"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">Any &quot;hair-like&quot; chaeta located on the body.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000071</oboInOwl:id>
         <rdfs:label>trichodea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000071"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any &quot;hair-like&quot; chaeta located on the body.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -2677,6 +2733,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
         <oboInOwl:id>CLAO:0000106</oboInOwl:id>
         <rdfs:comment xml:lang="en">This a synonym of ventral longitudinal muscle</rdfs:comment>
         <rdfs:label>ventralongitudinal muscle</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3112,11 +3169,19 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001539"/>
+        <obo:IAO_0000115 xml:lang="en">The hairlike appearance of the nerves.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000123</oboInOwl:id>
         <rdfs:comment xml:lang="en">This term refers to the tiny hairlike appareance of the nerves.</rdfs:comment>
         <rdfs:label>tendril</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000123"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The hairlike appearance of the nerves.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3170,9 +3235,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001121"/>
+        <obo:IAO_0000115 xml:lang="en">The region demarcated behind the antennal rim and the occiput and where the frontal line is located.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000126</oboInOwl:id>
         <rdfs:label>frontal region</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region demarcated behind the antennal rim and the occiput and where the frontal line is located.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3308,10 +3381,19 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001186"/>
-        <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A collagen-containing extracellular matrix consisting of a thin layer of dense material found in various animal tissues interposed between the cells and the adjacent connective tissue. It consists of the basal lamina plus an associated layer of reticulin fibers.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005604</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">basement membrane</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000136</oboInOwl:id>
         <rdfs:label>basal membrane</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000136"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A collagen-containing extracellular matrix consisting of a thin layer of dense material found in various animal tissues interposed between the cells and the adjacent connective tissue. It consists of the basal lamina plus an associated layer of reticulin fibers.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3356,10 +3438,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001561"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A structure in the head of a spermatozoon that contains acid hydrolases, and is part of the acrosome.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000140</oboInOwl:id>
         <rdfs:label>extra-acrosomial material</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000140"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A structure in the head of a spermatozoon that contains acid hydrolases, and is part of the acrosome.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3367,10 +3463,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000947"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Cell that composed the pyloric region.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000141</oboInOwl:id>
         <rdfs:label>connecting cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Cell that composed the pyloric region.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3378,11 +3488,19 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">The area that is continuous with the genital area.</obo:IAO_0000115>
         <dc:source>André, 1988</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000142</oboInOwl:id>
         <rdfs:label>aggenital area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000142"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area that is continuous with the genital area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3390,10 +3508,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Tha area that contains the anus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>peranal</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000143</oboInOwl:id>
         <rdfs:label>anal area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000143"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Tha area that contains the anus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3407,12 +3533,20 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area that is abjacent to the antennal rim.</obo:IAO_0000115>
         <dc:source>Mitra, 1993</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>basis antennalis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000144</oboInOwl:id>
         <rdfs:label>antennal base area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area that is abjacent to the antennal rim.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3420,9 +3554,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Any area located toward the front and dorsal side of an organism relative to another entity.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000145</oboInOwl:id>
         <rdfs:label>antero-dorsal area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000145"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any area located toward the front and dorsal side of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3430,9 +3572,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Any area located toward the front and lateral side of an organism relative to another entity.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000146</oboInOwl:id>
         <rdfs:label>antero-lateral area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000146"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any area located toward the front and lateral side of an organism relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3446,7 +3596,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001243"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The area external to chaeta m2.ab2 in the abdominal segment 2.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The area external to chaeta m2.ab2 in the abdominal tegite 2.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000147</oboInOwl:id>
         <rdfs:label>area A1</rdfs:label>
@@ -3464,10 +3614,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area posterior to the area A9 and located on the abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000148</oboInOwl:id>
         <rdfs:label>area A10</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000148"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area posterior to the area A9 and located on the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3481,10 +3639,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area adjacent to the area A7 and located on the abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000149</oboInOwl:id>
         <rdfs:label>area A11</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000149"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area adjacent to the area A7 and located on the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3498,10 +3664,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area lateral to the area A8 and located on the abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000150</oboInOwl:id>
         <rdfs:label>area A12</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000150"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area lateral to the area A8 and located on the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3515,10 +3689,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area lateral to the area A9 and located on the abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000151</oboInOwl:id>
         <rdfs:label>area A13</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000151"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area lateral to the area A9 and located on the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3532,10 +3714,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The area lateral to the area A9 and A10, located on the abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Jordana &amp; Baquero, 2005</dc:source>
         <oboInOwl:id>CLAO:0000152</oboInOwl:id>
         <rdfs:label>area A14</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area lateral to the area A9 and A10, located on the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3762,10 +3952,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">The area that contains the mouth.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>mouth region</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000166</oboInOwl:id>
         <rdfs:label>buccal area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000166"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The area that contains the mouth.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3819,9 +4017,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Any area with every part of the surface or the circumference is equidistant from the center.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000169</oboInOwl:id>
         <rdfs:label xml:lang="en">circular area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000169"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any area with every part of the surface or the circumference is equidistant from the center.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3847,9 +4053,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Any area that is basal and lateral relative to another entity.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000171</oboInOwl:id>
         <rdfs:label>basolateral area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000171"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any area that is basal and lateral relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3857,9 +4071,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">Any area that is basal and median relative to another entity.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000172</oboInOwl:id>
         <rdfs:label>basomedian area</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000172"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any area that is basal and median relative to another entity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3905,10 +4127,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The conjunctiva that connects the cardo and the tentorial apodeme.</obo:IAO_0000115>
         <dc:source>Hopkin, 1997</dc:source>
         <oboInOwl:id>CLAO:0000176</oboInOwl:id>
         <rdfs:label>cardo-posterior tentorial membrane</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000176"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The conjunctiva that connects the cardo and the tentorial apodeme.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3916,10 +4152,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The conjunctiva that is part of the pseudotentorium.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000177</oboInOwl:id>
         <rdfs:label>endoskeletal membrane</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000177"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The conjunctiva that is part of the pseudotentorium.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3927,10 +4177,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that is continuous with the mandible.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="fr">apodème mandibulaire</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000178</oboInOwl:id>
         <rdfs:label>mandibular apodeme</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that is continuous with the mandible.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3938,10 +4202,24 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that is continuous with the maxilla.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="fr">apodème maxillaire</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000179</oboInOwl:id>
         <rdfs:label>maxillary apodeme</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000179"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that is continuous with the maxilla.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3955,10 +4233,18 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000969"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that is elongated and located on the dorsal and lateral side of the mandible.</obo:IAO_0000115>
         <dc:source>Manton and Harding, 1964</dc:source>
         <oboInOwl:id>CLAO:0000180</oboInOwl:id>
         <rdfs:label>dorso-lateral mandibular ridge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000180"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that is elongated and located on the dorsal and lateral side of the mandible.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -3972,9 +4258,17 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that is elongated and located on the internal side of the stipe.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000181</oboInOwl:id>
         <rdfs:label>inner thickening of stipes</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000181"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that is elongated and located on the internal side of the stipe.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -5456,9 +5750,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apodeme that is elongated and connects the tubercle on the surface of the region of the cuticle.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000267</oboInOwl:id>
         <rdfs:label>interconnecting ridge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000267"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apodeme that is elongated and connects the tubercle on the surface of the region of the cuticle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -5472,9 +5780,26 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ridge located on the anterior margin of the labrum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000268</oboInOwl:id>
         <rdfs:label>labral edge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000268"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The ridge located on the anterior margin of the labrum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000268"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>labral edge</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Adams, E.C.G. et Salmon, J.T. 1972. The mouth-parts and feeding methods of Brachystomella parvula (Schaeffer) (Collembola: Brachystomellidae)., Trans. R. ent. Soc. Lond., 124 (3), 1972, p.269-286.
+&quot;edge projects beyond the rim of the labium forming a roof-like structure&quot;</obo:AISM_0000171>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -5488,9 +5813,17 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ridge located on the dorsal side of the labrum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000269</oboInOwl:id>
         <rdfs:label>labral ridge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000269"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The ridge located on the dorsal side of the labrum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -5498,9 +5831,23 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000212"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ridge located on the pseudocellus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000270</oboInOwl:id>
         <rdfs:label>pseudocellar rib</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000270"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The ridge located on the pseudocellus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16387,17 +16734,17 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>f.m.</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
-https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The chaetae row posterior to the anterior frontal row.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000818"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>f.m.</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Schneider, C. (2017) Morphological review of the order Neelipleona (Collembola) through the redescription of the type species of Acanthoneelidus, Neelides and Neelus. Zootaxa, 4308 (1), 1–94.
+https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -21511,6 +21858,13 @@ this is a anatomical sphincter</rdfs:comment>
         <oboInOwl:id>CLAO:0001095</oboInOwl:id>
         <rdfs:label>epidermal cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -23082,6 +23436,13 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:comment xml:lang="en">In Collembola these are lateral to the cristalline cone</rdfs:comment>
         <rdfs:label>corneagenous cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001201"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Cell that separates the cornea from the underlying rhabdomeres.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28211,12 +28572,26 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000985"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001220"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001184"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An apodeme that is extension of the pseudotentorium.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">chitinous expansion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001450"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An apodeme that is extension of the pseudotentorium.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28270,9 +28645,18 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001461">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001254"/>
+        <obo:IAO_0000115 xml:lang="en">The crosslinked protein component of the cuticles of insects.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://en.wiktionary.org/wiki/sclerotin</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">quinone-tanned protein</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sclerotin</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001461"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The crosslinked protein component of the cuticles of insects.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28286,8 +28670,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any of a class of proteins found in the cuticles of insects.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">https://en.wiktionary.org/wiki/arthropodin</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">arthropodin</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001462"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any of a class of proteins found in the cuticles of insects.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28313,8 +28706,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001464">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000947"/>
+        <obo:IAO_0000115 xml:lang="en">Cells that support sensory neurons, similar to glial cells in vertebrates.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>WBbt:0005762</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">accessory cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001464"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Cells that support sensory neurons, similar to glial cells in vertebrates.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28328,8 +28730,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A specialized cell type in a multicellular organism that is sensitive to light.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0001060</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">photoreceptor cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001465"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A specialized cell type in a multicellular organism that is sensitive to light.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28379,8 +28790,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001469"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A fat body is an insect gland dorsal to the insect gut, with a function analogous to that of the vertebrate liver. It is a storage organ for fats, glycogen and protein and is a major site of intermediary metabolism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>TGMA:0001856</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">fat body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001468"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A fat body is an insect gland dorsal to the insect gut, with a function analogous to that of the vertebrate liver. It is a storage organ for fats, glycogen and protein and is a major site of intermediary metabolism.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28388,8 +28808,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000947"/>
+        <obo:IAO_0000115 xml:lang="en">A cell that is specialized to store a particular substance(s), which is(are) later released from the store for a particular purpose.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000629</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">storage cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001469"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cell that is specialized to store a particular substance(s), which is(are) later released from the store for a particular purpose.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29047,6 +29476,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">CL:0000670</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">germ cell</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">primordial germ cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -30400,6 +30830,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <owl:annotatedTarget xml:lang="en">The chaetae row most anterior and located on the labrum.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001496"/>
+        <obo:IAO_0000115 xml:lang="en">A motile male gamete of an animal usually with rounded or elongate head and a long posterior flagellum.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0001277</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">spermatozoon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001561"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A motile male gamete of an animal usually with rounded or elongate head and a long posterior flagellum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
     </owl:Axiom>
 </rdf:RDF>
 
