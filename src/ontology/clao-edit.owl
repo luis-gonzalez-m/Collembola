@@ -7277,9 +7277,17 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to the chaeta s.h. on the interocullar area.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000355</oboInOwl:id>
         <rdfs:label>chaeta t.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000355"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to the chaeta s.h. on the interocullar area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -7293,9 +7301,17 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta most internal and located in the interocullar area.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000356</oboInOwl:id>
         <rdfs:label>chaeta s.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000356"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta most internal and located in the interocullar area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -7309,10 +7325,18 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located between the chaeta p.h and the chaeta t.h</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>r</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000357</oboInOwl:id>
         <rdfs:label>chaeta r.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000357"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta located between the chaeta p.h and the chaeta t.h</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -7326,10 +7350,18 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta most anterior and located in the interocullar area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>q</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000358</oboInOwl:id>
         <rdfs:label>chaeta q.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000358"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta most anterior and located in the interocullar area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -7343,9 +7375,17 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta most external and located in the interocullar area.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000359</oboInOwl:id>
         <rdfs:label>chaeta p.h</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000359"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta most external and located in the interocullar area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11200,11 +11240,32 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000524">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment AIII on the antennal segment 4.</obo:IAO_0000115>
         <dc:source>Vargovitsh, 2009</dc:source>
         <oboInOwl:id>CLAO:0000524</oboInOwl:id>
-        <rdfs:label>chaeta M1</rdfs:label>
+        <rdfs:comment xml:lang="en">This is not a true segment.</rdfs:comment>
+        <rdfs:label>subsegment M1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000524"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment AIII on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11269,10 +11330,18 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The second chaeta of medial row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">S</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000528</oboInOwl:id>
         <rdfs:label>chaeta M2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000528"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The second chaeta of medial row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000528"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -11439,11 +11508,31 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M2 on the antennal segment 4.</obo:IAO_0000115>
         <dc:source>Vargovitsh, 2009</dc:source>
         <oboInOwl:id>CLAO:0000535</oboInOwl:id>
-        <rdfs:label>chaeta M3</rdfs:label>
+        <rdfs:label xml:lang="en">subsegment M3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000535"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M2 on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11622,11 +11711,31 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M3 on the antennal segment 4.</obo:IAO_0000115>
         <dc:source>Vargovitsh, 2009</dc:source>
         <oboInOwl:id>CLAO:0000544</oboInOwl:id>
-        <rdfs:label>chaeta M4</rdfs:label>
+        <rdfs:label>subsegment M4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000544"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M3 on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -11740,20 +11849,48 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The fourth chaeta of medial row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000549</oboInOwl:id>
         <rdfs:label>chaeta M4i</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000549"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fourth chaeta of medial row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M4 on the antennal segment 4.</obo:IAO_0000115>
         <dc:source>Vargovitsh, 2009</dc:source>
         <oboInOwl:id>CLAO:0000550</oboInOwl:id>
-        <rdfs:label>chaeta M5</rdfs:label>
+        <rdfs:label xml:lang="en">subsegment M5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000550"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M4 on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12113,9 +12250,17 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000573">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The first chaeta of posterior row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000573</oboInOwl:id>
         <rdfs:label>chaeta p1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000573"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The first chaeta of posterior row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12151,9 +12296,17 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000576">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The second chaeta of posterior row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000576</oboInOwl:id>
         <rdfs:label>chaeta p2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000576"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The second chaeta of posterior row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12195,9 +12348,17 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The third chaeta of posterior row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000579</oboInOwl:id>
         <rdfs:label>chaeta p3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000579"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The third chaeta of posterior row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12208,7 +12369,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001244"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of posterior row on medial-external axis of abdominal segment 3.</obo:IAO_0000115>
@@ -12267,9 +12428,17 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The fourth chaeta of posterior row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000584</oboInOwl:id>
         <rdfs:label>chaeta p4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000584"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fourth chaeta of posterior row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12339,9 +12508,17 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000589">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The fifth chaeta of posterior row on medial-external axis of head capsule.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000589</oboInOwl:id>
         <rdfs:label>chaeta p5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000589"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fifth chaeta of posterior row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -12818,10 +12995,24 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000618">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta posterior to the posterior row on the abdominal tegite 6.</obo:IAO_0000115>
         <dc:source>Zhang et al. (2009)</dc:source>
         <oboInOwl:id>CLAO:0000618</oboInOwl:id>
         <rdfs:label>chaeta pp</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000618"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to the posterior row on the abdominal tegite 6.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -13968,10 +14159,18 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000664">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The external chaeta of the vertical row on the dorsal side of the head capsule.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">v1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000664</oboInOwl:id>
         <rdfs:label>chaeta v1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000664"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The external chaeta of the vertical row on the dorsal side of the head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000664"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -13985,10 +14184,18 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000665">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <obo:IAO_0000115 xml:lang="en">The internal chaeta of the vertical row on the dorsal side of the head capsule.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">v2</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000665</oboInOwl:id>
         <rdfs:label>chaeta v2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000665"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The internal chaeta of the vertical row on the dorsal side of the head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000665"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -14047,11 +14254,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000668">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000667"/>
-        <obo:IAO_0000115>The subdivision located on basal side of tenent hair.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subdivision located on basal region of tenent hair.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>hairbase</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000668</oboInOwl:id>
         <rdfs:label>base of tenent hair</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000668"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subdivision located on basal region of tenent hair.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14059,10 +14279,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000669">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000667"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The lumen of the tenent hair.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>hair lumen</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000669</oboInOwl:id>
         <rdfs:label>lumen of tenent hair</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000669"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The lumen of the tenent hair.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14071,11 +14305,20 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000670">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000667"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <obo:IAO_0000115 xml:lang="en">Any chaeta located on the appendages.</obo:IAO_0000115>
         <dc:source>Nayrolles, 1993</dc:source>
         <oboInOwl:hasRelatedSynonym>appendicular seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000670</oboInOwl:id>
+        <rdfs:comment xml:lang="en">appendicular is a synonym of the appendages, e.g., antenna, furcula, legs.</rdfs:comment>
         <rdfs:label>appendicular chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000670"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any chaeta located on the appendages.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14179,21 +14422,43 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000677">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001100"/>
+        <obo:IAO_0000115 xml:lang="en">The filament located on the apical side of the unguiculus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>subapical filament of unguiculus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000677</oboInOwl:id>
         <rdfs:label>unguiculus subapical filament</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000677"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The filament located on the apical side of the unguiculus.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0000678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The projection located in the subapical side of the apical chaeta.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000678</oboInOwl:id>
         <rdfs:label>ventral process</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000678"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The projection located in the subapical side of the apical chaeta.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14201,10 +14466,17 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000679">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
-        <obo:IAO_0000115>The spine-like chaetae located in the anal area.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The spine-like chaetae located abdominal tergite 6.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000679</oboInOwl:id>
         <rdfs:label>anal spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000679"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine-like chaetae located abdominal tergite 6.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14216,6 +14488,13 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000680</oboInOwl:id>
         <rdfs:label>preanal spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000680"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The spine-like chaetae located in the preanal area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14223,10 +14502,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000681">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine located in the anterolateral side of the abdominal tergite 6.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000681</oboInOwl:id>
         <rdfs:label>anterior-lateral spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000681"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine located in the anterolateral side of the abdominal tergite 6.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14237,14 +14530,21 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000252"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The spine located in the basal side of anteapical tooh.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The spine located in the basal side of the apical chaeta.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000682</oboInOwl:id>
         <rdfs:label>basal spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000682"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine located in the basal side of the apical chaeta.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14252,10 +14552,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000683">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine posterior located on the abdominal tergite 6.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000683</oboInOwl:id>
         <rdfs:label>caudal spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000683"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine posterior located on the abdominal tergite 6.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14280,9 +14594,23 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000685">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine adjacent to the basal mucronal tooth.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000685</oboInOwl:id>
         <rdfs:label xml:lang="en">mucronal spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000685"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine adjacent to the basal mucronal tooth.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14290,10 +14618,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine that is posterior to the caudal spine.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000686</oboInOwl:id>
         <rdfs:label>opercular spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000686"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine that is posterior to the caudal spine.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14301,10 +14643,24 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000687">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine located in the posterolateral side of the abdominal tergite 6.</obo:IAO_0000115>
         <dc:source>Richards, 1968</dc:source>
         <oboInOwl:id>CLAO:0000687</oboInOwl:id>
         <rdfs:label>posterior-lateral spine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000687"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine located in the posterolateral side of the abdominal tergite 6.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14312,8 +14668,19 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000688">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
-        <obo:IAO_0000115>The spine located in the basal side of basal spine.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>mucronal spine</oboInOwl:hasExactSynonym>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000685"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The spine located in the basal side of mucronal spine.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000688</oboInOwl:id>
         <rdfs:label>spinelete</rdfs:label>
     </owl:Class>
@@ -14324,9 +14691,17 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000689">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001101"/>
+        <obo:IAO_0000115 xml:lang="en">The spine located in the subanal area.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000689</oboInOwl:id>
         <rdfs:label>subanal appendage</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000689"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spine located in the subanal area.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14395,9 +14770,17 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located on the anal lobes.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000695</oboInOwl:id>
         <rdfs:label>anal lobes chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000695"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta located on the anal lobes.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14405,10 +14788,18 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000696">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>Guthrie, 1903, View Maynard, 1951</dc:source>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000696</oboInOwl:id>
+        <rdfs:comment xml:lang="en">This is a synonym of the anal spines.</rdfs:comment>
         <rdfs:label>anal horn</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -14430,9 +14821,23 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000698">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located in the abdominal sternite 5.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000698</oboInOwl:id>
         <rdfs:label>antegenital chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000698"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta located in the abdominal sternite 5.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -14833,8 +15238,10 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <oboInOwl:hasDbXref>http://collembola.org/</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>anal appendage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000720</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Synonym of anal spine</rdfs:comment>
         <rdfs:comment>View Maynard, 1951</rdfs:comment>
         <rdfs:label>anal spines</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -14878,11 +15285,25 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000723">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000864"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta that is part of the sensory organ of antennal segment III.</obo:IAO_0000115>
         <dc:source>Danyi &amp; Park, 2016</dc:source>
         <oboInOwl:id>CLAO:0000723</oboInOwl:id>
         <rdfs:comment>This a synonym of antennal segment 3 sense organ?</rdfs:comment>
         <rdfs:label>AOIII chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000723"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta that is part of the sensory organ of antennal segment III.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15064,7 +15485,9 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
         <oboInOwl:id>CLAO:0000734</oboInOwl:id>
-        <rdfs:label>distal proximal chaeta</rdfs:label>
+        <rdfs:comment xml:lang="en">This term is a synonym of labral proximal chaetae. The chaeta in the proximal region of the labrum.</rdfs:comment>
+        <rdfs:label xml:lang="en">distal proximal chaeta</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15085,9 +15508,23 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000736">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located on the genital plate.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000736</oboInOwl:id>
         <rdfs:label>eugenital chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000736"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta located on the genital plate.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15538,9 +15975,23 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000761">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaeta located posterior to the papilla C and papilla A.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000761</oboInOwl:id>
         <rdfs:label>proximal chaeta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000761"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta located posterior to the papilla C and papilla A.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -15565,9 +16016,17 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000763">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <obo:IAO_0000115 xml:lang="en">The superior papillae row that is part of the labial palp.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000763</oboInOwl:id>
         <rdfs:label xml:lang="en">first row of papillae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000763"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The superior papillae row that is part of the labial palp.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16588,10 +17047,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row located in the posterior margin of the head capsule.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>postoccipital external series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000808</oboInOwl:id>
         <rdfs:label>external postoccipital row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000808"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row located in the posterior margin of the head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16782,10 +17249,19 @@ Cracoviensia, 18, 23–39.</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>medio-ocellar series</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row that is posterior to the anterior row.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">medin row</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>medio-ocellar series</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000816</oboInOwl:id>
         <rdfs:label>median ocellar row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000816"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row that is posterior to the anterior row.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16903,9 +17379,17 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000821">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row in the anterior side of the metasubcoxa.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000821</oboInOwl:id>
-        <rdfs:label>anterior subcoxal1 row</rdfs:label>
+        <rdfs:label xml:lang="en">anterior subcoxal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000821"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row in the anterior side of the metasubcoxa.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -16919,10 +17403,18 @@ https://doi.org/10.11646/zootaxa.4308.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000888"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The chaetae row in the posterior side of the metasubcoxa.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Cipola et al. 2019</dc:source>
         <oboInOwl:id>CLAO:0000822</oboInOwl:id>
-        <rdfs:comment>View Cipola et al. 2018</rdfs:comment>
-        <rdfs:label>posterior subcoxal1 row</rdfs:label>
+        <rdfs:label xml:lang="en">posterior subcoxal row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000822"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaetae row in the posterior side of the metasubcoxa.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17543,9 +18035,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000847">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001076"/>
+        <obo:IAO_0000115 xml:lang="en">The papillae row thta is part of the labial palp.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000847</oboInOwl:id>
         <rdfs:label xml:lang="en">papillae row</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000847"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The papillae row thta is part of the labial palp.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17564,10 +18064,18 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000849">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
+        <obo:IAO_0000115 xml:lang="en">The spines located in the anal region.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000849</oboInOwl:id>
         <rdfs:comment>anatomically, this entity is not an appendage</rdfs:comment>
         <rdfs:label>anal appendage</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000849"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The spines located in the anal region.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -17576,7 +18084,9 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000850">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
         <oboInOwl:id>CLAO:0000850</oboInOwl:id>
+        <rdfs:comment>Obsoloted term</rdfs:comment>
         <rdfs:label>left antenna</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17586,7 +18096,9 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
         <oboInOwl:id>CLAO:0000851</oboInOwl:id>
+        <rdfs:comment>Obsoloted term</rdfs:comment>
         <rdfs:label>rigth antenna</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17838,7 +18350,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000866">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The subsegment located on apical side of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000866</oboInOwl:id>
@@ -17850,7 +18368,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000867">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The subsegment located on basal side of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000867</oboInOwl:id>
@@ -18421,7 +18945,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The subsegment located on medial side of antennal segment 4.</obo:IAO_0000115>
         <dc:source>Jordana et al. 2017</dc:source>
         <oboInOwl:id>CLAO:0000894</oboInOwl:id>
@@ -31731,6 +32261,113 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <owl:annotatedTarget xml:lang="en">A motile male gamete of an animal usually with rounded or elongate head and a long posterior flagellum.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subsegment M2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001562"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001540"/>
+        <rdfs:label xml:lang="en">annulate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The first chaeta of medial row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chaeta M1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001564"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The first chaeta of medial row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The third chaeta of medial row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chaeta M3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001565"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The third chaeta of medial row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The fifth chaeta of medial row on medial-external axis of head capsule.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chaeta M4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001566"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The fifth chaeta of medial row on medial-external axis of head capsule.</owl:annotatedTarget>
+        <obo:IAO_0000115>lagonzalezmo</obo:IAO_0000115>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
     </owl:Axiom>
 </rdf:RDF>
 
