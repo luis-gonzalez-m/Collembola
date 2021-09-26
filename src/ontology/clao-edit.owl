@@ -17599,6 +17599,13 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <oboInOwl:id>CLAO:0000858</oboInOwl:id>
         <rdfs:label>excretory system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000858"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -21378,6 +21385,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
         <oboInOwl:hasDbXref>SPD:0000667</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001067</oboInOwl:id>
         <rdfs:label>muscle</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -23009,6 +23017,7 @@ this is a anatomical sphincter</rdfs:comment>
         <oboInOwl:hasDbXref>UBERON:0001021</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001172</oboInOwl:id>
         <rdfs:label>nerve</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
     </owl:Class>
     
 
@@ -24859,14 +24868,14 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The skeletal muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">The definition includes the property &quot;attached to&quot; instead of &quot;continuous with&quot; becuase the cuticle and muscle are structurally different.</rdfs:comment>
         <rdfs:label xml:lang="en">medial craniotentorial muscle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001280"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The skeletal muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to medial surface of frons and dorsal surface of pseudotentorial plate.</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Panina IV, Potapov MB, Polilov AA. 2019. Effects of miniaturization in the anatomy of the minute springtail
 Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http://doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <terms:contributor>lagonzalezmo</terms:contributor>
@@ -25033,8 +25042,17 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001147"/>
+        <obo:IAO_0000115 xml:lang="en">Muscle tissue is a contractile tissue made up of actin and myosin fibers.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0002385</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">muscle tissue</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Muscle tissue is a contractile tissue made up of actin and myosin fibers.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25042,9 +25060,18 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001293"/>
+        <obo:IAO_0000115 xml:lang="en">Muscle tissue composed of cardiac muscle cells, forming the muscles of the heart.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0001133</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">cardiac muscle tissue</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">cardiac musculature</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001294"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Muscle tissue composed of cardiac muscle cells, forming the muscles of the heart.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25118,8 +25145,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001129"/>
+        <obo:IAO_0000115 xml:lang="en">The respiratory system composedb by the trachea and tracheola.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tracheal system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The respiratory system composedb by the trachea and tracheola.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25144,8 +25179,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <obo:IAO_0000115 xml:lang="en">The tracheal bundle located in the head.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cephalic bundle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001301"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The tracheal bundle located in the head.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25153,8 +25196,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001300"/>
+        <obo:IAO_0000115 xml:lang="en">Any trachea located in the leg.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">leg trachea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001302"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any trachea located in the leg.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25162,8 +25213,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001302"/>
+        <obo:IAO_0000115 xml:lang="en">Any trachea located in the fore leg.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">protoracic leg trachea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001303"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any trachea located in the fore leg.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25171,8 +25230,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <obo:IAO_0000115 xml:lang="en">The tracheal bundle located in the thorax.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thoracic bundle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001304"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The tracheal bundle located in the thorax.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25180,8 +25247,16 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001302"/>
-        <rdfs:label xml:lang="en">mesothoraci leg trachea</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Any trachea located in the mid leg.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mesothoracic leg trachea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001305"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any trachea located in the mid leg.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25245,8 +25320,16 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001299"/>
+        <obo:IAO_0000115 xml:lang="en">The terminal branches of the trachea.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tracheola</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001309"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The terminal branches of the trachea.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25260,9 +25343,18 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of cuticle of the head capsule that is located posterior to the clypeus and delimited by the frontal suture.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0004020</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">The frons is fused with the clypeous.</rdfs:comment>
         <rdfs:label xml:lang="en">frons</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of cuticle of the head capsule that is located posterior to the clypeus and delimited by the frontal suture.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25282,8 +25374,16 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 2 and craniomandibular 3.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">craniomandibular muscle 1</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001311"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 2 and craniomandibular 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25303,8 +25403,16 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 1 and craniomandibular 3.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">craniomandibular muscle 2</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001312"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 1 and craniomandibular 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25324,8 +25432,16 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 1 and craniomandibular 2.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">craniomandibular muscle 3</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001313"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 1 and craniomandibular 2.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25345,8 +25461,16 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 5.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">craniomandibular muscle 4</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001314"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 5.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25366,8 +25490,16 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 4.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">craniomandibular muscle 5</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001315"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the frons and the mandible along with the craniomandibular muscle 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25387,19 +25519,41 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle attached to the head capsule and the stipe.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">medial craniostipital muscle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001316"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle attached to the head capsule and the stipe.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000954"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The apical segment connected to the stipes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">maxillary capitulum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">maxillary head</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">capitulum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001317"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apical segment connected to the stipes.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -25541,19 +25695,17 @@ https://doi.org/10.1515/9783110264043
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:AISM_0000171 xml:lang="en">The muscle that connects the oesophagous and antenna.</obo:AISM_0000171>
+        <obo:IAO_0000115 xml:lang="en">The cephalic muscle that connects the oesophagus and the antenna.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>M. cranioesophagialis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>1(Oe)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">cranioesophagic muscle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001322"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000171"/>
-        <owl:annotatedTarget xml:lang="en">The muscle that connects the oesophagous and antenna.</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Panina, I. V., Potapov, M. B., &amp; Polilov, A. A. (2019). Effects of miniaturization in the anatomy of the minute springtail Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ, 7, e8037.
-http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cephalic muscle that connects the oesophagus and the antenna.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-08-24</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -26135,9 +26287,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the pronotum that attaches to muscles attached to the pronotum.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">antecosta I</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma I</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001343"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the pronotum that attaches to muscles attached to the pronotum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -26151,9 +26311,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the mesonotum that attaches to muscles attached to the mesonotum.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">antecosta II</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma II</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001344"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the mesonotum that attaches to muscles attached to the mesonotum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -26167,9 +26335,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000956"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the metanotum that attaches to muscles attached to the metanotum.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">antecosta III</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma III</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001345"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the metanotum that attaches to muscles attached to the metanotum.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -26851,8 +27027,16 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
+        <obo:IAO_0000115 xml:lang="en">The notum or sclerite on the dorsal region of the metathorax that is posterior to the mesonotum, connected via the metanoto-metapleural conjuntiva to the dorsal margin of the metapleuron, that is not adjacent to the metacoxa, but attached to it by the metacoxal muscle.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">metanotum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001371"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The notum or sclerite on the dorsal region of the metathorax that is posterior to the mesonotum, connected via the metanoto-metapleural conjuntiva to the dorsal margin of the metapleuron, that is not adjacent to the metacoxa, but attached to it by the metacoxal muscle.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27000,8 +27184,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001379"/>
+        <obo:IAO_0000115 xml:lang="en">The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000540</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">neuron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001380"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27009,8 +27202,16 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001192"/>
+        <obo:IAO_0000115 xml:lang="en">The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">endoplasmic reticulum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001381"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27054,8 +27255,6 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
 doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 &quot;The neuropil comprises the axons, dendrites, terminals and their synaptic elements, as well as neuropil-associated glial cells.&quot;</obo:AISM_0000171>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-15</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -27162,9 +27361,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the abdominal tergite 1 that attaches to muscles attached to the abdominal tergite 1.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>antecosta IV</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma IV</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001387"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the abdominal tergite 1 that attaches to muscles attached to the abdominal tergite 1.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27178,9 +27385,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the abdominal tergite 2 that attaches to muscles attached to the abdominal tergite 2.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>antecosta V</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma V</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001388"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the abdominal tergite 2 that attaches to muscles attached to the abdominal tergite 2.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27370,8 +27585,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of the cuticle on the lateral region of the insect thorax that is attached to the notum and the sternum and is attached to the coxae by skeletal muscle tissue and the basal coxal conjunctiva.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>AISM:0004129</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">pleuron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001395"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of the cuticle on the lateral region of the insect thorax that is attached to the notum and the sternum and is attached to the coxae by skeletal muscle tissue and the basal coxal conjunctiva.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>201-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -27945,9 +28169,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the abdominal tergite 3 that attaches to muscles attached to the abdominal tergite 3.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">antecosta VI</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma VI</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001417"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the abdominal tergite 3 that attaches to muscles attached to the abdominal tergite 3.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28135,8 +28367,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the abdominal tergite 4 that attaches to muscles attached to the abdominal tergite 4.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">antecosta VII</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma VII</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001424"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the abdominal tergite 4 that attaches to muscles attached to the abdominal tergite 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28150,8 +28391,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The phragma of the abdominal tergite 5 that attaches to muscles attached to the abdominal tergite 5.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">antecosta VIII</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">phragma VIII</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001425"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The phragma of the abdominal tergite 5 that attaches to muscles attached to the abdominal tergite 5.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28304,8 +28554,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001379"/>
+        <obo:IAO_0000115 xml:lang="en">A supporting cell of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FBbt:00005144</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">glial cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A supporting cell of the nervous system.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28313,9 +28572,17 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001432">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001188"/>
+        <obo:IAO_0000115 xml:lang="en">Any projection of neural cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">cell body fiber</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">neuron projection</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001432"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any projection of neural cell.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28323,8 +28590,16 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001433">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001432"/>
+        <obo:IAO_0000115 xml:lang="en">The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">axon</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001433"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001433"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -28354,8 +28629,25 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The neuropil located in the anteriormost brain.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">antennal lobe</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001434"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The neuropil located in the anteriormost brain.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001434"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">antennal lobe</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;Glomerular neuropil in the anteriormost (n-ventralmost ) brain, below the MB medial
+lobe, with many glomeruli that receive axons from olfactory sensory neurons.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28369,8 +28661,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001434"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Subunit structure of synapse-rich neuropil that composed the antennal lobe.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">antennal glomeruli</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001435"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Subunit structure of synapse-rich neuropil that composed the antennal lobe.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28407,8 +28707,6 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
 doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 &quot;The most prominent set of neuropils of the central complex.&quot;</obo:AISM_0000171>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -28423,8 +28721,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil most external and that composes the central body.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">column W</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001437"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil most external and that composes the central body.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28438,8 +28744,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil external to the column Y and that composes the central body.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">column X</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001438"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil external to the column Y and that composes the central body.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28453,8 +28767,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil external to the column Z and that composes the central body.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">column Y</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001439"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil external to the column Z and that composes the central body.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28468,8 +28790,16 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001436"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil most internal and that composes the central body.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">column Z</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001440"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil most internal and that composes the central body.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28489,8 +28819,26 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001154"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil located in the anterior brain.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">mushroom body</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">mushroom body-like structures</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001441"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil located in the anterior brain.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001441"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">mushroom body-like structures</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;Lobed neuropils, in many species having cap- or cup-like neuropils in the superior-posterior
+(n-anterior ) brain and lobes in the anterior (n-ventral ) brain.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28498,8 +28846,22 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001379"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001382"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Cells that composes the neuropil.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">globuli cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001442"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Cells that composes the neuropil.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -28507,18 +28869,44 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001443">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001432"/>
+        <obo:IAO_0000115 xml:lang="en">Any neural projection</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">This term includes fibers,axons, and cell body fibers</rdfs:comment>
         <rdfs:label xml:lang="en">neuron projection bundle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001443"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any neural projection</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLAO_0001445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001445">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001443"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001550"/>
+        <obo:IAO_0000115 xml:lang="en">The synapse-rich neuropil that is continuous with the calyx and lobes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">peduncle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pedunculus</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">neural peduncle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The synapse-rich neuropil that is continuous with the calyx and lobes.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001445"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">neural peduncle</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;The mass of Kenyon cell fibers connecting the calyx and lobes forms the pedunculus.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -28538,8 +28926,24 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001154"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The neuropil located in the posterior region of the central complex.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">protocerebral bridge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001446"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The neuropil located in the posterior region of the central complex.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001446"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">protocerebral bridge</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
+doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
+&quot;Bridge-like neuropil lying posterior (n-dorsal ) to the FB.&quot;</obo:AISM_0000171>
+    </owl:Axiom>
     
 
 
@@ -29297,8 +29701,17 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001476"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The edges developed from the terga of intercalary, mandibular, maxillary and labial segments.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Tomizuka, 2014</dc:source>
         <rdfs:label xml:lang="en">mouth fold</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001489"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The edges developed from the terga of intercalary, mandibular, maxillary and labial segments.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -29940,8 +30353,16 @@ form by embryo, secretion of larval cuticle&quot;</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region composed by blastoderm cells during the development of egg.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">primary dorsal organ</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001518"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region composed by blastoderm cells during the development of egg.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -30613,8 +31034,6 @@ Verlag, Stuttgart, New York: 332 pp.
 doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 &quot;Synapse-rich neuropil (often called just neuropil ) is composed of neuronal
 processes that possess synapses.&quot;</obo:AISM_0000171>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -30674,8 +31093,6 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <obo:AISM_0000171 xml:lang="en">Ito K, Shinomiya K, Ito M, Armstrong JD, Boyan G, Hartenstein V, Harzsch S, Heisenberg M, Homberg U, Jenett A, Keshishian H, Restifo LL, Rössler W, Simpson JH, Strausfeld NJ, Strauss R, Vosshall LB; Insect Brain Name Working Group. A systematic nomenclature for the insect brain. Neuron. 2014 Feb 19;81(4):755-65. 
 doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 &quot;A system of interconnected neuropils lying at, or about, the midline of the protocerebrum.&quot;</obo:AISM_0000171>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-24</oboInOwl:creation_date>
     </owl:Axiom>
     
 
