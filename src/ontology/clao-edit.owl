@@ -421,6 +421,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001591 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001591">
+        <obo:IAO_0000115 xml:lang="en">Relation between homologues structures.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">homologous_to</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001591"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Relation between homologues structures.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2022-11-29</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001592 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001592">
+        <rdfs:label xml:lang="en">not_homologous_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001916 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PATO_0001916">
