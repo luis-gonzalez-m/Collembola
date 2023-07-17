@@ -4,7 +4,7 @@
 **COLLEMBOLA ANATOMY ONTOLOGY (CLAO)**
 A resource managed by Luis A. González-Montaña
 
-Suggested citation: González-Montaña, Luis. A. 2021. Collembola Anatomy Ontology. GitHub repository. https://doi.org/10.5281/zenodo.4660386.
+Suggested citation: González Montaña, L. A., Rueda-Ramírez, D., Serna Cardona, F. J., & Gaigl, A. (2023). An Anatomical Ontology for the Class Collembola (Arthropoda: Hexapoda). Brazilian Archives of Biology and Technology, 66, e23220682.
 
 Collembola Anatomy Ontology (CLAO) includes anatomical terms to refer to sclerites, anatomical systems, cell components, and chaetotaxy. CLAO is directed towards building semantic annotations or the production of morphological data employing a standardized language. CLAO is intended as a complementary tool to morhological descriptions during taxonomic work, before obtaining phylogenetic characters.
 ## Versions
