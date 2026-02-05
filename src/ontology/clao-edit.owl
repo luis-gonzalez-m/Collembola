@@ -1345,7 +1345,7 @@ https://doi.org/10.1007/BF00232007</obo:AISM_0000171>
         <oboInOwl:hasExactSynonym xml:lang="en">clypeus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Thickening of the clypeus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000044</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the position of sclerite depend if the head is hypognathus or prognathus</rdfs:comment>
+        <rdfs:comment>the position of sclerite depend if the head is hypognathus or prognathus</rdfs:comment>
         <rdfs:label>frontal sclerite</rdfs:label>
     </owl:Class>
     
@@ -10002,7 +10002,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The first chaeta located on clasping organ of males.</obo:IAO_0000115>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
+        <dc:source>Schulz, 2016</dc:source>
         <oboInOwl:hasRelatedSynonym>b1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000433</oboInOwl:id>
         <rdfs:label>chaeta b1</rdfs:label>
@@ -10077,7 +10077,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta located on clasping organ of males.</obo:IAO_0000115>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
+        <dc:source>Schulz, 2016</dc:source>
         <oboInOwl:hasRelatedSynonym>b3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000436</oboInOwl:id>
         <rdfs:label>chaeta b3</rdfs:label>
@@ -10399,9 +10399,10 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chaeta most anterior of serie C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
         <oboInOwl:hasExactSynonym xml:lang="en">C1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sm</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000450</oboInOwl:id>
         <rdfs:label>chaeta C1</rdfs:label>
     </owl:Class>
@@ -10502,7 +10503,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The second chaeta of clasping organ on antennal segment 3.</obo:IAO_0000115>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
+        <dc:source>Schulz, 2016</dc:source>
         <oboInOwl:hasRelatedSynonym>c2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000454</oboInOwl:id>
         <rdfs:label>chaeta c2</rdfs:label>
@@ -10553,7 +10554,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of clasping organ on antennal segment 3.</obo:IAO_0000115>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
+        <dc:source>Schulz, 2016</dc:source>
         <oboInOwl:hasRelatedSynonym>c3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000456</oboInOwl:id>
         <rdfs:label>chaeta c3</rdfs:label>
@@ -16300,7 +16301,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000734">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001308"/>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz, 2016</dc:source>
+        <dc:source>Schulz, 2016</dc:source>
         <oboInOwl:id>CLAO:0000734</oboInOwl:id>
         <rdfs:comment xml:lang="en">This term is a synonym of labral proximal chaetae. The chaeta in the proximal region of the labrum.</rdfs:comment>
         <rdfs:label xml:lang="en">distal proximal chaeta</rdfs:label>
@@ -16637,7 +16638,7 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000752">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000959"/>
         <obo:IAO_0000115>The group of chaetae located on dorsomedial side of mesothorax.</obo:IAO_0000115>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cipola &amp; Oliveira (2016)</dc:source>
+        <dc:source>Cipola &amp; Oliveira (2016)</dc:source>
         <oboInOwl:id>CLAO:0000752</oboInOwl:id>
         <rdfs:label>p3 complex</rdfs:label>
     </owl:Class>
@@ -19369,11 +19370,11 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000882"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The medial segment of furcula, with two separate parallel pieces which are connected basally with the manubrium and distally with the mucro.</obo:IAO_0000115>
+        <obo:IAO_0000115>The medial segment of furcula, with two separate parallel pieces which are connected basally with the manubrium and distally with the mucro.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://www.collembola.org/"/>
         <oboInOwl:hasRelatedSynonym>dentes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000877</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition modified from Guthrie, 1903</rdfs:comment>
+        <rdfs:comment>definition modified from Guthrie, 1903</rdfs:comment>
         <rdfs:label>dens</rdfs:label>
     </owl:Class>
     
@@ -19425,10 +19426,10 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000882"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proximal segment of the furcula, joined by its proximal end to the abdomen and at its distal end to the two dentes.</obo:IAO_0000115>
+        <obo:IAO_0000115>The proximal segment of the furcula, joined by its proximal end to the abdomen and at its distal end to the two dentes.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://www.collembola.org/"/>
         <oboInOwl:id>CLAO:0000881</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition modified from Guthrie, 1903</rdfs:comment>
+        <rdfs:comment>definition modified from Guthrie, 1903</rdfs:comment>
         <rdfs:label>manubrium</rdfs:label>
     </owl:Class>
     
@@ -19444,12 +19445,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The distal segment of each dens.</obo:IAO_0000115>
+        <obo:IAO_0000115>The distal segment of each dens.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://www.collembola.org/"/>
         <oboInOwl:hasRelatedSynonym>mucron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">mucrone</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000882</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition modified from Guthrie, 1903</rdfs:comment>
+        <rdfs:comment>definition modified from Guthrie, 1903</rdfs:comment>
         <rdfs:label>mucro</rdfs:label>
     </owl:Class>
     
@@ -19646,7 +19647,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The segment of a leg attached to the distal margin of the femur by the femoro-tibiotarsal conjunctiva and to the proximal margin of the pretarsus by the tibiotarsal-pretarsal conjunctiva.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000890</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibiotarsus</rdfs:label>
+        <rdfs:label>tibiotarsus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000890"/>
@@ -19930,7 +19931,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>The appendage that is located inside of cephalic capsule and connecting via stipital stud to mandible and articulates with the cranium via apodeme of head capsule and cardo-posterior tentorial membrane</obo:IAO_0000115>
         <dc:source>Blanke et al. 2015</dc:source>
         <oboInOwl:id>CLAO:0000902</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maxilla</rdfs:label>
+        <rdfs:label>maxilla</rdfs:label>
     </owl:Class>
     
 
@@ -20364,7 +20365,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <oboInOwl:hasExactSynonym xml:lang="en">S-chaeta</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>s-microchaeta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>s-seta</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setulae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>setulae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000922</oboInOwl:id>
         <rdfs:label>s-chaeta</rdfs:label>
     </owl:Class>
@@ -20937,12 +20938,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anatomical cluster that is composed of the labrum, epipharyngeal wall, hypopharyngeal wall (including the sitophore), mandibles, maxillae, labium and conjunctivae connecting them.</obo:IAO_0000115>
+        <obo:IAO_0000115>The anatomical cluster that is composed of the labrum, epipharyngeal wall, hypopharyngeal wall (including the sitophore), mandibles, maxillae, labium and conjunctivae connecting them.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000639</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>mouth parts</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mouth-organs</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000954</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epipharyngeal wall, hypopharyngeal wall, sitophore must be evaluate!!</rdfs:comment>
+        <rdfs:comment>epipharyngeal wall, hypopharyngeal wall, sitophore must be evaluate!!</rdfs:comment>
         <rdfs:label>mouthparts</rdfs:label>
     </owl:Class>
     
@@ -21203,7 +21204,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <oboInOwl:hasRelatedSynonym>mandibule</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000969</oboInOwl:id>
         <rdfs:comment>definition modified from HAO</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mandible</rdfs:label>
+        <rdfs:label>mandible</rdfs:label>
     </owl:Class>
     
 
@@ -21919,7 +21920,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sclerite that is situated along the distal margin of the clypeus and is connected along its proximal margin with the distal margin of the epipharyngeal wall</obo:IAO_0000115>
+        <obo:IAO_0000115>The sclerite that is situated along the distal margin of the clypeus and is connected along its proximal margin with the distal margin of the epipharyngeal wall</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://glossary.hymao.org/projects/32/public/ontology_class/show/499"/>
         <oboInOwl:hasDbXref>HAO:0000456</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0005905</oboInOwl:hasDbXref>
@@ -22838,7 +22839,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
         <oboInOwl:hasRelatedSynonym>praetarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001057</oboInOwl:id>
         <rdfs:comment xml:lang="en">This term is apparently a synonym of unguis.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pretarsus</rdfs:label>
+        <rdfs:label>pretarsus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001057"/>
@@ -33310,5 +33311,5 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
