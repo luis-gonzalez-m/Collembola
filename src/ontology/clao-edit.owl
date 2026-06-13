@@ -608,6 +608,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000102 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000102">
+        <rdfs:label xml:lang="es">ventral_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6414,7 +6422,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -6429,6 +6437,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         <oboInOwl:hasRelatedSynonym>pretarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>superior claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>upper claw</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>distitarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000278</oboInOwl:id>
         <rdfs:label>unguis</rdfs:label>
     </owl:Class>
@@ -6467,11 +6476,17 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/CLAO_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The claw  in distal side of tibitarsus ventral to unguis</obo:IAO_0000115>
@@ -7178,7 +7193,7 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
-        <obo:IAO_0000115 xml:lang="en">Circular entity conforms by granules and ribs located on trochanter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Circular entity conforms by granules and ribs located on body.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>lenticular organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>oval organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>parapseudocellus</oboInOwl:hasRelatedSynonym>
@@ -7192,7 +7207,7 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000317"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Circular entity conforms by granules and ribs located on trochanter.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Circular entity conforms by granules and ribs located on body.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-27</oboInOwl:creation_date>
     </owl:Axiom>
@@ -19363,7 +19378,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000877">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19419,7 +19434,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000881 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000881">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19438,7 +19453,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000882 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000882">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19459,7 +19474,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000883 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000883">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19630,7 +19645,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000890 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000890">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -21120,7 +21135,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000967 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000967">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -22010,7 +22025,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000949"/>
         <obo:IAO_0000115>The anatomical structure that is encircled by the evagination of the integument and whose integumental components are attached to the body via muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0000026</oboInOwl:hasDbXref>
@@ -22115,7 +22130,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <obo:IAO_0000115>The leg segment that is connected to the body and to the trochanter via conjunctivae and muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000228</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGMA:0000165</oboInOwl:hasDbXref>
@@ -22817,7 +22832,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -23305,7 +23320,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
