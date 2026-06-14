@@ -5254,6 +5254,8 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The paired carina that is external to the internal lamella part of the unguis.</obo:IAO_0000115>
         <dc:source xml:lang="en">Christiansen &amp; Bellinger, 1998</dc:source>
+        <oboInOwl:hasExactSynonym>carina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>external lamella</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000226</oboInOwl:id>
         <rdfs:label>lateral lamella</rdfs:label>
     </owl:Class>
@@ -7362,6 +7364,12 @@ https://doi.org/10.1515/9783110264043
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7382,6 +7390,12 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -7552,6 +7566,12 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19131,6 +19151,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The proximal-most segment of the antenna.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. I</oboInOwl:hasRelatedSynonym>
@@ -19144,6 +19170,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000863">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the first segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. II</oboInOwl:hasRelatedSynonym>
@@ -19158,6 +19190,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the second segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. III</oboInOwl:hasRelatedSynonym>
@@ -19171,6 +19209,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000865">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the third segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. IV</oboInOwl:hasRelatedSynonym>
@@ -22071,6 +22115,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
         <obo:IAO_0000115>The process that is elongate and external.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000188</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>lamella</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001023</oboInOwl:id>
         <rdfs:label>carina</rdfs:label>
     </owl:Class>
@@ -23594,7 +23639,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001270"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001272"/>
@@ -23602,6 +23647,7 @@ this is a anatomical sphincter</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A sensillum with a long, unicellular, setiform outgrowth that is strongly chitinized.</obo:IAO_0000115>
+        <obo:IAO_0000115>The unicellular cuticular evagination that constitutes a sclerite with its base surrounded by socket membrane.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00005177</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:6005177</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="es">queta</oboInOwl:hasExactSynonym>
