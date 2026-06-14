@@ -6432,12 +6432,12 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         <obo:IAO_0000115>The claw  in distal_side of tibitarsus dorsal to unguiculus</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">ungues</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>claw</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>distitarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer spine of tarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pretarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>superior claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>upper claw</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>distitarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000278</oboInOwl:id>
         <rdfs:label>unguis</rdfs:label>
     </owl:Class>
@@ -11427,7 +11427,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chaeta most anterior of row F on abdominal tergite IV.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">F1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000494</oboInOwl:id>
         <rdfs:label>chaeta F1</rdfs:label>
@@ -15062,7 +15062,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000892"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000890"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located in the subdistal area on external side of tibiotarsus.</obo:IAO_0000115>
@@ -19229,7 +19229,6 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>The abdominal segment that is located between the metathorax and abdominal segment 2.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">Abd I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Abd.I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000868</oboInOwl:id>
         <rdfs:label>abdominal segment 1</rdfs:label>
     </owl:Class>
@@ -20933,7 +20932,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001269"/>
         <obo:IAO_0000115>The process that is small and knob-like or round.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001036</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000953</oboInOwl:id>
@@ -21000,7 +20999,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000957 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000183"/>
         <obo:IAO_0000115>The segment that is located posterior to the head and is does not bear legs.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00000021</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000016</oboInOwl:hasDbXref>
@@ -22921,7 +22920,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22948,7 +22947,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22976,7 +22975,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -23004,7 +23003,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000183"/>
         <obo:IAO_0000115>The body segment that is located in the thorax.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00000016</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0001013</oboInOwl:hasDbXref>
@@ -24662,7 +24661,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000971"/>
         <obo:IAO_0000115>Skeletal subdivision that undergoes indirect development and includes elements that develop as a replacement or substitution of other elements or tissues.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0010362</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001169</oboInOwl:id>
@@ -33322,6 +33321,15 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-27</oboInOwl:creation_date>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HAO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
+        <rdfs:label xml:lang="es">body segment</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
