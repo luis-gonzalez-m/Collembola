@@ -22691,7 +22691,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001533"/>
         <obo:IAO_0000115>The anatomical structure that is linear.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001586</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001051</oboInOwl:id>
