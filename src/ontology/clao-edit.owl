@@ -31830,7 +31830,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <!-- http://purl.obolibrary.org/obo/CLAO_0001499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the yolk and germ cell are developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 1</rdfs:label>
     </owl:Class>
@@ -31855,7 +31855,7 @@ http://dx.doi.org/10.1016/j.asd.2014.12.004
     <!-- http://purl.obolibrary.org/obo/CLAO_0001500 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the blastoderm is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 2</rdfs:label>
     </owl:Class>
@@ -31880,7 +31880,7 @@ http://dx.doi.org/10.1016/j.asd.2014.12.004
     <!-- http://purl.obolibrary.org/obo/CLAO_0001501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001501">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the dorsal organ is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 3</rdfs:label>
     </owl:Class>
@@ -31905,7 +31905,7 @@ http://dx.doi.org/10.1016/j.asd.2014.12.004
     <!-- http://purl.obolibrary.org/obo/CLAO_0001502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001502">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the embryo and serosa is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 4</rdfs:label>
     </owl:Class>
@@ -31931,7 +31931,7 @@ differentiation of embryo and serosa&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001503">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the cephalic segment and appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 5</rdfs:label>
     </owl:Class>
@@ -31956,7 +31956,7 @@ http://dx.doi.org/10.1016/j.asd.2014.12.004
     <!-- http://purl.obolibrary.org/obo/CLAO_0001504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the thoracic segment and cephalic appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 6</rdfs:label>
     </owl:Class>
@@ -31982,7 +31982,7 @@ appendages, elongation of cephalic appendages&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the abdominal segment and appendage is developed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 7</rdfs:label>
     </owl:Class>
@@ -32008,7 +32008,7 @@ and appendages&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the dorsal closure is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 8</rdfs:label>
     </owl:Class>
@@ -32034,7 +32034,7 @@ dorsal closure&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001507">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the six paired ommatidia and appendage articulation is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 9</rdfs:label>
     </owl:Class>
@@ -32060,7 +32060,7 @@ articulation&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the antennal segment 3 and antennal segment 4 are elongated.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 10</rdfs:label>
     </owl:Class>
@@ -32086,7 +32086,7 @@ deeply pigmented&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 xml:lang="en">The embryo stage where the embryo is completed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stage 11</rdfs:label>
     </owl:Class>
@@ -33403,6 +33403,15 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:label xml:lang="es">chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/UBERON_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001510"/>
+        <rdfs:label xml:lang="es">life cycle stage</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
