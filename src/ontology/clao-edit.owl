@@ -23968,7 +23968,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001568"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115>Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:00001062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://orcid.org/0000-0001-9114-8737</oboInOwl:hasDbXref>
@@ -33377,6 +33377,15 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/AISM_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <rdfs:label xml:lang="es">cuticular protrusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001568"/>
+        <rdfs:label xml:lang="es">independent continuant</rdfs:label>
     </owl:Class>
     
 
