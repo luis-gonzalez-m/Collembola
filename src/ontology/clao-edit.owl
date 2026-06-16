@@ -3311,7 +3311,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <obo:IAO_0000115>The subdivision of the head that includes the mouth.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000127</oboInOwl:id>
         <rdfs:label>mouth region</rdfs:label>
@@ -3322,7 +3322,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <obo:IAO_0000115>The subdivision of digestive tube from pyloric region to anus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000128</oboInOwl:id>
         <rdfs:label>posterior region of the midgut</rdfs:label>
@@ -3333,7 +3333,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <obo:IAO_0000115>A subdivision that delimits the midgut and proctodeum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000129</oboInOwl:id>
         <rdfs:label>pyloric region</rdfs:label>
@@ -12077,7 +12077,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000524">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12345,7 +12345,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12548,7 +12548,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12703,7 +12703,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19227,7 +19227,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000866">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19245,7 +19245,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000867">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19821,7 +19821,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -20989,7 +20989,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000954 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000954">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22068,7 +22068,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000949"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
         <obo:IAO_0000115>The anatomical structure that is encircled by the evagination of the integument and whose integumental components are attached to the body via muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:0000026</oboInOwl:hasDbXref>
@@ -23639,7 +23639,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001272"/>
@@ -23968,7 +23968,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001571"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001568"/>
         <obo:IAO_0000115>Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:00001062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://orcid.org/0000-0001-9114-8737</oboInOwl:hasDbXref>
@@ -23996,10 +23996,17 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001137"/>
         <obo:IAO_0000115>Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000061</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>connected anatomical structure</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001119</oboInOwl:id>
         <rdfs:comment xml:lang="en">This anatomical term is not clear (see Young 1993) and could be synonymous with anatomical entity</rdfs:comment>
         <rdfs:label>anatomical structure</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>connected anatomical structure</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/CARO_0000003</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -24018,25 +24025,11 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <obo:IAO_0000115>The anteriormost subdivision of the body that includes the head, jaws, pharyngeal region and the neck (if present).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007811</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001121</oboInOwl:id>
         <rdfs:label>cephalic region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001120"/>
-        <obo:IAO_0000115>Named areas of the body.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref xml:lang="en">BSPO:0000070</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12680</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">anatomical region</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>CLAO:0001122</oboInOwl:id>
-        <rdfs:label>body region</rdfs:label>
     </owl:Class>
     
 
@@ -25568,7 +25561,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/AISM_0000008"/>
         <obo:IAO_0000115 xml:lang="en">The region of cuticle that corresponds with an evagination of the cuticle and the single layer epidermis (epidermal fold). The cuticular evagination usually corresponds to a cuticular protrusion (convexity on the surface of the cuticle).</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">AISM:0000027</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cuticular evagination</rdfs:label>
@@ -26154,7 +26147,7 @@ https://www.publish.csiro.au/book/6466/
     <!-- http://purl.obolibrary.org/obo/CLAO_0001253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <obo:IAO_0000115 xml:lang="en">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CHEBI:23367</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">molecular entity</rdfs:label>
@@ -26985,7 +26978,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001117"/>
         <obo:IAO_0000115 xml:lang="en">A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cellular anatomical entity</rdfs:label>
     </owl:Class>
@@ -33164,7 +33157,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <!-- http://purl.obolibrary.org/obo/CLAO_0001562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -33375,6 +33368,32 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
         <rdfs:label xml:lang="es">body segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/AISM_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/AISM_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:label xml:lang="es">cuticular protrusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:label xml:lang="es">anatomical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label xml:lang="es">chemical entity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
