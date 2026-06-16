@@ -11,13 +11,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clao/clao-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clao/releases/2021-09-27/clao-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clao/releases/2026-06-16/clao-simple.owl"/>
         <dc:title xml:lang="en">Collembola Anatomy Ontology</dc:title>
         <terms:contributor xml:lang="en">Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932</terms:contributor>
         <terms:description xml:lang="en">The Collembola Anatomy Ontology contains terms used for describing the anatomy and phenotype of springtails in biodiversity research.</terms:description>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
         <owl:versionInfo>2020-16-05</owl:versionInfo>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-09-27</owl:versionInfo>
+        <owl:versionInfo>2026-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -420,6 +420,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001591 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001591">
+        <obo:IAO_0000115 xml:lang="en">Relation between homologues structures.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">homologous_to</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001591"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Relation between homologues structures.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2022-11-29</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001592 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001592">
+        <rdfs:label xml:lang="en">not_homologous_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001916 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PATO_0001916">
@@ -579,6 +603,14 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002488">
         <obo:IAO_0000115 xml:lang="en">Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">existence_starts_during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000102 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/BSPO_0000102">
+        <rdfs:label xml:lang="es">ventral_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3260,7 +3292,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>The subdivision of the head that includes the mouth.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000127</oboInOwl:id>
         <rdfs:label>mouth region</rdfs:label>
@@ -3271,7 +3303,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>The subdivision of digestive tube from pyloric region to anus.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000128</oboInOwl:id>
         <rdfs:label>posterior region of the midgut</rdfs:label>
@@ -3282,7 +3314,7 @@ rein céphalique, à la face interne de la masse oculaire où il s&apos;attache.
     <!-- http://purl.obolibrary.org/obo/CLAO_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>A subdivision that delimits the midgut and proctodeum.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000129</oboInOwl:id>
         <rdfs:label>pyloric region</rdfs:label>
@@ -5155,6 +5187,8 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The paired carina that is external to the internal lamella part of the unguis.</obo:IAO_0000115>
         <dc:source xml:lang="en">Christiansen &amp; Bellinger, 1998</dc:source>
+        <oboInOwl:hasExactSynonym>carina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>external lamella</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000226</oboInOwl:id>
         <rdfs:label>lateral lamella</rdfs:label>
     </owl:Class>
@@ -5755,13 +5789,13 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The lobe adjacent to labrum and attached to the stipes.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">galea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">palpifer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maxillary palps</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxillary ramus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer maxilliary lobe</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>palp of maxilla</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">palpifer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>simple maxillary palp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000252</oboInOwl:id>
         <rdfs:label xml:lang="en">maxillary outer lobe</rdfs:label>
@@ -6280,7 +6314,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -6290,6 +6324,7 @@ http://dx.doi.org/10.1098/rspb.2015.1033</obo:AISM_0000171>
         <obo:IAO_0000115>The claw  in distal_side of tibitarsus dorsal to unguiculus</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">ungues</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>claw</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>distitarsal claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer claw</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>outer spine of tarsus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pretarsal claw</oboInOwl:hasRelatedSynonym>
@@ -6333,11 +6368,17 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/CLAO_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001291"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The claw  in distal side of tibitarsus ventral to unguis</obo:IAO_0000115>
@@ -7044,7 +7085,7 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
-        <obo:IAO_0000115 xml:lang="en">Circular entity conforms by granules and ribs located on trochanter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Circular entity conforms by granules and ribs located on body.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>lenticular organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>oval organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>parapseudocellus</oboInOwl:hasRelatedSynonym>
@@ -7058,7 +7099,7 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000317"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Circular entity conforms by granules and ribs located on trochanter.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Circular entity conforms by granules and ribs located on body.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-27</oboInOwl:creation_date>
     </owl:Axiom>
@@ -7195,7 +7236,7 @@ https://doi.org/10.1515/9783110264043
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaeta lateral to chaeta a.l.0 on dorsal side of labrum.</obo:IAO_0000115>
@@ -7218,7 +7259,7 @@ https://doi.org/10.1515/9783110264043
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located on dorsal side of labrum near to external margin</obo:IAO_0000115>
@@ -7388,7 +7429,7 @@ https://doi.org/10.1515/9783110264043
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta lateral to chaeta a.l.1 on dorsal side of labrum</obo:IAO_0000115>
@@ -10247,9 +10288,10 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row C on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chaeta most anterior of serie C on fourth abdominal segment chaeta.</obo:IAO_0000115>
         <dc:source>Szeptycki, (1979)</dc:source>
         <oboInOwl:hasExactSynonym xml:lang="en">C1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sm</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000450</oboInOwl:id>
         <rdfs:label>chaeta C1</rdfs:label>
     </owl:Class>
@@ -11259,7 +11301,7 @@ https://doi.org/10.11646/zootaxa.2047.1.1</obo:AISM_0000171>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The chaeta most anterior of row F on fourth abdominal segment chaeta.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chaeta most anterior of row F on abdominal tergite IV.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">F1</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0000494</oboInOwl:id>
         <rdfs:label>chaeta F1</rdfs:label>
@@ -11889,7 +11931,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000524">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12157,7 +12199,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12222,8 +12264,8 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The third chaeta of medial row on medial-external axis of abdominal segment 2.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>B</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>M1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">m3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>M1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000537</oboInOwl:id>
         <rdfs:label>chaeta m3.ab2</rdfs:label>
     </owl:Class>
@@ -12238,15 +12280,15 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>M1</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Snider, R.J. (1967) The Chaetotaxy of North American Lepidocyrtus s. str., (Collembola: Entomobryidae). Contributions of the American Entomological Institute, 2(3), 1–28.</obo:AISM_0000171>
+        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
+219pp.</obo:AISM_0000171>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000537"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget xml:lang="en">m3</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
-219pp.</obo:AISM_0000171>
+        <owl:annotatedTarget>M1</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Snider, R.J. (1967) The Chaetotaxy of North American Lepidocyrtus s. str., (Collembola: Entomobryidae). Contributions of the American Entomological Institute, 2(3), 1–28.</obo:AISM_0000171>
     </owl:Axiom>
     
 
@@ -12360,7 +12402,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12515,7 +12557,7 @@ http://dx.doi.org/10.11646/zootaxa.4027.1.1</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -14692,17 +14734,17 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000659"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</owl:annotatedTarget>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000659"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>T4</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="en">Szeptycki, A. (1979) Chaetotaxy of the Entomobryidae and its phylogenetical significance. Morpho-systematic studies of Collembola, IV. Polska Akademia Nauk, Zakład Zoologii Systematycznej i Doświadczalnej, Kraków, Poland,
 219pp.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000659"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The chaeta posterior to chaeta T3 of row T on  the abdominal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2020-10-28</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -14894,7 +14936,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000892"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000890"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The chaeta located in the subdistal area on external side of tibiotarsus.</obo:IAO_0000115>
@@ -16740,8 +16782,8 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaetae row located on anteroposterior axis and medial area of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
-        <oboInOwl:hasRelatedSynonym>A series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series A</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>A series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000765</oboInOwl:id>
         <rdfs:label>row A</rdfs:label>
     </owl:Class>
@@ -16872,8 +16914,8 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaetae row lateral to row A of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
-        <oboInOwl:hasRelatedSynonym>B series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series B</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>B series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000771</oboInOwl:id>
         <rdfs:label>row B</rdfs:label>
     </owl:Class>
@@ -16925,8 +16967,8 @@ Rondani (Collembola: Entomobryoidea: Entomobryidae) from Brazil. Zootaxa 4027: 2
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The chaetae row lateral to row B of abdominal tergite 4.</obo:IAO_0000115>
         <dc:source>Szeptycki, 1979</dc:source>
-        <oboInOwl:hasRelatedSynonym>C series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">series C</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>C series</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000773</oboInOwl:id>
         <rdfs:label>row C</rdfs:label>
     </owl:Class>
@@ -18839,8 +18881,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>A midventral appendage of the fourth abdominal segment.</obo:IAO_0000115>
         <dc:source>Christiansen &amp; Bellinger, 1980</dc:source>
         <oboInOwl:hasDbXref>http://www.collembola.org</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>cercus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">furca</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cercus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>saltatorial appendage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>spring</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>springing organ</oboInOwl:hasRelatedSynonym>
@@ -18957,6 +18999,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The proximal-most segment of the antenna.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. I</oboInOwl:hasRelatedSynonym>
@@ -18970,6 +19018,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000863">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the first segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. II</oboInOwl:hasRelatedSynonym>
@@ -18984,6 +19038,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the second segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. III</oboInOwl:hasRelatedSynonym>
@@ -18997,6 +19057,12 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000865">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The segment of the antenna located apically to the third segment.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Ant. 4</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ant. IV</oboInOwl:hasRelatedSynonym>
@@ -19009,7 +19075,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000866">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19027,7 +19093,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000867">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19055,7 +19121,6 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <obo:IAO_0000115>The abdominal segment that is located between the metathorax and abdominal segment 2.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">Abd I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Abd.1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Abd.I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000868</oboInOwl:id>
         <rdfs:label>abdominal segment 1</rdfs:label>
     </owl:Class>
@@ -19204,7 +19269,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000877">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19260,7 +19325,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000881 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000881">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19279,7 +19344,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000882 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000882">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19288,8 +19353,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The distal segment of each dens.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://www.collembola.org/"/>
-        <oboInOwl:hasRelatedSynonym>mucron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">mucrone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mucron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000882</oboInOwl:id>
         <rdfs:comment>definition modified from Guthrie, 1903</rdfs:comment>
         <rdfs:label>mucro</rdfs:label>
@@ -19300,7 +19365,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000883 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000883">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000876"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -19453,7 +19518,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000890 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000890">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19586,7 +19651,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -20656,8 +20721,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000947">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>An anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>CARO:0000013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref xml:lang="en">CL:0000000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CARO:0000013</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000947</oboInOwl:id>
         <rdfs:label xml:lang="en">cell</rdfs:label>
     </owl:Class>
@@ -20729,7 +20794,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001269"/>
         <obo:IAO_0000115>The process that is small and knob-like or round.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001036</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0000953</oboInOwl:id>
@@ -20742,7 +20807,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000954 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000954">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000958"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001226"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -20796,7 +20861,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000957 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
         <obo:IAO_0000115>The segment that is located posterior to the head and is does not bear legs.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00000021</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0000016</oboInOwl:hasDbXref>
@@ -20931,7 +20996,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0000967 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000967">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -21462,8 +21527,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0000997">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001043"/>
         <obo:IAO_0000115 xml:lang="en">Either of a pair of endocrine glands located in the prothorax of certain insects and regulating molting.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BTO:0000874</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref xml:lang="en">https://ahdictionary.com</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000874</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">molting gland</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000997</oboInOwl:id>
         <rdfs:label xml:lang="en">prothoracic gland</rdfs:label>
@@ -21477,9 +21542,9 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000996"/>
         <obo:IAO_0000115 xml:lang="en">Any of the organized aggregations of cells that function as secretory or excretory organs of substances into the haemolympha.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0002106</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>arthropod neurohemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">neurohaemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">neurohaemeral organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>arthropod neurohemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>neurohemal organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0000998</oboInOwl:id>
         <rdfs:label xml:lang="en">neurohemal organ</rdfs:label>
@@ -21803,8 +21868,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001018"/>
         <obo:IAO_0000115 xml:lang="en">Any flat anatomical entity with appareance of membrane, and doubling upon itself</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>FMA:75650</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref xml:lang="en">https://www.merriam-webster.com/dictionary/fold</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:75650</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001019</oboInOwl:id>
         <rdfs:label xml:lang="en">anatomical fold</rdfs:label>
     </owl:Class>
@@ -21868,6 +21933,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
         <obo:IAO_0000115>The process that is elongate and external.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000188</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>lamella</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001023</oboInOwl:id>
         <rdfs:label>carina</rdfs:label>
     </owl:Class>
@@ -21926,7 +21992,7 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <obo:IAO_0000115>The leg segment that is connected to the body and to the trochanter via conjunctivae and muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0000228</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGMA:0000165</oboInOwl:hasDbXref>
@@ -22030,8 +22096,8 @@ http://dx.doi.org/10.7717/peerj.8037</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The coxa that is located on the fore leg</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001122</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>praecoxa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">precoxa</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>praecoxa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001030</oboInOwl:id>
         <rdfs:label>procoxa</rdfs:label>
     </owl:Class>
@@ -22356,8 +22422,8 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001046"/>
         <obo:IAO_0000115 xml:lang="en">The cluster of neurons at the junction of the circumoesophageal connectives and the ventral nerve cord.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BTO:0001821</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref xml:lang="en">http://www.webref.org/invertebrate/s/suboesophageal_ganglion.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001821</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">subesophageal ganglion</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001047</oboInOwl:id>
         <rdfs:label>suboesophageal ganglion</rdfs:label>
@@ -22425,7 +22491,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001533"/>
         <obo:IAO_0000115>The anatomical structure that is linear.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>HAO:0001586</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001051</oboInOwl:id>
@@ -22610,7 +22676,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001020"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -22699,7 +22765,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22726,7 +22792,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22754,7 +22820,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22782,7 +22848,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
         <obo:IAO_0000115>The body segment that is located in the thorax.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00000016</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HAO:0001013</oboInOwl:hasDbXref>
@@ -23098,7 +23164,7 @@ have a decentralized nervous system without a brain, while sponges lack any nerv
     <!-- http://purl.obolibrary.org/obo/CLAO_0001082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001274"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -23381,11 +23447,13 @@ this is a anatomical sphincter</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A sensillum with a long, unicellular, setiform outgrowth that is strongly chitinized.</obo:IAO_0000115>
+        <obo:IAO_0000115>The unicellular cuticular evagination that constitutes a sclerite with its base surrounded by socket membrane.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>FBbt:00005177</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UBERON:6005177</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="es">queta</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="es">seda</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>setae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">setiform organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>bristle</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>eupathidium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hair</oboInOwl:hasRelatedSynonym>
@@ -23395,7 +23463,6 @@ this is a anatomical sphincter</rdfs:comment>
         <oboInOwl:hasRelatedSynonym>normal seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pin seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>setiform organ</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">setiform organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>setula</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>stiff</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001098</oboInOwl:id>
@@ -23701,7 +23768,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001571"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001568"/>
         <obo:IAO_0000115>Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:00001062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://orcid.org/0000-0001-9114-8737</oboInOwl:hasDbXref>
@@ -23729,10 +23796,17 @@ this is a anatomical sphincter</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001137"/>
         <obo:IAO_0000115>Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000061</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>connected anatomical structure</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CLAO:0001119</oboInOwl:id>
         <rdfs:comment xml:lang="en">This anatomical term is not clear (see Young 1993) and could be synonymous with anatomical entity</rdfs:comment>
         <rdfs:label>anatomical structure</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>connected anatomical structure</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/CARO_0000003</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -23751,25 +23825,11 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115>The anteriormost subdivision of the body that includes the head, jaws, pharyngeal region and the neck (if present).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007811</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001121</oboInOwl:id>
         <rdfs:label>cephalic region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001120"/>
-        <obo:IAO_0000115>Named areas of the body.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref xml:lang="en">BSPO:0000070</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12680</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">anatomical region</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>CLAO:0001122</oboInOwl:id>
-        <rdfs:label>body region</rdfs:label>
     </owl:Class>
     
 
@@ -24422,7 +24482,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001144"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000971"/>
         <obo:IAO_0000115>Skeletal subdivision that undergoes indirect development and includes elements that develop as a replacement or substitution of other elements or tissues.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0010362</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001169</oboInOwl:id>
@@ -24575,11 +24635,11 @@ this is a anatomical sphincter</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001178"/>
         <obo:IAO_0000115>The vessel which runs longitudinally in the dorsal midline of the body and may consist of anterior aorta, heart and posterior aorta.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>OARCS:0000002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref xml:lang="en">UBERON:0015228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OARCS:0000002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://oarcs-api.speciesfilegroup.org/api/ref/97067</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>aorta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">circulatory organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aorta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>longitudinal vessel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>CLAO:0001179</oboInOwl:id>
         <rdfs:label>dorsal vessel</rdfs:label>
@@ -25277,7 +25337,7 @@ possesses non-connected boundaries.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001222"/>
         <obo:IAO_0000115 xml:lang="en">The region of cuticle that corresponds with an evagination of the cuticle and the single layer epidermis (epidermal fold). The cuticular evagination usually corresponds to a cuticular protrusion (convexity on the surface of the cuticle).</obo:IAO_0000115>
         <oboInOwl:hasDbXref xml:lang="en">AISM:0000027</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cuticular evagination</rdfs:label>
@@ -25839,7 +25899,6 @@ https://www.publish.csiro.au/book/6466/
     <!-- http://purl.obolibrary.org/obo/CLAO_0001253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
         <obo:IAO_0000115 xml:lang="en">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CHEBI:23367</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">molecular entity</rdfs:label>
@@ -26670,7 +26729,7 @@ Mesaphorura sylvatica (Hexapoda: Collembola: Tullbergiidae). PeerJ 7:e8037 http:
     <!-- http://purl.obolibrary.org/obo/CLAO_0001296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001117"/>
         <obo:IAO_0000115 xml:lang="en">A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cellular anatomical entity</rdfs:label>
     </owl:Class>
@@ -32801,7 +32860,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <!-- http://purl.obolibrary.org/obo/CLAO_0001562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -33008,5 +33067,5 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
