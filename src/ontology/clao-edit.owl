@@ -15535,7 +15535,7 @@ https://doi.org/10.11646/zootaxa.4786.2.3</obo:AISM_0000171>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The spine located in the basal side of mucronal spine.</obo:IAO_0000115>
         <oboInOwl:id>CLAO:0000688</oboInOwl:id>
-        <rdfs:label>spinelete</rdfs:label>
+        <rdfs:label>mucronal spinelet</rdfs:label>
     </owl:Class>
     
 
@@ -20421,6 +20421,7 @@ studies on Collembola. IV. Polska Akademia Nauk: 216pp.</obo:AISM_0000171>
         <obo:IAO_0000115>The specialized chaetae group located on any tagma of body.</obo:IAO_0000115>
         <dc:source>Zhang et al. 2015</dc:source>
         <oboInOwl:hasExactSynonym xml:lang="en">S-chaeta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sens</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>s-microchaeta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>s-seta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>setulae</oboInOwl:hasRelatedSynonym>
@@ -33136,6 +33137,15 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
+        <rdfs:label xml:lang="es">sens as</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLAO_0001561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001561">
@@ -33157,6 +33167,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     <!-- http://purl.obolibrary.org/obo/CLAO_0001562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -33171,6 +33182,7 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</obo:IAO_0000115>
+        <rdfs:label xml:lang="es">sens al</rdfs:label>
         <rdfs:label xml:lang="en">subsegment M2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -33403,6 +33415,15 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:label xml:lang="es">chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
+        <rdfs:label xml:lang="es">sens ms</rdfs:label>
     </owl:Class>
     
 
