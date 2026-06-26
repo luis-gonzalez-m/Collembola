@@ -23742,7 +23742,7 @@ this is a anatomical sphincter</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/CLAO_0001103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
         <obo:IAO_0000115>A very stout heavy spicule with a blunt apex.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>TGMA:0001389</oboInOwl:hasDbXref>
         <oboInOwl:id>CLAO:0001103</oboInOwl:id>
@@ -33137,15 +33137,6 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001560 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
-        <rdfs:label xml:lang="es">sens as</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLAO_0001561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001561">
@@ -33160,37 +33151,6 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
         <owl:annotatedTarget xml:lang="en">A motile male gamete of an animal usually with rounded or elongate head and a long posterior flagellum.</owl:annotatedTarget>
         <terms:contributor>lagonzalezmo</terms:contributor>
         <oboInOwl:creation_date>2021-09-25</oboInOwl:creation_date>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLAO_0001562 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</obo:IAO_0000115>
-        <rdfs:label xml:lang="es">sens al</rdfs:label>
-        <rdfs:label xml:lang="en">subsegment M2</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001562"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</owl:annotatedTarget>
-        <terms:contributor>lagonzalezmo</terms:contributor>
-        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -33375,6 +33335,88 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sens al</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001572"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The subsegment posterior to the subsegment M1 on the antennal segment 4.</owl:annotatedTarget>
+        <terms:contributor>lagonzalezmo</terms:contributor>
+        <oboInOwl:creation_date>2021-09-26</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
+        <rdfs:label xml:lang="es">sens as</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001094"/>
+        <rdfs:comment>This term is used to differentiate it from a &quot;tooth&quot; as a protuberance and a 3D entity</rdfs:comment>
+        <rdfs:label xml:lang="es">ungual tooth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001575"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="es">ungual tooth</owl:annotatedTarget>
+        <dc:source>Christiansen, K. (1960). The genus Pseudosinella (Collembola: Entomobryidae) in caves of the United States. Psyche, 67(1-2), 1-25.</dc:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001575"/>
+        <rdfs:label xml:lang="es">distal ungual tooth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001575"/>
+        <rdfs:label xml:lang="es">median ungual tooth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLAO_0001578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0001575"/>
+        <rdfs:label xml:lang="es">basal ungual tooth</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HAO_0000183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000183">
@@ -33419,9 +33461,9 @@ doi: 10.1016/j.neuron.2013.12.017. PMID: 24559671.
     
 
 
-    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001561 -->
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001574 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001561">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/CLAO_0001574">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLAO_0000922"/>
         <rdfs:label xml:lang="es">sens ms</rdfs:label>
     </owl:Class>
